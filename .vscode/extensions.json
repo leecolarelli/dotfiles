@@ -1,6 +1,7 @@
 {
     "extensions": [
         "alefragnani.project-manager",
+        "Andreabbondanza.ignoregit",
         "bmewburn.vscode-intelephense-client",
         "CoenraadS.bracket-pair-colorizer-2",
         "DavidAnson.vscode-markdownlint",
