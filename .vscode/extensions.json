@@ -1,0 +1,21 @@
+{
+    "extensions": [
+        "alefragnani.project-manager",
+        "bmewburn.vscode-intelephense-client",
+        "CoenraadS.bracket-pair-colorizer-2",
+        "DavidAnson.vscode-markdownlint",
+        "dustinsanders.an-old-hope-theme-vscode",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "formulahendry.vscode-mysql",
+        "georgejames.thefoldingstuff",
+        "golf1052.code-sync",
+        "PKief.material-icon-theme",
+        "ritwickdey.LiveServer",
+        "shd101wyy.markdown-preview-enhanced",
+        "streetsidesoftware.code-spell-checker",
+        "xyz.local-history",
+        "yzhang.markdown-all-in-one"
+    ]
+}
