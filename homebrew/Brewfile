@@ -1,0 +1,34 @@
+# Taps
+# tap 'caskroom/cask'
+
+# Binaries
+brew 'mas' # Mac App Store manager
+
+# Development
+brew 'node'
+brew "composer"
+brew "openldap"
+brew "git"
+brew "httpd", restart_service: true
+brew "mariadb", restart_service: true
+brew "webp"
+brew "php"
+brew "yarn"
+brew "sass/sass/sass"
+
+# Apps
+cask 'dropbox'
+cask 'github'
+cask 'skype'
+cask 'slack'
+cask 'tableplus'
+
+# Mac App Store
+# mas '1Password', id: 1333542190
+# mas 'Sip', id: 507257563
+# mas 'Spark', id: 1176895641
+# mas 'The Unarchiver', id: 425424353
+# mas 'Things', id: 904280696
+# mas 'Tweetbot', id: 1384080005
+# mas 'Unsplash', id: 1284863847
+# mas 'WhatsApp', id: 1147396723 
