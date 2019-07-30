@@ -22,9 +22,12 @@ cask 'github'
 cask 'skype'
 cask 'slack'
 cask 'tableplus'
+cask 'tower'
+cask 'visual-studio-code'
+cask '1password'
+cask 'logitech-options'
 
 # Mac App Store
-# mas '1Password', id: 1333542190
 # mas 'Sip', id: 507257563
 # mas 'Spark', id: 1176895641
 # mas 'The Unarchiver', id: 425424353
