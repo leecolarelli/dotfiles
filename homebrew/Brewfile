@@ -6,15 +6,15 @@ brew 'mas' # Mac App Store manager
 
 # Development
 brew 'node'
-brew "composer"
-brew "openldap"
-brew "git"
-brew "httpd", restart_service: true
-brew "mariadb", restart_service: true
-brew "webp"
-brew "php"
-brew "yarn"
-brew "sass/sass/sass"
+brew 'composer'
+brew 'openldap'
+brew 'git'
+brew 'httpd', restart_service: true
+brew 'mariadb', restart_service: true
+brew 'webp'
+brew 'php'
+brew 'yarn'
+brew 'sass/sass/sass'
 
 # Apps
 cask 'dropbox'
@@ -29,3 +29,5 @@ cask 'google-chrome'
 
 # Mac App Store
 mas 'Spark', id: 1176895641
+mas 'Affinity Photo' 824183456
+mas 'Affinity Designer' 824171161
