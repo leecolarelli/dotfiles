@@ -31,5 +31,9 @@ cask 'sip'
 
 # Mac App Store
 mas 'Spark', id: 1176895641
-mas 'Affinity Photo' 824183456
-mas 'Affinity Designer' 824171161
+mas 'Affinity Photo', id: 824183456
+mas 'Affinity Designer', id: 824171161
+mas 'Be Focused', id: 973134470
+mas 'CopyLess 2' id: 993841014
+mas 'Pocket' id: 568494494
+mas 'Fantastical 2' id: 975937182
