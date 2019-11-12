@@ -28,6 +28,7 @@ cask '1password'
 cask 'google-chrome'
 cask 'spotify'
 cask 'sip'
+cask 'discord'
 
 # Mac App Store
 mas 'Spark', id: 1176895641
