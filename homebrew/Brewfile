@@ -1,5 +1,6 @@
 # Taps
 # tap 'caskroom/cask'
+tap 'homebrew/cask-versions'
 
 # Binaries
 brew 'mas' # Mac App Store manager
@@ -29,6 +30,7 @@ cask 'google-chrome'
 cask 'spotify'
 cask 'sip'
 cask 'discord'
+cask 'firefox-developer-edition'
 
 # Mac App Store
 mas 'Spark', id: 1176895641
