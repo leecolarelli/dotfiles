@@ -31,6 +31,7 @@ cask 'spotify'
 cask 'sip'
 cask 'discord'
 cask 'firefox-developer-edition'
+cask 'cleanmymac'
 
 # Mac App Store
 mas 'Spark', id: 1176895641
