@@ -32,6 +32,8 @@ cask 'sip'
 cask 'discord'
 cask 'firefox-developer-edition'
 cask 'cleanmymac'
+cask 'vlc'
+cask 'teamviewer'
 
 # Mac App Store
 mas 'Spark', id: 1176895641
