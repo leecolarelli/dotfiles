@@ -28,12 +28,13 @@ cask 'visual-studio-code'
 cask '1password'
 cask 'google-chrome'
 cask 'spotify'
-cask 'sip'
 cask 'discord'
 cask 'firefox-developer-edition'
 cask 'cleanmymac'
 cask 'vlc'
 cask 'teamviewer'
+cask 'forklift'
+cask 'typeface'
 
 # Mac App Store
 mas 'Spark', id: 1176895641
@@ -45,3 +46,4 @@ mas 'Pocket' id: 568494494
 mas 'Fantastical 2' id: 975937182
 mas 'Lightshot Screenshot' id: 526298438
 mas 'Screenfloat' id: 414528154
+mas 'ColorSlurp' id: 1287239339
