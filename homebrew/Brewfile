@@ -35,6 +35,7 @@ cask 'vlc'
 cask 'teamviewer'
 cask 'forklift'
 cask 'typeface'
+cask 'flux'
 
 # Mac App Store
 mas 'Spark', id: 1176895641
@@ -47,3 +48,4 @@ mas 'Fantastical 2' id: 975937182
 mas 'Lightshot Screenshot' id: 526298438
 mas 'Screenfloat' id: 414528154
 mas 'ColorSlurp' id: 1287239339
+mas 'Take a break' id: 1457158844
