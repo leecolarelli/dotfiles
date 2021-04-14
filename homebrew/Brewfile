@@ -46,11 +46,11 @@ mas 'Spark', id: 1176895641
 # mas 'Affinity Photo', id: 824183456 (not currently using)
 # mas 'Affinity Designer', id: 824171161 (not currently using)
 # mas 'Be Focused', id: 973134470 (not currently using)
-mas 'CopyLess 2' id: 993841014
-mas 'Pocket' id: 568494494
-# mas 'Fantastical 2' id: 975937182 (not currently using)
-mas 'Lightshot Screenshot' id: 526298438
-mas 'Screenfloat' id: 414528154
-mas 'ColorSlurp' id: 1287239339
-mas 'Take a break' id: 1457158844
-mas 'Screen Colors Filter' id: 1177401419
+mas 'CopyLess 2', id: 993841014
+mas 'Pocket', id: 568494494
+# mas 'Fantastical 2', id: 975937182 (not currently using)
+mas 'Lightshot Screenshot', id: 526298438
+mas 'Screenfloat', id: 414528154
+mas 'ColorSlurp', id: 1287239339
+mas 'Take a break', id: 1457158844
+mas 'Screen Colors Filter', id: 1177401419

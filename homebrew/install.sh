@@ -3,7 +3,7 @@
 # Install Homebrew
 
 # Check for Homebrew
-if test ! $(which brew)
+if ! type "brew" > /dev/null;
 then
   echo "Installing Homebrew for you."
 
@@ -16,7 +16,7 @@ then
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install)"
   fi
 
-elif test $(which brew)
+elif type "brew" > /dev/null;
 then
   echo "Homebrew is already installed."
 
