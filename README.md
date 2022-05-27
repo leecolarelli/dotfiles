@@ -45,13 +45,11 @@ Now we can run the main installation script...
 ~/.dotfiles/install.sh
 ```
 
-### 4. Log in to iCloud and sync folders
-### 5. Sync Mackup Folder (from iCloud)
-### 6. Restore Mac settings
+### 4. Restore Mackup settings
 
 After mackup is synced with your cloud storage, restore your mac settings by running `mackup restore`
 
-### 7. Restart your computer
+### 5. Restart your computer
 
 Restart your computer to finalize the process
 
