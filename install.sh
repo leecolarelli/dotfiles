@@ -3,16 +3,22 @@
 echo "Setting up your Mac ❤️..."
 
 # Check for Oh My Zsh and install if we don't have it
-if test ! $(which omz); then
+if ! [ -d ~/.oh-my-zsh ]; then
+  echo "Installing Oh My ZSH"
   /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
+else
+  echo "Oh My ZSH is already installed"
 fi
 
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
+  echo "Installing Homebrew"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >>$HOME/.zprofile
   eval "$(/opt/homebrew/bin/brew shellenv)"
+else
+  echo "Homebrew is already installed"
 fi
 
 # Create symlinks
@@ -31,15 +37,18 @@ brew services restart mysql
 mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
 # Check for NVM and install if we don't have it
-if test ! $(which nvm); then
+if ! [ -d ~/.nvm ]; then
+  echo "Installing NVM"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh)"
+else
+  echo "NVM is already installed"
 fi
 
 # Install PHP extensions with PECL
-pecl install imagick redis xdebug
+pecl install redis xdebug
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/valet beyondcode/expose
+composer global require laravel/installer laravel/valet beyondcode/expose
 
 # Create a Sites directory
 mkdir $HOME/Sites
@@ -47,10 +56,8 @@ mkdir $HOME/Sites
 # Clone Github repositories	(not currently used)
 # ./clone.sh
 
-# Install Pure theme
-# Did not work on m1 globally anymore
-#npm install --global pure-prompt
-git clone https://github.com/sindresorhus/pure.git "$HOME/.dotfiles/plugins/pure"
+# Reload .zshrc
+source ~/.zshrc
 
 # Set macOS preferences
 # We will run this last because this will reload the shell

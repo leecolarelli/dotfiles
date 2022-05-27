@@ -30,7 +30,7 @@ cask '1password'
 # cask 'cleanmymac' (not currently using)
 cask 'discord'
 cask 'docker'
-cask 'dropbox'
+# cask 'dropbox'
 cask 'firefox-developer-edition'
 cask 'flux'
 # cask 'forklift' (not currently using)

@@ -9,10 +9,7 @@ export ZSH=$HOME/.oh-my-zsh
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # Look in ~/.oh-my-zsh/themes/
-# ZSH_THEME="robbyrussell"
-
-# No theme selected to make use of Pure theme
-ZSH_THEME=""
+ZSH_THEME="random"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -27,11 +24,16 @@ ZSH_THEME=""
 # sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
 
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
+# Uncomment one of the following lines to change the auto-update behavior
+# zstyle ':omz:update' mode disabled  # disable automatic updates
+# zstyle ':omz:update' mode auto      # update automatically without asking
+# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+# zstyle ':omz:update' frequency 13
+
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS="true"
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -73,23 +75,6 @@ plugins=(git laravel composer macos)
 
 # Activate Oh-My-Zsh
 source $ZSH/oh-my-zsh.sh
-
-# Change Pure Colors
-zmodload zsh/nearcolor
-zstyle :prompt:pure:git:branch color green
-
-fpath+=$HOME/.dotfiles/plugins/pure
-
-# Activate Pure Theme
-# Make sure to remove this if you use another theme
-autoload -U promptinit; promptinit
-prompt pure
-
-prompt_context() {
-  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
-  fi
-}
 
 # You may need to manually set your language environment
 # export LC_ALL=en_US.UTF-8
