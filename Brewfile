@@ -3,9 +3,11 @@
 tap 'homebrew/cask-versions'
 
 # Binaries
+brew 'bash' # Latest Bash version
 brew 'git'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
+brew 'zsh'
 
 # Development
 brew 'composer'
@@ -27,6 +29,7 @@ cask '1password'
 # cask 'adobe-creative-cloud' (not currently using)
 # cask 'cleanmymac' (not currently using)
 cask 'discord'
+cask 'docker'
 cask 'dropbox'
 cask 'firefox-developer-edition'
 cask 'flux'
@@ -45,6 +48,7 @@ cask 'tableplus'
 # cask 'typeface' (not currently using)
 # cask 'visual-studio-code' (not currently using)
 cask 'vlc'
+cask 'zoom'
 
 # Mac App Store
 mas 'Affinity Photo', id: 824183456

@@ -1,4 +1,5 @@
 plugins/*
 .vscode/extensions
+.idea/
 .history
 .DS_Store
