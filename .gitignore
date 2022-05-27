@@ -1,4 +1,4 @@
-
+plugins/*
 .vscode/extensions
 .history
 .DS_Store

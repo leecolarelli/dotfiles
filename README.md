@@ -1,54 +1,57 @@
 # Lee's dotfiles
 
-These are my personal dotfiles. Use anything you want but try to know what things do first :)
+These are my personal dotfiles. Use anything you want but try to know what
+things do first :)
 
-I aim to have dotfiles which are usable on both MacOS and Linux, as I use both. Therefore, several places test for MacOS or Linux and install options based on the operating system.
+## Backup Checklist
+
+- Did you commit and push any changes/branches to your git repositories?
+- Did you copy your .env files to a safe place if they are not casual?
+- Did you copy your IDE settings? (e.g. PhpStorm)
+- Did you backup local databases you need?
+- Did you remember to save all important documents from non-cloud directories?
+- Did you save all of your work from apps which aren't synced through cloud?
+- Did you update [mackup](https://github.com/lra/mackup) to the latest version and run `mackup backup`?
 
 ## Installation
 
-### Clone Dotfiles Repository
+### 1. Update macOS to the latest version
 
 To get started we first need a local copy of the dotfiles repository.
 
-If we are on MacOS then we need to access git to be able to clone the repository.
+If we are on MacOS then we need to access git to be able to clone the
+repository.
 
-Therefore, for installation on a new MacOS machine first run the code below as we need the latest Xcode Command Line Tools installed, as it provides us with `git` and `make`.
+Therefore, for installation on a new MacOS machine first run the code below as
+we need the latest Xcode Command Line Tools installed, as it provides us
+with `git` and `make`.
 
 ```
 sudo softwareupdate -i -a
 xcode-select --install
 ```
 
-I like to keep all my repositories and projects in a ~/projects folder so on a new installation...
+### 2. Clone Dotfiles Repository
 
-`mkdir -p ~/projects`
+Then we need to clone this dotfiles repository into our user folder.
 
-Then we need to clone this dotfiles repository into the projects folder.
+`git clone https://github.com/leecolarelli/dotfiles.git ~/.dotfiles`
 
-`git clone https://github.com/leecolarelli/dotfiles.git ~/projects/dotfiles`
+### 3. Run Installation Script
 
-### Installation Script
+Now we can run the main installation script...
 
-Now we can run the main install script...
-
-```
-cd ~/projects/dotfiles
-source install.sh
+```zsh
+~/.dotfiles/install.sh
 ```
 
-#### Symlinks
+### 4. Log in to iCloud and sync folders
+### 5. Sync Mackup Folder (from iCloud)
+### 6. Restore Mac settings
 
-The installation script sets up symlinks between the home directory and the dotfiles repository by calling the makesymlinks.sh file. The `source` command is used to run the .sh file.
+After mackup is synced with your cloud storage, restore your mac settings by running `mackup restore`
 
-`source makesymlinks.sh`
+### 7. Restart your computer
 
-#### Homebrew
-
-The installation script then installs homebrew by running...
-
-`source homebrew/install.sh`
-
-It then installs applications using `brew.sh` and `Brewfile`...
-
-`source homebrew/brew.sh`
+Restart your computer to finalize the process
 
