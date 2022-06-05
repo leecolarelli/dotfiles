@@ -1,6 +1,7 @@
 # Taps
 # tap 'caskroom/cask'
 tap 'homebrew/cask-versions'
+tap 'nicoverbruggen/homebrew-cask'
 
 # Binaries
 brew 'bash' # Latest Bash version
@@ -37,6 +38,7 @@ cask 'flux'
 cask 'github'
 # cask 'gitkraken' (no longer use. Use github desktop instead)
 cask 'google-chrome'
+cask 'phpmon'
 cask 'phpstorm'
 cask 'hyper' # Electron-based, open source terminal https://hyper.is/
 # cask 'skype' (no longer use, could be removed)
