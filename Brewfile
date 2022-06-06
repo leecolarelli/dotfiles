@@ -40,6 +40,7 @@ cask 'github'
 cask 'google-chrome'
 cask 'phpmon'
 cask 'phpstorm'
+cask 'postman'
 cask 'hyper' # Electron-based, open source terminal https://hyper.is/
 # cask 'skype' (no longer use, could be removed)
 # cask 'slack' (not currently using)
