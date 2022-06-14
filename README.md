@@ -47,7 +47,7 @@ Now we can run the main installation script...
 
 ### 4. Restore Mackup settings
 
-After mackup is synced with your cloud storage, restore your mac settings by running `mackup restore`
+Restore your mac settings by running `mackup restore`
 
 ### 5. Restart your computer
 
