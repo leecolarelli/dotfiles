@@ -14,9 +14,6 @@ fi
 if test ! $(which brew); then
   echo "Installing Homebrew"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-
-  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >>$HOME/.zprofile
-  eval "$(/opt/homebrew/bin/brew shellenv)"
 else
   echo "Homebrew is already installed"
 fi
@@ -49,6 +46,9 @@ pecl install redis xdebug
 
 # Install global Composer packages
 composer global require laravel/installer laravel/valet beyondcode/expose
+
+# Install Laravel Valet	
+$HOME/.composer/vendor/bin/valet install
 
 # Create a Sites directory
 mkdir $HOME/Sites
