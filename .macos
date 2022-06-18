@@ -42,9 +42,12 @@ defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
 # Disable the over-the-top focus ring animation
 # defaults write NSGlobalDomain NSUseAnimatedFocusRing -bool false
 
+# Adjust toolbar title rollover delay
+# defaults write NSGlobalDomain NSToolbarTitleViewRolloverDelay -float 0
+
 # Disable smooth scrolling
 # (Uncomment if you’re on an older Mac that messes up the animation)
-#defaults write NSGlobalDomain NSScrollAnimationEnabled -bool false
+# defaults write NSGlobalDomain NSScrollAnimationEnabled -bool false
 
 # Increase window resize speed for Cocoa applications
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
@@ -80,7 +83,7 @@ defaults write NSGlobalDomain NSTextShowsControlCharacters -bool true
 # defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 
 # Disable the crash reporter
-#defaults write com.apple.CrashReporter DialogType -string "none"
+# defaults write com.apple.CrashReporter DialogType -string "none"
 
 # Set Help Viewer windows to non-floating mode
 defaults write com.apple.helpviewer DevMode -bool true
@@ -88,7 +91,7 @@ defaults write com.apple.helpviewer DevMode -bool true
 # Fix for the ancient UTF-8 bug in QuickLook (https://mths.be/bbo)
 # Commented out, as this is known to cause problems in various Adobe apps :(
 # See https://github.com/mathiasbynens/dotfiles/issues/237
-#echo "0x08000100:0" > ~/.CFUserTextEncoding
+# echo "0x08000100:0" > ~/.CFUserTextEncoding
 
 # Reveal IP address, hostname, OS version, etc. when clicking the clock
 # in the login window
@@ -159,53 +162,53 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # Set language and text formats
 # Note: if you’re in the US, replace `EUR` with `USD`, `Centimeters` with
 # `Inches`, `en_GB` with `en_US`, and `true` with `false`.
-defaults write NSGlobalDomain AppleLanguages "en"
-defaults write NSGlobalDomain AppleLocale -string "en_GB@currency=GBP"
-defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
-defaults write NSGlobalDomain AppleMetricUnits -bool true
+# defaults write NSGlobalDomain AppleLanguages "en"
+# defaults write NSGlobalDomain AppleLocale -string "en_GB@currency=GBP"
+# defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
+# defaults write NSGlobalDomain AppleMetricUnits -bool true
 
 # Show language menu in the top right corner of the boot screen
 # sudo defaults write /Library/Preferences/com.apple.loginwindow showInputMenu -bool true
 
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
-sudo systemsetup -settimezone "Europe/London" > /dev/null
+# sudo systemsetup -settimezone "Europe/London" > /dev/null
 
 # Stop iTunes from responding to the keyboard media keys
-#launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
+# launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
 
 ###############################################################################
 # Energy saving                                                               #
 ###############################################################################
 
 # Enable lid wakeup
-sudo pmset -a lidwake 1
+# sudo pmset -a lidwake 1
 
 # Restart automatically on power loss
-sudo pmset -a autorestart 1
+# sudo pmset -a autorestart 1
 
 # Restart automatically if the computer freezes
-sudo systemsetup -setrestartfreeze on
+# sudo systemsetup -setrestartfreeze on
 
 # Sleep the display after 15 minutes
-sudo pmset -a displaysleep 15
+# sudo pmset -a displaysleep 15
 
 # Disable machine sleep while charging
-sudo pmset -c sleep 0
+# sudo pmset -c sleep 0
 
 # Set machine sleep to 5 minutes on battery
-sudo pmset -b sleep 5
+# sudo pmset -b sleep 5
 
 # Set standby delay to 24 hours (default is 1 hour)
-sudo pmset -a standbydelay 86400
+# sudo pmset -a standbydelay 86400
 
 # Never go into computer sleep mode
-sudo systemsetup -setcomputersleep Off > /dev/null
+# sudo systemsetup -setcomputersleep Off > /dev/null
 
 # Hibernation mode
 # 0: Disable hibernation (speeds up entering sleep mode)
 # 3: Copy RAM to disk so the system state can still be restored in case of a
 #    power failure.
-sudo pmset -a hibernatemode 0
+# sudo pmset -a hibernatemode 0
 
 # Remove the sleep image file to save disk space
 # sudo rm /private/var/vm/sleepimage
@@ -226,7 +229,7 @@ defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
 
 # Save screenshots to the desktop
-defaults write com.apple.screencapture location -string "${HOME}/Desktop/Screenshots"
+# defaults write com.apple.screencapture location -string "${HOME}/Desktop/Screenshots"
 
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
 # defaults write com.apple.screencapture type -string "png"
@@ -239,7 +242,7 @@ defaults write com.apple.screencapture location -string "${HOME}/Desktop/Screens
 defaults write NSGlobalDomain AppleFontSmoothing -int 1
 
 # Enable HiDPI display modes (requires restart)
-# sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
+sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
 
 ###############################################################################
 # Finder                                                                      #
@@ -249,7 +252,7 @@ defaults write NSGlobalDomain AppleFontSmoothing -int 1
 # defaults write com.apple.finder QuitMenuItem -bool true
 
 # Finder: disable window animations and Get Info animations
-defaults write com.apple.finder DisableAllAnimations -bool true
+# defaults write com.apple.finder DisableAllAnimations -bool true
 
 # Set Desktop as the default location for new Finder windows
 # For other paths, use `PfLo` and `file:///full/path/here/`
@@ -269,7 +272,7 @@ defaults write com.apple.finder AppleShowAllFiles -bool true
 defaults write NSGlobalDomain "AppleShowAllExtensions" -bool "true" && killall Finder
 
 # Finder: show status bar
-# defaults write com.apple.finder ShowStatusBar -bool true
+defaults write com.apple.finder ShowStatusBar -bool true
 
 # Finder: show path bar
 defaults write com.apple.finder ShowPathbar -bool true
@@ -331,7 +334,7 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 
 # Use list view in all Finder windows by default
 # Four-letter codes for the other view modes: `icnv`, `clmv`, `glyv`
-defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+# defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
 # Disable the warning before emptying the Trash
 defaults write com.apple.finder WarnOnEmptyTrash -bool false
@@ -360,19 +363,63 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
 
+# Enable highlight hover effect for the grid view of a stack (Dock)
+# defaults write com.apple.dock mouse-over-hilite-stack -bool true
 
-# Autohide dock
-defaults write com.apple.dock autohide -bool true && killall Dock
+# Set the icon size of Dock items to 50 pixels
+defaults write com.apple.dock tilesize -int 50
+
+# Change minimize/maximize window effect
+# defaults write com.apple.dock mineffect -string "scale"
+
+# Minimize windows into their application’s icon
+# defaults write com.apple.dock minimize-to-application -bool true
+
+# Enable spring loading for all Dock items
+defaults write com.apple.dock enable-spring-load-actions-on-all-items -bool true
+
+# Show indicator lights for open applications in the Dock
+defaults write com.apple.dock show-process-indicators -bool true
+
+# Wipe all (default) app icons from the Dock
+# This is only really useful when setting up a new Mac, or if you don’t use
+# the Dock to launch apps.
+# defaults write com.apple.dock persistent-apps -array
+
+# Show only open applications in the Dock
+# defaults write com.apple.dock static-only -bool true
+
+# Don’t animate opening applications from the Dock
+defaults write com.apple.dock launchanim -bool false
+
+# Speed up Mission Control animations
+defaults write com.apple.dock expose-animation-duration -float 0.1
+
+# Don’t group windows by application in Mission Control
+# (i.e. use the old Exposé behavior instead)
+# defaults write com.apple.dock expose-group-by-app -bool false
+
+# Remove the auto-hiding Dock delay
+defaults write com.apple.dock autohide-delay -float 0
+
+# Remove the animation when hiding/showing the Dock
+defaults write com.apple.dock autohide-time-modifier -float 0
+
+# Automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
+
+# Make Dock icons of hidden applications translucent
+defaults write com.apple.dock showhidden -bool true
+
+# Don’t show recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
 
 # Hide dock completely
 # defaults write com.apple.dock autohide -bool true && killall Dock
 # defaults write com.apple.dock autohide-delay -float 1000 && killall Dock
 
-# Disable Dashboard
-defaults write com.apple.dashboard mcx-disabled -bool true
-
 # Disable the Launchpad gesture (pinch with thumb and three fingers)
-#defaults write com.apple.dock showLaunchpadGestureEnabled -int 0
+defaults write com.apple.dock showLaunchpadGestureEnabled -int 0
 
 # Reset Launchpad, but keep the desktop wallpaper intact
 find "${HOME}/Library/Application Support/Dock" -name "*-*.db" -maxdepth 1 -delete
@@ -500,7 +547,7 @@ defaults write com.apple.Safari InstallExtensionUpdatesAutomatically -bool true
 
 
 ###############################################################################
-# Terminal & iTerm 2                                                          #
+# Terminal                                                                    #
 ###############################################################################
 
 # Only use UTF-8 in Terminal.app
@@ -564,12 +611,6 @@ defaults write com.apple.terminal StringEncodings -array 4
 
 # Disable the annoying line marks
 # defaults write com.apple.Terminal ShowLineMarks -int 0
-
-# Install the Solarized Dark theme for iTerm
-# open "${HOME}/init/Solarized Dark.itermcolors"
-
-# Don’t display the annoying prompt when quitting iTerm
-defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 
 ###############################################################################
@@ -671,8 +712,8 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 ###############################################################################
 
 # Disable the all too sensitive backswipe on trackpads
-# defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
-# defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -bool false
+defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
+defaults write com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls -bool false
 
 # Disable the all too sensitive backswipe on Magic Mouse
 # defaults write com.google.Chrome AppleEnableMouseSwipeNavigateWithScrolls -bool false
@@ -713,13 +754,8 @@ for app in "Activity Monitor" \
     "Opera" \
     "Photos" \
     "Safari" \
-    "SizeUp" \
-    "Spectacle" \
     "SystemUIServer" \
     "Terminal" \
-    "Transmission" \
-    "Tweetbot" \
-    "Twitter" \
     "iCal"; do
     killall "${app}" &> /dev/null
 done
