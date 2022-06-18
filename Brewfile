@@ -28,6 +28,7 @@ brew 'webp'
 # Apps
 cask '1password'
 # cask 'adobe-creative-cloud' (not currently using)
+cask 'alt-tab' # https://alt-tab-macos.netlify.app/
 # cask 'cleanmymac' (not currently using)
 cask 'discord'
 cask 'docker'
