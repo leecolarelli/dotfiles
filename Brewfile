@@ -59,6 +59,7 @@ mas 'Affinity Photo', id: 824183456
 mas 'Affinity Designer', id: 824171161
 mas 'Be Focused', id: 973134470
 mas 'ColorSlurp', id: 1287239339
+mas 'CopyClip', id: 595191960
 # mas 'CopyLess 2', id: 993841014 (not currently using)
 mas 'DaisyDisk', id: 411643860
 mas 'Dimensions', id: 822502888
