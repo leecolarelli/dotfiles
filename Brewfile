@@ -60,6 +60,7 @@ mas 'Affinity Designer', id: 824171161
 mas 'Be Focused', id: 973134470
 mas 'ColorSlurp', id: 1287239339
 # mas 'CopyLess 2', id: 993841014 (not currently using)
+mas 'DaisyDisk', id: 411643860
 mas 'Dimensions', id: 822502888
 # mas 'Fantastical 2', id: 975937182 (not currently using)
 mas 'Lightshot Screenshot', id: 526298438
