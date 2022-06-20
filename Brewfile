@@ -30,6 +30,7 @@ cask '1password'
 # cask 'adobe-creative-cloud' (not currently using)
 cask 'alt-tab' # https://alt-tab-macos.netlify.app/
 # cask 'cleanmymac' (not currently using)
+cask 'daisydisk'
 cask 'discord'
 cask 'docker'
 # cask 'dropbox'
@@ -61,7 +62,7 @@ mas 'Be Focused', id: 973134470
 mas 'ColorSlurp', id: 1287239339
 mas 'CopyClip', id: 595191960
 # mas 'CopyLess 2', id: 993841014 (not currently using)
-mas 'DaisyDisk', id: 411643860
+# mas 'DaisyDisk', id: 411643860 (swapped for standalone version)
 mas 'Dimensions', id: 822502888
 # mas 'Fantastical 2', id: 975937182 (not currently using)
 # mas 'Lightshot Screenshot', id: 526298438 (not currently using)
