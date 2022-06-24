@@ -39,6 +39,7 @@ cask 'flux'
 cask 'github'
 # cask 'gitkraken' (no longer use. Use github desktop instead)
 cask 'google-chrome'
+cask 'jetbrains-toolbox'
 cask 'phpmon'
 cask 'phpstorm'
 cask 'postman'
