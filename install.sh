@@ -19,7 +19,7 @@ else
 fi
 
 # Create symlinks
-./symlinks.sh
+source symlinks.sh
 
 # Update Homebrew recipes
 brew update
@@ -54,7 +54,7 @@ $HOME/.composer/vendor/bin/valet install
 mkdir $HOME/Sites
 
 # Clone Github repositories	(not currently used)
-# ./clone.sh
+# source clone.sh
 
 # Reload .zshrc
 source ~/.zshrc

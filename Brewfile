@@ -31,6 +31,7 @@ cask '1password'
 cask 'alt-tab' # https://alt-tab-macos.netlify.app/
 # cask 'cleanmymac' (not currently using)
 cask 'daisydisk'
+cask 'dbngin'
 cask 'discord'
 cask 'docker'
 # cask 'dropbox'
