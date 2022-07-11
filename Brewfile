@@ -52,6 +52,7 @@ cask 'tableplus'
 # cask 'teamviewer' (not currently using)
 # cask 'tower' (no longer use. Use github desktop instead)
 # cask 'typeface' (not currently using)
+cask 'ukelele' (Unicode keyboard layout editor)
 # cask 'visual-studio-code' (not currently using)
 cask 'vlc'
 cask 'zoom'
