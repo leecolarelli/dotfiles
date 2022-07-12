@@ -11,20 +11,17 @@ things do first :)
 - Did you backup local databases you need?
 - Did you remember to save all important documents from non-cloud directories?
 - Did you save all of your work from apps which aren't synced through cloud?
-- Did you update [mackup](https://github.com/lra/mackup) to the latest version and run `mackup backup`?
+- Did you update [mackup](https://github.com/lra/mackup) to the latest version
+  and run `mackup backup`?
 
 ## Installation
 
-### 1. Update macOS to the latest version
+### 1. Update macOS to the latest version and install xcode
 
 To get started we first need a local copy of the dotfiles repository.
 
-If we are on MacOS then we need to access git to be able to clone the
-repository.
-
-Therefore, for installation on a new MacOS machine first run the code below as
-we need the latest Xcode Command Line Tools installed, as it provides us
-with `git` and `make`.
+First run the code below as we need the latest Xcode Command Line Tools
+installed, as it provides us with `git`.
 
 ```
 sudo softwareupdate -i -a
