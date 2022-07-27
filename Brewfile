@@ -42,6 +42,7 @@ cask 'github'
 # cask 'gitkraken' (no longer use. Use github desktop instead)
 cask 'google-chrome'
 cask 'jetbrains-toolbox'
+cask 'lofi' # A tiny Spotify player - https://www.lofi.rocks/
 cask 'phpmon'
 cask 'phpstorm'
 cask 'postman'
