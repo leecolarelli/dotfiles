@@ -1,6 +1,7 @@
 # Taps
 # tap 'caskroom/cask'
 tap 'homebrew/cask-versions'
+tap 'homebrew/cask-drivers'
 tap 'nicoverbruggen/homebrew-cask'
 
 # Binaries
@@ -35,6 +36,7 @@ cask 'dbngin'
 cask 'discord'
 cask 'docker'
 # cask 'dropbox'
+cask 'elgato-stream-deck'
 cask 'firefox-developer-edition'
 cask 'flux'
 # cask 'forklift' (not currently using)
