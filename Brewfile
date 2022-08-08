@@ -30,6 +30,7 @@ brew 'webp'
 cask '1password'
 # cask 'adobe-creative-cloud' (not currently using)
 cask 'alt-tab' # https://alt-tab-macos.netlify.app/
+cask 'bartender'
 # cask 'cleanmymac' (not currently using)
 cask 'daisydisk'
 cask 'dbngin'
