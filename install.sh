@@ -29,9 +29,9 @@ brew tap homebrew/bundle
 # brew tap homebrew/cask-drivers
 brew bundle --file $HOME/.dotfiles/Brewfile
 
-# Set default MySQL root password and auth type.
-brew services restart mysql
-mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
+# Set default MySQL root password and auth type. (not using in favour of dbngin app)
+# brew services restart mysql
+# mysql -u root -e "ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'password'; FLUSH PRIVILEGES;"
 
 # Check for NVM and install if we don't have it
 if ! [ -d ~/.nvm ]; then
