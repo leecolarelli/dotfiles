@@ -8,7 +8,7 @@
 		<key>ID</key>
 		<string>56B01AEC-BE4B-475A-B1F0-412CAB1257A5</string>
 		<key>IsExpaned</key>
-		<integer>1</integer>
+		<true/>
 		<key>Name</key>
 		<string>Activate OnDemand Docker</string>
 		<key>items</key>

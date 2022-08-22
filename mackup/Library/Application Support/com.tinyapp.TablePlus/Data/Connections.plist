@@ -61,7 +61,11 @@
 		<array/>
 		<key>RecentlyOpened</key>
 		<array>
-			<string>aod.aod.customers</string>
+			<string>aod.aod.orders</string>
+			<string>aod.aod.dispatch_items</string>
+			<string>aod.aod.dispatches</string>
+			<string>aod.aod.products</string>
+			<string>aod.aod.webhook_calls</string>
 		</array>
 		<key>RecentlySchema</key>
 		<array>
@@ -72,6 +76,14 @@
 			<key>aod.Functions</key>
 			<string>expanded</string>
 			<key>aod.Tables</key>
+			<string>expanded</string>
+			<key>aod_pb_test.Functions</key>
+			<string>expanded</string>
+			<key>aod_pb_test.Tables</key>
+			<string>expanded</string>
+			<key>aod_test.Functions</key>
+			<string>expanded</string>
+			<key>aod_test.Tables</key>
 			<string>expanded</string>
 		</dict>
 		<key>ServerAddress</key>
@@ -301,7 +313,7 @@
 		<key>isUseSocket</key>
 		<integer>0</integer>
 		<key>statusColor</key>
-		<string>#F8F8F8</string>
+		<string>#686B6F</string>
 		<key>tLSMode</key>
 		<integer>0</integer>
 	</dict>
