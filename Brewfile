@@ -15,7 +15,7 @@ brew 'zsh'
 brew 'composer'
 brew 'httpd', restart_service: true
 # brew 'mariadb', restart_service: true (not currently using mariadb)
-brew 'mysql'
+# brew 'mysql' (not using in favour of dbngin app)
 brew 'nginx'
 brew 'node'
 brew 'openldap'
