@@ -3,3 +3,4 @@ plugins/*
 .idea/
 .history
 .DS_Store
+auth.json
