@@ -35,7 +35,7 @@ cask 'bartender'
 cask 'daisydisk'
 cask 'dbngin'
 cask 'discord'
-cask 'docker'
+# cask 'docker' (Docker desktop is awful)
 # cask 'dropbox'
 cask 'elgato-stream-deck'
 cask 'firefox-developer-edition'
