@@ -29,7 +29,7 @@ brew 'webp'
 # Apps
 cask '1password'
 # cask 'adobe-creative-cloud' (not currently using)
-cask 'alt-tab' # https://alt-tab-macos.netlify.app/
+# cask 'alt-tab' # https://alt-tab-macos.netlify.app/ (happy with stage manager instead)
 cask 'bartender'
 # cask 'cleanmymac' (not currently using)
 cask 'daisydisk'
@@ -51,7 +51,7 @@ cask 'phpstorm'
 cask 'postman'
 cask 'hyper' # Electron-based, open source terminal https://hyper.is/
 # cask 'skype' (no longer use, could be removed)
-# cask 'slack' (not currently using)
+cask 'slack'
 cask 'spotify'
 cask 'tableplus'
 # cask 'teamviewer' (not currently using)
@@ -60,7 +60,7 @@ cask 'tableplus'
 cask 'ukelele' # (Unicode keyboard layout editor)
 # cask 'visual-studio-code' (not currently using)
 cask 'vlc'
-cask 'zoom'
+# cask 'zoom' (not currently using)
 
 # Mac App Store
 mas 'Affinity Photo', id: 824183456
