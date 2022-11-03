@@ -30,6 +30,7 @@ brew 'webp'
 cask '1password'
 # cask 'adobe-creative-cloud' (not currently using)
 # cask 'alt-tab' # https://alt-tab-macos.netlify.app/ (happy with stage manager instead)
+cask 'appcleaner'
 cask 'bartender'
 # cask 'cleanmymac' (not currently using)
 cask 'daisydisk'
