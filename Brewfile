@@ -76,6 +76,7 @@ mas 'Dimensions', id: 822502888
 # mas 'Lightshot Screenshot', id: 526298438 (not currently using)
 mas 'Magnet', id: 441258766
 mas 'Pocket', id: 568494494
+mas 'Quickshade', id: 931571202
 mas 'Screenfloat', id: 414528154
 # mas 'Screen Colors Filter', id: 1177401419 (not currently using)
 mas 'Spark', id: 1176895641
