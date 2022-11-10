@@ -36,7 +36,7 @@ cask 'bartender'
 cask 'daisydisk'
 cask 'dbngin'
 cask 'discord'
-# cask 'docker' (Docker desktop is awful)
+cask 'docker'
 # cask 'dropbox'
 cask 'elgato-stream-deck'
 cask 'firefox-developer-edition'
@@ -67,6 +67,7 @@ cask 'vlc'
 mas 'Affinity Photo', id: 824183456
 mas 'Affinity Designer', id: 824171161
 mas 'Be Focused', id: 973134470
+mas 'Coffee Buzz', id: 1099454186
 mas 'ColorSlurp', id: 1287239339
 mas 'CopyClip', id: 595191960
 # mas 'CopyLess 2', id: 993841014 (not currently using)
