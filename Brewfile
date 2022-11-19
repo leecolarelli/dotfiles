@@ -13,7 +13,7 @@ brew 'zsh'
 
 # Development
 brew 'composer'
-brew 'httpd', restart_service: true
+# brew 'httpd', restart_service: true (not using)
 # brew 'mariadb', restart_service: true (not currently using mariadb)
 # brew 'mysql' (not using in favour of dbngin app)
 brew 'nginx'
@@ -21,7 +21,6 @@ brew 'node'
 brew 'openldap'
 brew 'php'
 brew 'php@8.0'
-brew 'php@8.1'
 brew 'redis'
 brew 'webp'
 # brew 'yarn' (prefer npm)
