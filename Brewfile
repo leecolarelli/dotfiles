@@ -53,7 +53,7 @@ cask 'postman'
 cask 'hyper' # Electron-based, open source terminal https://hyper.is/
 # cask 'skype' (no longer use, could be removed)
 cask 'slack'
-cask 'spotify'
+# cask 'spotify' (switched back to Apple Music)
 cask 'tableplus'
 # cask 'teamviewer' (not currently using)
 # cask 'tower' (no longer use. Use github desktop instead)
