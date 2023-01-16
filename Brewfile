@@ -42,7 +42,7 @@ cask 'elgato-stream-deck'
 cask 'firefox-developer-edition'
 cask 'flux'
 # cask 'forklift' (not currently using)
-cask 'github'
+# cask 'github' (switched back to Tower)
 # cask 'gitkraken' (no longer use. Use github desktop instead)
 cask 'google-chrome'
 cask 'jetbrains-toolbox'
@@ -57,7 +57,7 @@ cask 'slack'
 cask 'tableplus'
 # cask 'teamviewer' (not currently using)
 cask 'tidal'
-# cask 'tower' (no longer use. Use github desktop instead)
+cask 'tower'
 # cask 'typeface' (not currently using)
 cask 'ukelele' # (Unicode keyboard layout editor)
 # cask 'visual-studio-code' (not currently using)
