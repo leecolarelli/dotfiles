@@ -51,6 +51,7 @@ cask 'phpmon'
 cask 'phpstorm'
 cask 'postman'
 cask 'hyper' # Electron-based, open source terminal https://hyper.is/
+cask 'screenflow'
 # cask 'skype' (no longer use, could be removed)
 cask 'slack'
 # cask 'spotify' (switched to TIDAL)
