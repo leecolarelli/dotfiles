@@ -79,6 +79,7 @@ alias art='php artisan'
 alias mfs='php artisan migrate:fresh --seed'
 alias artclearall='php artisan cache:clear && php artisan view:clear && php artisan config:clear'
 alias phpunit='vendor/bin/phpunit'
+alias pint='vendor/bin/pint'
 alias clearlog='truncate -s 0 $PWD/storage/logs/laravel.log'
 alias clearlogs='truncate -s 0 $PWD/storage/logs/*.log'
 
