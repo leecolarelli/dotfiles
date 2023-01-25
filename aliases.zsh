@@ -78,6 +78,7 @@ alias gpc="git push origin HEAD"
 alias art='php artisan'
 alias mfs='php artisan migrate:fresh --seed'
 alias artclearall='php artisan cache:clear && php artisan view:clear && php artisan config:clear'
+alias pest='vendor/bin/pest'
 alias phpstan='vendor/bin/phpstan'
 alias phpunit='vendor/bin/phpunit'
 alias pint='vendor/bin/pint'
