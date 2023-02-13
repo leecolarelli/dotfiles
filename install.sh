@@ -45,7 +45,7 @@ fi
 pecl install redis xdebug
 
 # Install global Composer packages
-composer global require laravel/installer laravel/valet beyondcode/expose
+composer global require laravel/installer laravel/valet beyondcode/expose roave/security-advisories
 
 # Install Laravel Valet	
 $HOME/.composer/vendor/bin/valet install
