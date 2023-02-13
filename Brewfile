@@ -31,7 +31,7 @@ cask '1password'
 # cask 'alt-tab' # https://alt-tab-macos.netlify.app/ (happy with stage manager instead)
 cask 'appcleaner'
 cask 'bartender'
-cask 'boom-3d'
+# cask 'boom-3d'
 # cask 'cleanmymac' (not currently using)
 cask 'daisydisk'
 cask 'dbngin'
