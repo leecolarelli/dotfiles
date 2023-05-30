@@ -63,7 +63,7 @@ cask 'tower'
 cask 'ukelele' # (Unicode keyboard layout editor)
 # cask 'visual-studio-code' (not currently using)
 cask 'vlc'
-# cask 'zoom' (not currently using)
+cask 'zoom'
 
 # Mac App Store
 mas 'Affinity Photo', id: 824183456
