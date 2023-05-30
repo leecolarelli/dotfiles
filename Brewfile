@@ -41,7 +41,7 @@ cask 'discord'
 cask 'elgato-stream-deck'
 cask 'firefox-developer-edition'
 cask 'flux'
-# cask 'forklift' (not currently using)
+cask 'forklift'
 # cask 'github' (switched back to Tower)
 # cask 'gitkraken' (no longer use. Use github desktop instead)
 cask 'google-chrome'
