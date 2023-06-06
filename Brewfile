@@ -48,7 +48,7 @@ cask 'google-chrome'
 cask 'jetbrains-toolbox'
 cask 'lofi' # A tiny Spotify player - https://www.lofi.rocks/
 cask 'phpmon'
-cask 'phpstorm'
+# cask 'phpstorm' (install via jetbrains toolbox)
 cask 'postman'
 cask 'hyper' # Electron-based, open source terminal https://hyper.is/
 cask 'screenflow'
