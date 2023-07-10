@@ -31,6 +31,7 @@ cask '1password'
 # cask 'alt-tab' # https://alt-tab-macos.netlify.app/ (happy with stage manager instead)
 cask 'appcleaner'
 cask 'bartender'
+cask 'blender'
 # cask 'boom-3d'
 # cask 'cleanmymac' (not currently using)
 cask 'daisydisk'
@@ -50,6 +51,7 @@ cask 'lofi' # A tiny Spotify player - https://www.lofi.rocks/
 cask 'phpmon'
 # cask 'phpstorm' (install via jetbrains toolbox)
 cask 'postman'
+cask 'prusaslicer'
 cask 'hyper' # Electron-based, open source terminal https://hyper.is/
 cask 'screenflow'
 # cask 'skype' (no longer use, could be removed)
@@ -61,6 +63,7 @@ cask 'tidal'
 cask 'tower'
 # cask 'typeface' (not currently using)
 cask 'ukelele' # (Unicode keyboard layout editor)
+cask 'ultimaker-cura'
 # cask 'visual-studio-code' (not currently using)
 cask 'vlc'
 cask 'zoom'
