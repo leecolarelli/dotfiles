@@ -51,6 +51,7 @@ cask 'lofi' # A tiny Spotify player - https://www.lofi.rocks/
 cask 'phpmon'
 # cask 'phpstorm' (install via jetbrains toolbox)
 cask 'postman'
+cask 'pronterface'
 cask 'prusaslicer'
 cask 'hyper' # Electron-based, open source terminal https://hyper.is/
 cask 'screenflow'
