@@ -20,8 +20,8 @@ brew 'nginx'
 brew 'node'
 brew 'openldap'
 brew 'php'
-brew 'php@8.0'
-brew 'redis'
+# brew 'php@8.0'
+# brew 'redis'
 brew 'webp'
 # brew 'yarn' (prefer npm)
 
@@ -40,14 +40,15 @@ cask 'discord'
 # cask 'docker' (docker desktop is garbage)
 # cask 'dropbox'
 cask 'elgato-stream-deck'
-cask 'firefox-developer-edition'
+# cask 'firefox-developer-edition'
 cask 'flux'
 cask 'forklift'
 # cask 'github' (switched back to Tower)
 # cask 'gitkraken' (no longer use. Use github desktop instead)
 cask 'google-chrome'
 cask 'jetbrains-toolbox'
-cask 'lofi' # A tiny Spotify player - https://www.lofi.rocks/
+# cask 'lofi' # A tiny Spotify player - https://www.lofi.rocks/
+cask 'orcaslicer'
 cask 'phpmon'
 # cask 'phpstorm' (install via jetbrains toolbox)
 cask 'postman'
@@ -60,7 +61,7 @@ cask 'slack'
 # cask 'spotify' (switched to TIDAL)
 cask 'tableplus'
 # cask 'teamviewer' (not currently using)
-cask 'tidal'
+# cask 'tidal'
 cask 'tower'
 # cask 'typeface' (not currently using)
 cask 'ukelele' # (Unicode keyboard layout editor)
