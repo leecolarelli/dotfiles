@@ -25,6 +25,9 @@ brew 'php'
 brew 'webp'
 # brew 'yarn' (prefer npm)
 
+# 3D
+brew 'freecad'
+
 # Apps
 cask '1password'
 # cask 'adobe-creative-cloud' (not currently using)
