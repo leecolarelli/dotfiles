@@ -33,6 +33,7 @@ cask '1password'
 # cask 'adobe-creative-cloud' (not currently using)
 # cask 'alt-tab' # https://alt-tab-macos.netlify.app/ (happy with stage manager instead)
 cask 'appcleaner'
+cask 'autodesk-fusion360'
 cask 'bartender'
 cask 'blender'
 # cask 'boom-3d'
