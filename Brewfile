@@ -69,7 +69,7 @@ cask 'tableplus'
 cask 'tower'
 # cask 'typeface' (not currently using)
 cask 'ukelele' # (Unicode keyboard layout editor)
-cask 'ultimaker-cura'
+# cask 'ultimaker-cura'
 # cask 'visual-studio-code' (not currently using)
 cask 'vlc'
 cask 'zoom'
