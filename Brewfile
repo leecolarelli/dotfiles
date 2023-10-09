@@ -1,8 +1,6 @@
 # Taps
-# tap 'caskroom/cask'
-tap 'homebrew/cask-versions'
-tap 'homebrew/cask-drivers'
-tap 'nicoverbruggen/homebrew-cask'
+# tap 'homebrew/cask-versions'
+# tap 'nicoverbruggen/homebrew-cask'
 
 # Binaries
 brew 'bash' # Latest Bash version
