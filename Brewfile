@@ -25,17 +25,26 @@ brew 'php'
 brew 'webp'
 # brew 'yarn' (prefer npm)
 
-# 3D
-brew 'freecad'
+# 3D/CAD
+cask 'autodesk-fusion360'
+cask 'blender'
+cask 'freecad'
+cask 'orcaslicer'
+# cask 'pronterface' (now using OctoPrint)
+# cask 'prusaslicer'
+# cask 'ultimaker-cura'
+
+# VCS
+# cask 'github' (switched back to Tower)
+# cask 'gitkraken' (switched back to Tower)
+cask 'tower'
 
 # Apps
 cask '1password'
 # cask 'adobe-creative-cloud' (not currently using)
 # cask 'alt-tab' # https://alt-tab-macos.netlify.app/ (happy with stage manager instead)
 cask 'appcleaner'
-cask 'autodesk-fusion360'
 cask 'bartender'
-cask 'blender'
 # cask 'boom-3d'
 # cask 'cleanmymac' (not currently using)
 cask 'daisydisk'
@@ -47,17 +56,12 @@ cask 'elgato-stream-deck'
 # cask 'firefox-developer-edition'
 cask 'flux'
 cask 'forklift'
-# cask 'github' (switched back to Tower)
-# cask 'gitkraken' (no longer use. Use github desktop instead)
 cask 'google-chrome'
 cask 'jetbrains-toolbox'
 # cask 'lofi' # A tiny Spotify player - https://www.lofi.rocks/
-cask 'orcaslicer'
 cask 'phpmon'
 # cask 'phpstorm' (install via jetbrains toolbox)
 cask 'postman'
-cask 'pronterface'
-cask 'prusaslicer'
 cask 'hyper' # Electron-based, open source terminal https://hyper.is/
 cask 'screenflow'
 # cask 'skype' (no longer use, could be removed)
@@ -66,10 +70,8 @@ cask 'slack'
 cask 'tableplus'
 # cask 'teamviewer' (not currently using)
 # cask 'tidal'
-cask 'tower'
 # cask 'typeface' (not currently using)
 cask 'ukelele' # (Unicode keyboard layout editor)
-# cask 'ultimaker-cura'
 # cask 'visual-studio-code' (not currently using)
 cask 'vlc'
 cask 'zoom'
