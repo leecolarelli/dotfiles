@@ -5,7 +5,7 @@
 # Binaries
 brew 'bash' # Latest Bash version
 brew 'git'
-brew 'mackup'
+# brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'zsh'
 
@@ -18,19 +18,18 @@ brew 'nginx'
 brew 'node'
 brew 'openldap'
 brew 'php'
-# brew 'php@8.0'
 # brew 'redis'
 brew 'webp'
 # brew 'yarn' (prefer npm)
 
 # 3D/CAD
 cask 'autodesk-fusion360'
-cask 'blender'
-cask 'freecad'
+# cask 'blender'
+# cask 'freecad'
 cask 'orcaslicer'
 # cask 'pronterface' (now using OctoPrint)
 # cask 'prusaslicer'
-# cask 'ultimaker-cura'
+cask 'ultimaker-cura'
 
 # VCS
 # cask 'github' (switched back to Tower)
@@ -64,33 +63,33 @@ cask 'hyper' # Electron-based, open source terminal https://hyper.is/
 cask 'screenflow'
 # cask 'skype' (no longer use, could be removed)
 cask 'slack'
-# cask 'spotify' (switched to TIDAL)
+# cask 'spotify'
 cask 'tableplus'
-# cask 'teamviewer' (not currently using)
+# cask 'teamviewer'
 # cask 'tidal'
 # cask 'typeface' (not currently using)
-cask 'ukelele' # (Unicode keyboard layout editor)
+# cask 'ukelele' # (Unicode keyboard layout editor)
 # cask 'visual-studio-code' (not currently using)
 cask 'vlc'
-cask 'zoom'
+# cask 'zoom'
 
 # Mac App Store
 mas 'Affinity Photo', id: 824183456
 mas 'Affinity Designer', id: 824171161
-mas 'Be Focused', id: 973134470
+# mas 'Be Focused', id: 973134470
 mas 'Coffee Buzz', id: 1099454186
 mas 'ColorSlurp', id: 1287239339
 mas 'CopyClip', id: 595191960
 # mas 'CopyLess 2', id: 993841014 (not currently using)
 # mas 'DaisyDisk', id: 411643860 (swapped for standalone version)
-mas 'Dimensions', id: 822502888
+# mas 'Dimensions', id: 822502888
 # mas 'Fantastical 2', id: 975937182 (not currently using)
 # mas 'Lightshot Screenshot', id: 526298438 (not currently using)
 mas 'Magnet', id: 441258766
 mas 'Pocket', id: 568494494
 mas 'Quickshade', id: 931571202
-mas 'Reeder 5', id: 1529448980
+# mas 'Reeder 5', id: 1529448980
 mas 'Screenfloat', id: 414528154
 # mas 'Screen Colors Filter', id: 1177401419 (not currently using)
-mas 'Spark', id: 1176895641
-mas 'Take a break', id: 1457158844
+# mas 'Spark', id: 1176895641
+# mas 'Take a break', id: 1457158844
