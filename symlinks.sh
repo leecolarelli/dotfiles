@@ -10,8 +10,4 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 rm -rf $HOME/.gitconfig
 ln -s $HOME/.dotfiles/.gitconfig $HOME/.gitconfig
 
-# Removes .mackup.cfg from $HOME (if it exists) and symlinks the .mackup.cfg file from the .dotfiles
-rm -rf $HOME/.mackup.cfg
-ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
-
 echo "Symlinks created..."
