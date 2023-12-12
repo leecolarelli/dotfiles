@@ -11,8 +11,6 @@ things do first :)
 - Did you backup local databases you need?
 - Did you remember to save all important documents from non-cloud directories?
 - Did you save all of your work from apps which aren't synced through cloud?
-- Did you update [mackup](https://github.com/lra/mackup) to the latest version
-  and run `mackup backup`?
 
 ## Installation
 
@@ -42,11 +40,7 @@ Now we can run the main installation script...
 ~/.dotfiles/install.sh
 ```
 
-### 4. Restore Mackup settings
-
-Restore your mac settings by running `mackup restore`
-
-### 5. Restart your computer
+### 4. Restart your computer
 
 Restart your computer to finalize the process
 
