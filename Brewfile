@@ -36,13 +36,19 @@ cask 'ultimaker-cura'
 # cask 'gitkraken' (switched back to Tower)
 cask 'tower'
 
+# Music
+cask 'amazon-music
+cask 'boom-3d'
+# cask 'lofi' # A tiny Spotify player - https://www.lofi.rocks/
+# cask 'spotify'
+# cask 'tidal'
+
 # Apps
 cask '1password'
 # cask 'adobe-creative-cloud' (not currently using)
 # cask 'alt-tab' # https://alt-tab-macos.netlify.app/ (happy with stage manager instead)
 cask 'appcleaner'
 cask 'bartender'
-# cask 'boom-3d'
 # cask 'cleanmymac' (not currently using)
 cask 'daisydisk'
 cask 'dbngin'
@@ -55,7 +61,6 @@ cask 'flux'
 cask 'forklift'
 cask 'google-chrome'
 cask 'jetbrains-toolbox'
-# cask 'lofi' # A tiny Spotify player - https://www.lofi.rocks/
 cask 'phpmon'
 # cask 'phpstorm' (install via jetbrains toolbox)
 cask 'postman'
@@ -63,10 +68,8 @@ cask 'hyper' # Electron-based, open source terminal https://hyper.is/
 cask 'screenflow'
 # cask 'skype' (no longer use, could be removed)
 cask 'slack'
-# cask 'spotify'
 cask 'tableplus'
 # cask 'teamviewer'
-# cask 'tidal'
 # cask 'typeface' (not currently using)
 # cask 'ukelele' # (Unicode keyboard layout editor)
 # cask 'visual-studio-code' (not currently using)
@@ -86,6 +89,7 @@ mas 'CopyClip', id: 595191960
 # mas 'Fantastical 2', id: 975937182 (not currently using)
 # mas 'Lightshot Screenshot', id: 526298438 (not currently using)
 mas 'Magnet', id: 441258766
+mas 'Monday.com', id: 1298450641
 mas 'Pocket', id: 568494494
 mas 'Quickshade', id: 931571202
 # mas 'Reeder 5', id: 1529448980
@@ -93,3 +97,4 @@ mas 'Screenfloat', id: 414528154
 # mas 'Screen Colors Filter', id: 1177401419 (not currently using)
 # mas 'Spark', id: 1176895641
 # mas 'Take a break', id: 1457158844
+mas 'The Unarchiver', id: 425424353
