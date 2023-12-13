@@ -19,7 +19,7 @@ else
 fi
 
 # Create symlinks
-source symlinks.sh
+source $HOME/.dotfiles/symlinks.sh
 
 # Update Homebrew recipes
 brew update
