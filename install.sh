@@ -13,10 +13,14 @@ fi
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
   echo "Installing Homebrew"
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 else
   echo "Homebrew is already installed"
 fi
+
+# Add brew to path
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> $HOME/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Create symlinks
 source $HOME/.dotfiles/symlinks.sh
@@ -42,13 +46,15 @@ else
 fi
 
 # Install PHP extensions with PECL
-pecl install redis xdebug
+# pecl install redis xdebug
+pecl install xdebug
 
 # Install global Composer packages
-composer global require laravel/installer laravel/valet beyondcode/expose roave/security-advisories
+# composer global require laravel/installer laravel/valet beyondcode/expose roave/security-advisories:dev-latest
+composer global require laravel/installer
 
-# Install Laravel Valet	
-$HOME/.composer/vendor/bin/valet install
+# Install Laravel Valet	(not currently using in favour of laravel herd)
+# $HOME/.composer/vendor/bin/valet install
 
 # Create a Sites directory
 mkdir $HOME/Sites
@@ -56,8 +62,10 @@ mkdir $HOME/Sites
 # Clone Github repositories	(not currently used)
 # source clone.sh
 
-# Reload .zshrc
-source ~/.zshrc
+# Reload .zshrc (cannot run from here: Error: Oh My Zsh can't be loaded from: /bin/sh. You need to run zsh instead.)
+# source ~/.zshrc
+
+echo "Finished setting up your Mac ❤️. Continue to install macOS preferences and reload the shell..."
 
 # Set macOS preferences
 # We will run this last because this will reload the shell

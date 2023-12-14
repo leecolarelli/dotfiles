@@ -11,6 +11,7 @@ brew 'zsh'
 
 # Development
 brew 'composer'
+cask 'herd'
 # brew 'httpd', restart_service: true (not using)
 # brew 'mariadb', restart_service: true (not currently using mariadb)
 # brew 'mysql' (not using in favour of dbngin app)
@@ -37,7 +38,7 @@ cask 'ultimaker-cura'
 cask 'tower'
 
 # Music
-cask 'amazon-music
+cask 'amazon-music'
 cask 'boom-3d'
 # cask 'lofi' # A tiny Spotify player - https://www.lofi.rocks/
 # cask 'spotify'
@@ -61,7 +62,7 @@ cask 'flux'
 cask 'forklift'
 cask 'google-chrome'
 cask 'jetbrains-toolbox'
-cask 'phpmon'
+# cask 'phpmon' (not currently using in favour of laravel herd)
 # cask 'phpstorm' (install via jetbrains toolbox)
 cask 'postman'
 cask 'hyper' # Electron-based, open source terminal https://hyper.is/
@@ -79,8 +80,9 @@ cask 'vlc'
 # Mac App Store
 mas 'Affinity Photo', id: 824183456
 mas 'Affinity Designer', id: 824171161
+mas 'Amphetamine', id: 937984704
 # mas 'Be Focused', id: 973134470
-mas 'Coffee Buzz', id: 1099454186
+# mas 'Coffee Buzz', id: 1099454186
 mas 'ColorSlurp', id: 1287239339
 mas 'CopyClip', id: 595191960
 # mas 'CopyLess 2', id: 993841014 (not currently using)
