@@ -39,7 +39,11 @@ Thumbs.db
 
 # IDE generated files #
 #######################
-.idea/
+#.idea/
 .vscode
 .vagrant/
 .phpunit.result.cache
+
+# Sensitive files #
+###################
+auth.json
