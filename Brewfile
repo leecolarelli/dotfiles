@@ -100,3 +100,4 @@ mas 'Screenfloat', id: 414528154
 # mas 'Spark', id: 1176895641
 # mas 'Take a break', id: 1457158844
 mas 'The Unarchiver', id: 425424353
+mas 'WhatsApp Messenger', id: 310633997
