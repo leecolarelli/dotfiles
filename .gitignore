@@ -1,6 +1,23 @@
+# General
 plugins/*
-.vscode/extensions
-.idea/
-.history
-.DS_Store
+/.vagrant
+/vendor
+/node_modules
+npm-debug.log
+yarn-error.log
 auth.json
+.DS_Store
+.phpunit.cache
+.phpunit.result.cache
+.env
+.env.backup
+.env.production
+
+# VS Code
+/.vscode
+/.history
+
+# Jetbrains
+/.idea/*
+!/.idea/dictionaries/
+/.fleet

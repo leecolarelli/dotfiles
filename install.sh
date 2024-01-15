@@ -22,8 +22,11 @@ fi
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> $HOME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Create a Sites directory
+mkdir $HOME/Sites
+
 # Create symlinks
-source $HOME/.dotfiles/symlinks.sh
+source $HOME/Sites/dotfiles/symlinks.sh
 
 # Update Homebrew recipes
 brew update
@@ -31,7 +34,7 @@ brew update
 # Install all the dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
 # brew tap homebrew/cask-drivers
-brew bundle --file $HOME/.dotfiles/Brewfile
+brew bundle --file $HOME/Sites/dotfiles/Brewfile
 
 # Set default MySQL root password and auth type. (not using in favour of dbngin app)
 # brew services restart mysql
@@ -56,9 +59,6 @@ composer global require laravel/installer
 # Install Laravel Valet	(not currently using in favour of laravel herd)
 # $HOME/.composer/vendor/bin/valet install
 
-# Create a Sites directory
-mkdir $HOME/Sites
-
 # Clone Github repositories	(not currently used)
 # source clone.sh
 
@@ -69,6 +69,6 @@ echo "Finished setting up your Mac ❤️. Continue to install macOS preferences
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
-source ~/.dotfiles/.macos
+source ~/Sites/dotfiles/.macos
 
 exit 0

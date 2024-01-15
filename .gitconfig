@@ -7,4 +7,4 @@
 	process = git-lfs filter-process
 	required = true
 [core]
-	excludesfile = /Users/leecolarelli/.dotfiles/.gitignore_global
+	excludesfile = /Users/leecolarelli/Sites/dotfiles/.gitignore_global

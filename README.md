@@ -28,16 +28,16 @@ xcode-select --install
 
 ### 2. Clone Dotfiles Repository
 
-Then we need to clone this dotfiles repository into our user folder.
+Then we need to clone this dotfiles repository into our Sites folder.
 
-`git clone https://github.com/leecolarelli/dotfiles.git ~/.dotfiles`
+`git clone https://github.com/leecolarelli/dotfiles.git ~/Sites/dotfiles`
 
 ### 3. Run Installation Script
 
 Now we can run the main installation script...
 
 ```zsh
-~/.dotfiles/install.sh
+~/Sites/dotfiles/install.sh
 ```
 
 ### 4. Restart your computer
