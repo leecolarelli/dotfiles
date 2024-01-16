@@ -11,7 +11,7 @@ brew 'zsh'
 
 # Development
 brew 'composer'
-cask 'herd'
+# cask 'herd' (not currently using as unstable)
 # brew 'httpd', restart_service: true (not using)
 # brew 'mariadb', restart_service: true (not currently using mariadb)
 # brew 'mysql' (not using in favour of dbngin app)

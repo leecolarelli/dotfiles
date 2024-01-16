@@ -54,10 +54,10 @@ pecl install xdebug
 
 # Install global Composer packages
 # composer global require laravel/installer laravel/valet beyondcode/expose roave/security-advisories:dev-latest
-composer global require laravel/installer
+composer global require laravel/installer laravel/valet beyondcode/expose
 
-# Install Laravel Valet	(not currently using in favour of laravel herd)
-# $HOME/.composer/vendor/bin/valet install
+# Install Laravel Valet
+$HOME/.composer/vendor/bin/valet install
 
 # Clone Github repositories	(not currently used)
 # source clone.sh
