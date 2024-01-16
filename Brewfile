@@ -62,7 +62,7 @@ cask 'flux'
 cask 'forklift'
 cask 'google-chrome'
 cask 'jetbrains-toolbox'
-# cask 'phpmon' (not currently using in favour of laravel herd)
+cask 'phpmon'
 # cask 'phpstorm' (install via jetbrains toolbox)
 cask 'postman'
 cask 'hyper' # Electron-based, open source terminal https://hyper.is/
