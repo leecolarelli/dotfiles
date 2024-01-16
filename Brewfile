@@ -1,6 +1,6 @@
 # Taps
 # tap 'homebrew/cask-versions'
-# tap 'nicoverbruggen/homebrew-cask'
+tap 'nicoverbruggen/homebrew-cask' #(phpmon cask)
 
 # Binaries
 brew 'bash' # Latest Bash version
