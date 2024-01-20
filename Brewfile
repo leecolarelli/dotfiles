@@ -25,12 +25,13 @@ brew 'webp'
 
 # 3D/CAD
 cask 'autodesk-fusion360'
+cask 'bambu-studio'
 # cask 'blender'
 # cask 'freecad'
 cask 'orcaslicer'
 # cask 'pronterface' (now using OctoPrint)
 # cask 'prusaslicer'
-cask 'ultimaker-cura'
+# cask 'ultimaker-cura'
 
 # VCS
 # cask 'github' (switched back to Tower)
