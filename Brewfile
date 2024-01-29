@@ -28,7 +28,7 @@ cask 'autodesk-fusion360'
 cask 'bambu-studio'
 # cask 'blender'
 # cask 'freecad'
-cask 'orcaslicer'
+# cask 'orcaslicer'
 # cask 'pronterface' (now using OctoPrint)
 # cask 'prusaslicer'
 # cask 'ultimaker-cura'
