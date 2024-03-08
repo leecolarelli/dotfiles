@@ -11,6 +11,7 @@ brew 'zsh'
 
 # Development
 brew 'composer'
+cask 'gpg-suite' # https://gpgtools.org/
 # cask 'herd' (not currently using as unstable)
 # brew 'httpd', restart_service: true (not using)
 # brew 'mariadb', restart_service: true (not currently using mariadb)
