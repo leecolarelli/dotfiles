@@ -29,6 +29,7 @@ cask 'autodesk-fusion360'
 cask 'bambu-studio'
 # cask 'blender'
 # cask 'freecad'
+cask 'lycheeslicer'
 # cask 'orcaslicer'
 # cask 'pronterface' (now using OctoPrint)
 # cask 'prusaslicer'
@@ -90,6 +91,7 @@ mas 'CopyClip', id: 595191960
 # mas 'CopyLess 2', id: 993841014 (not currently using)
 # mas 'DaisyDisk', id: 411643860 (swapped for standalone version)
 # mas 'Dimensions', id: 822502888
+mas 'Emma', id: 1270062373
 # mas 'Fantastical 2', id: 975937182 (not currently using)
 # mas 'Lightshot Screenshot', id: 526298438 (not currently using)
 mas 'Magnet', id: 441258766
