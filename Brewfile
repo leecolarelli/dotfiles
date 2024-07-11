@@ -27,9 +27,10 @@ brew 'webp'
 # 3D/CAD
 cask 'autodesk-fusion360'
 cask 'bambu-studio'
-# cask 'blender'
+cask 'blender'
 # cask 'freecad'
 cask 'lycheeslicer'
+# cask 'meshlab'
 # cask 'orcaslicer'
 # cask 'pronterface' (now using OctoPrint)
 # cask 'prusaslicer'
@@ -42,7 +43,7 @@ cask 'tower'
 
 # Music
 cask 'amazon-music'
-cask 'boom-3d'
+# cask 'boom-3d'
 # cask 'lofi' # A tiny Spotify player - https://www.lofi.rocks/
 # cask 'spotify'
 # cask 'tidal'
@@ -72,6 +73,7 @@ cask 'hyper' # Electron-based, open source terminal https://hyper.is/
 cask 'screenflow'
 # cask 'skype' (no longer use, could be removed)
 cask 'slack'
+cask 'surfshark'
 cask 'tableplus'
 # cask 'teamviewer'
 # cask 'typeface' (not currently using)
@@ -94,7 +96,7 @@ mas 'CopyClip', id: 595191960
 mas 'Emma', id: 1270062373
 # mas 'Fantastical 2', id: 975937182 (not currently using)
 # mas 'Lightshot Screenshot', id: 526298438 (not currently using)
-mas 'Magnet', id: 441258766
+# mas 'Magnet', id: 441258766
 mas 'Monday.com', id: 1298450641
 mas 'Pocket', id: 568494494
 mas 'Quickshade', id: 931571202
