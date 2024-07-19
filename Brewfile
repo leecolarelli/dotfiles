@@ -99,7 +99,7 @@ mas 'Emma', id: 1270062373
 # mas 'Magnet', id: 441258766
 mas 'Monday.com', id: 1298450641
 mas 'Pocket', id: 568494494
-mas 'Quickshade', id: 931571202
+# mas 'Quickshade', id: 931571202
 # mas 'Reeder 5', id: 1529448980
 mas 'Screenfloat', id: 414528154
 # mas 'Screen Colors Filter', id: 1177401419 (not currently using)
