@@ -78,6 +78,7 @@ cask 'tableplus'
 # cask 'typeface' (not currently using)
 # cask 'ukelele' # (Unicode keyboard layout editor)
 # cask 'visual-studio-code' (not currently using)
+cask 'via' # https://caniusevia.com/
 cask 'vlc'
 # cask 'zoom'
 
