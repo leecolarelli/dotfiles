@@ -42,10 +42,10 @@ cask 'lycheeslicer'
 cask 'tower'
 
 # Music
-cask 'amazon-music'
+# cask 'amazon-music'
 # cask 'boom-3d'
-# cask 'lofi' # A tiny Spotify player - https://www.lofi.rocks/
-# cask 'spotify'
+cask 'lofi' # A tiny Spotify player - https://www.lofi.rocks/
+cask 'spotify'
 # cask 'tidal'
 
 # Apps
