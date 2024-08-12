@@ -51,6 +51,9 @@ cask 'spotify'
 # Apps
 cask '1password'
 # cask 'adobe-creative-cloud' (not currently using)
+cask 'affinity-designer'
+cask 'affinity-photo'
+cask 'affinity-publisher'
 # cask 'alt-tab' # https://alt-tab-macos.netlify.app/ (happy with stage manager instead)
 cask 'appcleaner'
 cask 'bartender'
@@ -83,8 +86,8 @@ cask 'vlc'
 # cask 'zoom'
 
 # Mac App Store
-mas 'Affinity Photo', id: 824183456
-mas 'Affinity Designer', id: 824171161
+# mas 'Affinity Photo', id: 824183456 (swapped for standalone version)
+# mas 'Affinity Designer', id: 824171161 (swapped for standalone version)
 mas 'Amphetamine', id: 937984704
 # mas 'Be Focused', id: 973134470
 # mas 'Coffee Buzz', id: 1099454186
