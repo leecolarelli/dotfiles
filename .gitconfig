@@ -1,7 +1,6 @@
 [user]
 	name = Lee Colarelli
 	email = lee@leecolarelli.com
-	signingkey = key::ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGQ/NMSwiNYi0aVGOVUlex5B//WinAHPfgC7hmOu3dZP Git Signing Key
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
@@ -9,10 +8,3 @@
 	required = true
 [core]
 	excludesfile = /Users/leecolarelli/Sites/dotfiles/.gitignore_global
-[commit]
-	gpgsign = true
-[gpg "ssh"]
-	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
-[gpg]
-	format = ssh
-	program = /usr/local/bin/gpg
