@@ -1,6 +1,6 @@
 [user]
 	name = Lee Colarelli
-	email = lee@leecolarelli.com
+	email = leecolarelli@icloud.com
 	signingkey = /Users/leecolarelli/.ssh/keys/personal_signing_key.pub
 [filter "lfs"]
 	clean = git-lfs clean -- %f
