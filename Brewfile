@@ -11,8 +11,8 @@ brew 'zsh'
 
 # Development
 brew 'composer'
-cask 'gpg-suite' # https://gpgtools.org/
-# cask 'herd' (not currently using as unstable)
+# cask 'gpg-suite' # https://gpgtools.org/
+cask 'herd' (not currently using as unstable)
 # brew 'httpd', restart_service: true (not using)
 # brew 'mariadb', restart_service: true (not currently using mariadb)
 # brew 'mysql' (not using in favour of dbngin app)
@@ -25,16 +25,16 @@ brew 'webp'
 # brew 'yarn' (prefer npm)
 
 # 3D/CAD
-cask 'autodesk-fusion360'
+# cask 'autodesk-fusion360'
 cask 'bambu-studio'
-cask 'blender'
+# cask 'blender'
 # cask 'freecad'
-cask 'lycheeslicer'
+# cask 'lycheeslicer'
 # cask 'meshlab'
 # cask 'orcaslicer'
-# cask 'pronterface' (now using OctoPrint)
+# cask 'pronterface'
 # cask 'prusaslicer'
-# cask 'ultimaker-cura'
+cask 'ultimaker-cura'
 
 # VCS
 # cask 'github' (switched back to Tower)
@@ -49,7 +49,7 @@ cask 'spotify'
 # cask 'tidal'
 
 # Apps
-cask '1password'
+# cask '1password' (now use Apple passwords instead)
 # cask 'adobe-creative-cloud' (not currently using)
 cask 'affinity-designer'
 cask 'affinity-photo'
@@ -81,7 +81,7 @@ cask 'tableplus'
 # cask 'typeface' (not currently using)
 # cask 'ukelele' # (Unicode keyboard layout editor)
 # cask 'visual-studio-code' (not currently using)
-cask 'via' # https://caniusevia.com/
+cask 'via' # https://caniusevia.com/ for keyboards
 cask 'vlc'
 # cask 'zoom'
 
@@ -100,7 +100,7 @@ mas 'Emma', id: 1270062373
 # mas 'Fantastical 2', id: 975937182 (not currently using)
 # mas 'Lightshot Screenshot', id: 526298438 (not currently using)
 # mas 'Magnet', id: 441258766
-mas 'Monday.com', id: 1298450641
+# mas 'Monday.com', id: 1298450641
 mas 'Pocket', id: 568494494
 # mas 'Quickshade', id: 931571202
 # mas 'Reeder 5', id: 1529448980
