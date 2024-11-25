@@ -22,11 +22,11 @@ fi
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> $HOME/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-# Create a Sites directory
-mkdir $HOME/Sites
+# Create a Projects directory
+mkdir $HOME/Projects
 
 # Create symlinks
-source $HOME/Sites/dotfiles/symlinks.sh
+source $HOME/Projects/dotfiles/symlinks.sh
 
 # Update Homebrew recipes
 brew update
@@ -34,7 +34,7 @@ brew update
 # Install all the dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
 # brew tap homebrew/cask-drivers
-brew bundle --file $HOME/Sites/dotfiles/Brewfile
+brew bundle --file $HOME/Projects/dotfiles/Brewfile
 
 # Set default MySQL root password and auth type. (not using in favour of dbngin app)
 # brew services restart mysql
@@ -69,6 +69,6 @@ echo "Finished setting up your Mac ❤️. Continue to install macOS preferences
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
-source ~/Sites/dotfiles/.macos
+source ~/Projects/dotfiles/.macos
 
 exit 0

@@ -24,20 +24,21 @@ installed, as it provides us with `git`.
 ```
 sudo softwareupdate -i -a
 xcode-select --install
+mkdir $HOME/Projects
 ```
 
 ### 2. Clone Dotfiles Repository
 
-Then we need to clone this dotfiles repository into our Sites folder.
+Then we need to clone this dotfiles repository into our Projects folder.
 
-`git clone https://github.com/leecolarelli/dotfiles.git ~/Sites/dotfiles`
+`git clone https://github.com/leecolarelli/dotfiles.git ~/Projects/dotfiles`
 
 ### 3. Run Installation Script
 
 Now we can run the main installation script...
 
 ```zsh
-~/Sites/dotfiles/install.sh
+~/Projects/dotfiles/install.sh
 ```
 
 ### 4. Restart your computer

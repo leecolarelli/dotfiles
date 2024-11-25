@@ -1,13 +1,12 @@
 [user]
 	name = Lee Colarelli
-	email = leecolarelli@icloud.com
-	signingkey = /Users/leecolarelli/.ssh/keys/personal_signing_key.pub
+	email = lco@avrillo.co.uk
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
 [core]
-	excludesfile = /Users/leecolarelli/Sites/dotfiles/.gitignore_global
+	excludesfile = /Users/leecolarelli/Projects/dotfiles/.gitignore_global
 [gpg]
 	format = ssh

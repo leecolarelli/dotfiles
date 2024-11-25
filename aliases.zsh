@@ -3,7 +3,7 @@
 #-----------------------------------------------------------------------------------#
 
 # Reload bash
-alias reload_bash=". ~/Sites/dotfiles/.zshrc"
+alias reload_bash=". ~/Projects/dotfiles/.zshrc"
 
 # Be gentle
 alias please="sudo"
@@ -34,10 +34,10 @@ alias .....="cd ../../../.."
 #-----------------------------------------------------------------------------------#
 
 alias home="cd ~/"
-alias gotodotfiles="cd ~/Sites/dotfiles"
-alias gotosites="cd ~/Sites"
+alias gotodotfiles="cd ~/Projects/dotfiles"
+alias gotoprojects="cd ~/Projects"
 
-alias subldotfiles="subl ~/Sites/dotfiles"
+alias subldotfiles="subl ~/Projects/dotfiles"
 
 #-----------------------------------------------------------------------------------#
 #	*END* GOTO
@@ -83,6 +83,8 @@ alias phpstan='vendor/bin/phpstan'
 alias phpunit='vendor/bin/phpunit'
 alias pint='vendor/bin/pint'
 alias vapor='vendor/bin/vapor'
+alias sail="[ -f sail ] && sh sail || sh vendor/bin/sail"
+alias whisky="[ -f whisky ] && php whisky || php vendor/bin/whisky"
 alias clearlog='truncate -s 0 $PWD/storage/logs/laravel.log'
 alias clearlogs='truncate -s 0 $PWD/storage/logs/*.log'
 

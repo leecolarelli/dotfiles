@@ -2,8 +2,8 @@
 
 echo "Cloning repositories..."
 
-SITES=$HOME/Sites
+PROJECTS=$HOME/Projects
 
 # Private
 # Example site clone...
-# git clone git@github.com:leecolarelli/dotfiles.git  $SITES/dotfiles
+# git clone git@github.com:leecolarelli/dotfiles.git  $PROJECTS/dotfiles
