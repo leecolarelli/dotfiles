@@ -12,7 +12,7 @@ brew 'zsh'
 # Development
 brew 'composer'
 # cask 'gpg-suite' # https://gpgtools.org/
-cask 'herd' (not currently using as unstable)
+cask 'herd' # (not currently using as unstable)
 # brew 'httpd', restart_service: true (not using)
 # brew 'mariadb', restart_service: true (not currently using mariadb)
 # brew 'mysql' (not using in favour of dbngin app)
@@ -61,7 +61,7 @@ cask 'bartender'
 cask 'daisydisk'
 cask 'dbngin'
 cask 'discord'
-# cask 'docker' (docker desktop is garbage)
+cask 'docker'
 # cask 'dropbox'
 # cask 'firefox-developer-edition'
 cask 'flux'
