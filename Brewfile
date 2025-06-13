@@ -57,6 +57,7 @@ cask 'affinity-publisher'
 # cask 'alt-tab' # https://alt-tab-macos.netlify.app/ (happy with stage manager instead)
 cask 'appcleaner'
 cask 'bartender'
+cask 'claude'
 # cask 'cleanmymac' (not currently using)
 cask 'daisydisk'
 cask 'dbngin'
