@@ -1,0 +1,50 @@
+{
+  "name": "Django",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Django.xml",
+  "colors": {
+    "primaryBackground": "#0b2f20",
+    "primaryForeground": "#f8f8f8",
+    "selectionBackground": "#245032",
+    "selectionForeground": "#f8f8f8"
+  },
+  "ui": {
+    "*": {
+      "background": "#0b2f20",
+      "foreground": "#f8f8f8"
+    },
+    "Panel.background": "#104831",
+    "Menu.background": "#104831",
+    "MenuBar.background": "#0b2f20",
+    "ToolWindow.background": "#104831",
+    "Editor.background": "#0b2f20",
+    "EditorTabs.background": "#104831",
+    "Tree.background": "#0b2f20",
+    "List.background": "#0b2f20",
+    "Table.background": "#0b2f20",
+    "TextField.background": "#0b2f20",
+    "Button.background": "#104831",
+    "Button.foreground": "#f8f8f8",
+    "Button.hoverBackground": "#13553a",
+    "Button.pressedBackground": "#05150e",
+    "Component.borderColor": "#166242",
+    "Component.focusedBorderColor": "#245032",
+    "Component.disabledForeground": "#929292",
+    "Link.activeForeground": "#245032",
+    "Link.hoverForeground": "#245032",
+    "Link.pressedForeground": "#245032",
+    "Label.disabledForeground": "#929292",
+    "Separator.foreground": "#166242",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#104831",
+    "ProgressBar.progressColor": "#245032",
+    "ScrollBar.thumbColor": "#1c7b54",
+    "SearchEverywhere.background": "#104831",
+    "Notification.background": "#104831",
+    "Notification.errorBackground": "#23341d",
+    "Notification.warningBackground": "#234126",
+    "ValidationTooltip.errorBackground": "#fd6209",
+    "ValidationTooltip.warningBackground": "#ffe862"
+  }
+}

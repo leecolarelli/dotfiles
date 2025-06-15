@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.hacktober</id>
+  <name>Hacktober Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Hacktober
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="3554808b-fc00-4d61-a013-c8bac9c5f2f3" path="/Hacktober.theme.json"/>
+  </extensions>
+</idea-plugin>

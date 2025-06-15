@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.violet_light</id>
+  <name>Violet Light Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Violet Light
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="b7ed4b65-f063-4742-bc6c-b62113252bb2" path="/Violet Light.theme.json"/>
+  </extensions>
+</idea-plugin>

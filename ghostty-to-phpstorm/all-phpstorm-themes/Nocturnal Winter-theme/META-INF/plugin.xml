@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.nocturnal_winter</id>
+  <name>Nocturnal Winter Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Nocturnal Winter
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="95c418df-ac05-455d-8d64-aaf46f60f6d0" path="/Nocturnal Winter.theme.json"/>
+  </extensions>
+</idea-plugin>

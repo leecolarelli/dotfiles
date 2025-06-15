@@ -1,0 +1,50 @@
+{
+  "name": "Djangosmooth",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/DjangoSmooth.xml",
+  "colors": {
+    "primaryBackground": "#245032",
+    "primaryForeground": "#f8f8f8",
+    "selectionBackground": "#336442",
+    "selectionForeground": "#f8f8f8"
+  },
+  "ui": {
+    "*": {
+      "background": "#245032",
+      "foreground": "#f8f8f8"
+    },
+    "Panel.background": "#2f6941",
+    "Menu.background": "#2f6941",
+    "MenuBar.background": "#245032",
+    "ToolWindow.background": "#2f6941",
+    "Editor.background": "#245032",
+    "EditorTabs.background": "#2f6941",
+    "Tree.background": "#245032",
+    "List.background": "#245032",
+    "Table.background": "#245032",
+    "TextField.background": "#245032",
+    "Button.background": "#2f6941",
+    "Button.foreground": "#f8f8f8",
+    "Button.hoverBackground": "#357649",
+    "Button.pressedBackground": "#183622",
+    "Component.borderColor": "#3a8351",
+    "Component.focusedBorderColor": "#989898",
+    "Component.disabledForeground": "#929292",
+    "Link.activeForeground": "#989898",
+    "Link.hoverForeground": "#989898",
+    "Link.pressedForeground": "#989898",
+    "Label.disabledForeground": "#929292",
+    "Separator.foreground": "#3a8351",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#2f6941",
+    "ProgressBar.progressColor": "#989898",
+    "ScrollBar.thumbColor": "#469c61",
+    "SearchEverywhere.background": "#2f6941",
+    "Notification.background": "#2f6941",
+    "Notification.errorBackground": "#39512d",
+    "Notification.warningBackground": "#395f36",
+    "ValidationTooltip.errorBackground": "#fd6209",
+    "ValidationTooltip.warningBackground": "#ffe862"
+  }
+}

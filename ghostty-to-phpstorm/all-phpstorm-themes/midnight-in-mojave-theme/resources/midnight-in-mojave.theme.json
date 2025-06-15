@@ -1,0 +1,50 @@
+{
+  "name": "Midnight-In-Mojave",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/midnight-in-mojave.xml",
+  "colors": {
+    "primaryBackground": "#1e1e1e",
+    "primaryForeground": "#ffffff",
+    "selectionBackground": "#4a504d",
+    "selectionForeground": "#ffffff"
+  },
+  "ui": {
+    "*": {
+      "background": "#1e1e1e",
+      "foreground": "#ffffff"
+    },
+    "Panel.background": "#373737",
+    "Menu.background": "#373737",
+    "MenuBar.background": "#1e1e1e",
+    "ToolWindow.background": "#373737",
+    "Editor.background": "#1e1e1e",
+    "EditorTabs.background": "#373737",
+    "Tree.background": "#1e1e1e",
+    "List.background": "#1e1e1e",
+    "Table.background": "#1e1e1e",
+    "TextField.background": "#1e1e1e",
+    "Button.background": "#373737",
+    "Button.foreground": "#ffffff",
+    "Button.hoverBackground": "#444444",
+    "Button.pressedBackground": "#040404",
+    "Component.borderColor": "#515151",
+    "Component.focusedBorderColor": "#0a84ff",
+    "Component.disabledForeground": "#999999",
+    "Link.activeForeground": "#0a84ff",
+    "Link.hoverForeground": "#0a84ff",
+    "Link.pressedForeground": "#0a84ff",
+    "Label.disabledForeground": "#999999",
+    "Separator.foreground": "#515151",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#373737",
+    "ProgressBar.progressColor": "#0a84ff",
+    "ScrollBar.thumbColor": "#6a6a6a",
+    "SearchEverywhere.background": "#373737",
+    "Notification.background": "#373737",
+    "Notification.errorBackground": "#342120",
+    "Notification.warningBackground": "#34301c",
+    "ValidationTooltip.errorBackground": "#ff453a",
+    "ValidationTooltip.warningBackground": "#ffd60a"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Idletoes",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/idleToes.xml",
+  "colors": {
+    "primaryBackground": "#323232",
+    "primaryForeground": "#ffffff",
+    "selectionBackground": "#5b5b5b",
+    "selectionForeground": "#000000"
+  },
+  "ui": {
+    "*": {
+      "background": "#323232",
+      "foreground": "#ffffff"
+    },
+    "Panel.background": "#4b4b4b",
+    "Menu.background": "#4b4b4b",
+    "MenuBar.background": "#323232",
+    "ToolWindow.background": "#4b4b4b",
+    "Editor.background": "#323232",
+    "EditorTabs.background": "#4b4b4b",
+    "Tree.background": "#323232",
+    "List.background": "#323232",
+    "Table.background": "#323232",
+    "TextField.background": "#323232",
+    "Button.background": "#4b4b4b",
+    "Button.foreground": "#ffffff",
+    "Button.hoverBackground": "#585858",
+    "Button.pressedBackground": "#181818",
+    "Component.borderColor": "#656565",
+    "Component.focusedBorderColor": "#4099ff",
+    "Component.disabledForeground": "#999999",
+    "Link.activeForeground": "#4099ff",
+    "Link.hoverForeground": "#4099ff",
+    "Link.pressedForeground": "#4099ff",
+    "Label.disabledForeground": "#999999",
+    "Separator.foreground": "#656565",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#4b4b4b",
+    "ProgressBar.progressColor": "#4099ff",
+    "ScrollBar.thumbColor": "#7e7e7e",
+    "SearchEverywhere.background": "#4b4b4b",
+    "Notification.background": "#4b4b4b",
+    "Notification.errorBackground": "#423535",
+    "Notification.warningBackground": "#464037",
+    "ValidationTooltip.errorBackground": "#d25252",
+    "ValidationTooltip.warningBackground": "#ffc66d"
+  }
+}

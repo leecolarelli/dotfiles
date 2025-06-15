@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.monokai_soda</id>
+  <name>Monokai Soda Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Monokai Soda
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="c03f9b7f-df7a-4cbc-881f-9fb1e4129c84" path="/Monokai Soda.theme.json"/>
+  </extensions>
+</idea-plugin>

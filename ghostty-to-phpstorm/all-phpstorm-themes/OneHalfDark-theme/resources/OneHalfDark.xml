@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="OneHalfDark" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#282C34"/>
+    <option name="FOREGROUND" value="#DCDFE4"/>
+    <option name="CARET_COLOR" value="#A3B3CC"/>
+    <option name="SELECTION_BACKGROUND" value="#474E5D"/>
+    <option name="SELECTION_FOREGROUND" value="#DCDFE4"/>
+    <option name="LINE_NUMBERS_COLOR" value="#929497"/>
+    <option name="GUTTER_BACKGROUND" value="#282C34"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="C678DD"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="98C379"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="E06C75"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="282C34"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="DCDFE4"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="61AFEF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="E5C07B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="56B6C2"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

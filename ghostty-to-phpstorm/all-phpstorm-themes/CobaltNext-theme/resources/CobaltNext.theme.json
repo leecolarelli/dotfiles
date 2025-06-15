@@ -1,0 +1,50 @@
+{
+  "name": "Cobaltnext",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/CobaltNext.xml",
+  "colors": {
+    "primaryBackground": "#1b2b34",
+    "primaryForeground": "#d8dee9",
+    "selectionBackground": "#4f5b66",
+    "selectionForeground": "#ffffff"
+  },
+  "ui": {
+    "*": {
+      "background": "#1b2b34",
+      "foreground": "#d8dee9"
+    },
+    "Panel.background": "#28404d",
+    "Menu.background": "#28404d",
+    "MenuBar.background": "#1b2b34",
+    "ToolWindow.background": "#28404d",
+    "Editor.background": "#1b2b34",
+    "EditorTabs.background": "#28404d",
+    "Tree.background": "#1b2b34",
+    "List.background": "#1b2b34",
+    "Table.background": "#1b2b34",
+    "TextField.background": "#1b2b34",
+    "Button.background": "#28404d",
+    "Button.foreground": "#d8dee9",
+    "Button.hoverBackground": "#2e4a5a",
+    "Button.pressedBackground": "#0d151a",
+    "Component.borderColor": "#355567",
+    "Component.focusedBorderColor": "#5a9bcf",
+    "Component.disabledForeground": "#797c83",
+    "Link.activeForeground": "#5a9bcf",
+    "Link.hoverForeground": "#5a9bcf",
+    "Link.pressedForeground": "#5a9bcf",
+    "Label.disabledForeground": "#797c83",
+    "Separator.foreground": "#355567",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#28404d",
+    "ProgressBar.progressColor": "#5a9bcf",
+    "ScrollBar.thumbColor": "#426a80",
+    "SearchEverywhere.background": "#28404d",
+    "Notification.background": "#28404d",
+    "Notification.errorBackground": "#30303b",
+    "Notification.warningBackground": "#313a38",
+    "ValidationTooltip.errorBackground": "#ed5f7d",
+    "ValidationTooltip.warningBackground": "#fac863"
+  }
+}

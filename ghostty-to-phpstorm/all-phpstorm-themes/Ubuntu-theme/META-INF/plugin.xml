@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.ubuntu</id>
+  <name>Ubuntu Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Ubuntu
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="247bfba0-d528-4c51-a32e-a0fc12e361bf" path="/Ubuntu.theme.json"/>
+  </extensions>
+</idea-plugin>

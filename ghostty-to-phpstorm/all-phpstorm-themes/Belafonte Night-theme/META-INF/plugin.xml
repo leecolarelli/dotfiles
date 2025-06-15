@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.belafonte_night</id>
+  <name>Belafonte Night Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Belafonte Night
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="76f863b4-63e3-4cb5-aca3-b86c2cbc1333" path="/Belafonte Night.theme.json"/>
+  </extensions>
+</idea-plugin>

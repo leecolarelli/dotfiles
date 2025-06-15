@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.oceanicmaterial</id>
+  <name>Oceanicmaterial Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: OceanicMaterial
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="71e9e8d3-9519-461f-8abf-465bb4c88d40" path="/OceanicMaterial.theme.json"/>
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.zenwritten_dark</id>
+  <name>Zenwritten Dark Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: zenwritten_dark
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="8bb9471c-1d71-4ef4-a870-10a98ce13480" path="/zenwritten_dark.theme.json"/>
+  </extensions>
+</idea-plugin>

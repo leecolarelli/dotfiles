@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.monokai_remastered</id>
+  <name>Monokai Remastered Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Monokai Remastered
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="1f965233-eef0-4be0-afb4-833964f6a08b" path="/Monokai Remastered.theme.json"/>
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,50 @@
+{
+  "name": "Builtin Tango Dark",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Builtin Tango Dark.xml",
+  "colors": {
+    "primaryBackground": "#000000",
+    "primaryForeground": "#ffffff",
+    "selectionBackground": "#b5d5ff",
+    "selectionForeground": "#000000"
+  },
+  "ui": {
+    "*": {
+      "background": "#000000",
+      "foreground": "#ffffff"
+    },
+    "Panel.background": "#191919",
+    "Menu.background": "#191919",
+    "MenuBar.background": "#000000",
+    "ToolWindow.background": "#191919",
+    "Editor.background": "#000000",
+    "EditorTabs.background": "#191919",
+    "Tree.background": "#000000",
+    "List.background": "#000000",
+    "Table.background": "#000000",
+    "TextField.background": "#000000",
+    "Button.background": "#191919",
+    "Button.foreground": "#ffffff",
+    "Button.hoverBackground": "#262626",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#333333",
+    "Component.focusedBorderColor": "#3465a4",
+    "Component.disabledForeground": "#999999",
+    "Link.activeForeground": "#3465a4",
+    "Link.hoverForeground": "#3465a4",
+    "Link.pressedForeground": "#3465a4",
+    "Label.disabledForeground": "#999999",
+    "Separator.foreground": "#333333",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#191919",
+    "ProgressBar.progressColor": "#3465a4",
+    "ScrollBar.thumbColor": "#4c4c4c",
+    "SearchEverywhere.background": "#191919",
+    "Notification.background": "#191919",
+    "Notification.errorBackground": "#140000",
+    "Notification.warningBackground": "#131000",
+    "ValidationTooltip.errorBackground": "#cc0000",
+    "ValidationTooltip.warningBackground": "#c4a000"
+  }
+}

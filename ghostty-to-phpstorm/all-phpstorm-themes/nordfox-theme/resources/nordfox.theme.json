@@ -1,0 +1,50 @@
+{
+  "name": "Nordfox",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/nordfox.xml",
+  "colors": {
+    "primaryBackground": "#2e3440",
+    "primaryForeground": "#cdcecf",
+    "selectionBackground": "#3e4a5b",
+    "selectionForeground": "#cdcecf"
+  },
+  "ui": {
+    "*": {
+      "background": "#2e3440",
+      "foreground": "#cdcecf"
+    },
+    "Panel.background": "#404859",
+    "Menu.background": "#404859",
+    "MenuBar.background": "#2e3440",
+    "ToolWindow.background": "#404859",
+    "Editor.background": "#2e3440",
+    "EditorTabs.background": "#404859",
+    "Tree.background": "#2e3440",
+    "List.background": "#2e3440",
+    "Table.background": "#2e3440",
+    "TextField.background": "#2e3440",
+    "Button.background": "#404859",
+    "Button.foreground": "#cdcecf",
+    "Button.hoverBackground": "#495366",
+    "Button.pressedBackground": "#1b1f26",
+    "Component.borderColor": "#525d73",
+    "Component.focusedBorderColor": "#81a1c1",
+    "Component.disabledForeground": "#676869",
+    "Link.activeForeground": "#81a1c1",
+    "Link.hoverForeground": "#81a1c1",
+    "Link.pressedForeground": "#81a1c1",
+    "Label.disabledForeground": "#676869",
+    "Separator.foreground": "#525d73",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#404859",
+    "ProgressBar.progressColor": "#81a1c1",
+    "ScrollBar.thumbColor": "#64728c",
+    "SearchEverywhere.background": "#404859",
+    "Notification.background": "#404859",
+    "Notification.errorBackground": "#3c3844",
+    "Notification.warningBackground": "#404347",
+    "ValidationTooltip.errorBackground": "#bf616a",
+    "ValidationTooltip.warningBackground": "#ebcb8b"
+  }
+}

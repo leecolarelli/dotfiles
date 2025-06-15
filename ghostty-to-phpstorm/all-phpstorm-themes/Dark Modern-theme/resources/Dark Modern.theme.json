@@ -1,0 +1,50 @@
+{
+  "name": "Dark Modern",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Dark Modern.xml",
+  "colors": {
+    "primaryBackground": "#1f1f1f",
+    "primaryForeground": "#cccccc",
+    "selectionBackground": "#3a3d41",
+    "selectionForeground": "#e0e0e0"
+  },
+  "ui": {
+    "*": {
+      "background": "#1f1f1f",
+      "foreground": "#cccccc"
+    },
+    "Panel.background": "#383838",
+    "Menu.background": "#383838",
+    "MenuBar.background": "#1f1f1f",
+    "ToolWindow.background": "#383838",
+    "Editor.background": "#1f1f1f",
+    "EditorTabs.background": "#383838",
+    "Tree.background": "#1f1f1f",
+    "List.background": "#1f1f1f",
+    "Table.background": "#1f1f1f",
+    "TextField.background": "#1f1f1f",
+    "Button.background": "#383838",
+    "Button.foreground": "#cccccc",
+    "Button.hoverBackground": "#454545",
+    "Button.pressedBackground": "#050505",
+    "Component.borderColor": "#525252",
+    "Component.focusedBorderColor": "#0078d4",
+    "Component.disabledForeground": "#666666",
+    "Link.activeForeground": "#0078d4",
+    "Link.hoverForeground": "#0078d4",
+    "Link.pressedForeground": "#0078d4",
+    "Label.disabledForeground": "#666666",
+    "Separator.foreground": "#525252",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#383838",
+    "ProgressBar.progressColor": "#0078d4",
+    "ScrollBar.thumbColor": "#6b6b6b",
+    "SearchEverywhere.background": "#383838",
+    "Notification.background": "#383838",
+    "Notification.errorBackground": "#342323",
+    "Notification.warningBackground": "#2b261c",
+    "ValidationTooltip.errorBackground": "#f74949",
+    "ValidationTooltip.warningBackground": "#9e6a03"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Novel",
+  "dark": false,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Novel.xml",
+  "colors": {
+    "primaryBackground": "#dfdbc3",
+    "primaryForeground": "#3b2322",
+    "selectionBackground": "#a4a390",
+    "selectionForeground": "#000000"
+  },
+  "ui": {
+    "*": {
+      "background": "#dfdbc3",
+      "foreground": "#3b2322"
+    },
+    "Panel.background": "#d2ceb7",
+    "Menu.background": "#d2ceb7",
+    "MenuBar.background": "#dfdbc3",
+    "ToolWindow.background": "#d2ceb7",
+    "Editor.background": "#dfdbc3",
+    "EditorTabs.background": "#d2ceb7",
+    "Tree.background": "#dfdbc3",
+    "List.background": "#dfdbc3",
+    "Table.background": "#dfdbc3",
+    "TextField.background": "#dfdbc3",
+    "Button.background": "#d2ceb7",
+    "Button.foreground": "#3b2322",
+    "Button.hoverBackground": "#c5c1ac",
+    "Button.pressedBackground": "#aca896",
+    "Component.borderColor": "#b8b5a1",
+    "Component.focusedBorderColor": "#0000cc",
+    "Component.disabledForeground": "#a15f5c",
+    "Link.activeForeground": "#0000cc",
+    "Link.hoverForeground": "#0000cc",
+    "Link.pressedForeground": "#0000cc",
+    "Label.disabledForeground": "#a15f5c",
+    "Separator.foreground": "#b8b5a1",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#d2ceb7",
+    "ProgressBar.progressColor": "#0000cc",
+    "ScrollBar.thumbColor": "#928f80",
+    "SearchEverywhere.background": "#d2ceb7",
+    "Notification.background": "#d2ceb7",
+    "Notification.errorBackground": "#ddc5af",
+    "Notification.warningBackground": "#ddcfaf",
+    "ValidationTooltip.errorBackground": "#cc0000",
+    "ValidationTooltip.warningBackground": "#d06b00"
+  }
+}

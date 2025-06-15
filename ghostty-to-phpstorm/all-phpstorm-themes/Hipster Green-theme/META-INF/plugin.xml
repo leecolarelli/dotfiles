@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.hipster_green</id>
+  <name>Hipster Green Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Hipster Green
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="a72b7bc9-7055-41d8-a1ae-ec9df088d86b" path="/Hipster Green.theme.json"/>
+  </extensions>
+</idea-plugin>

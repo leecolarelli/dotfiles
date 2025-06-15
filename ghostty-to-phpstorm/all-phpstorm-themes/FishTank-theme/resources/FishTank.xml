@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="FishTank" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#232537"/>
+    <option name="FOREGROUND" value="#ECF0FE"/>
+    <option name="CARET_COLOR" value="#FECD5E"/>
+    <option name="SELECTION_BACKGROUND" value="#FCF7E9"/>
+    <option name="SELECTION_FOREGROUND" value="#232537"/>
+    <option name="LINE_NUMBERS_COLOR" value="#A4A7B1"/>
+    <option name="GUTTER_BACKGROUND" value="#232537"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="986F82"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="ACF157"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="C6004A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="6C5B30"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="ECF0FE"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="525FB8"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="FECD5E"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="968763"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

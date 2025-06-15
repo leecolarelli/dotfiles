@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Cyberdyne" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#151144"/>
+    <option name="FOREGROUND" value="#00FF92"/>
+    <option name="CARET_COLOR" value="#00FF9C"/>
+    <option name="SELECTION_BACKGROUND" value="#454D96"/>
+    <option name="SELECTION_FOREGROUND" value="#F4F4F4"/>
+    <option name="LINE_NUMBERS_COLOR" value="#00B266"/>
+    <option name="GUTTER_BACKGROUND" value="#151144"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="FF90FE"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="00C172"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="FF8373"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="2E2E2E"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="00FF92"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="0071CF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="D2A700"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="6BFFDD"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

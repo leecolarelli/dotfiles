@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Pnevma" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#1C1C1C"/>
+    <option name="FOREGROUND" value="#D0D0D0"/>
+    <option name="CARET_COLOR" value="#E4C9AF"/>
+    <option name="SELECTION_BACKGROUND" value="#4D4D4D"/>
+    <option name="SELECTION_FOREGROUND" value="#FFFFFF"/>
+    <option name="LINE_NUMBERS_COLOR" value="#838383"/>
+    <option name="GUTTER_BACKGROUND" value="#1C1C1C"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="C79EC4"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="90A57D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="A36666"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="4A4845"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="D0D0D0"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="7FA5BD"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="D7AF87"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="8ADBB4"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

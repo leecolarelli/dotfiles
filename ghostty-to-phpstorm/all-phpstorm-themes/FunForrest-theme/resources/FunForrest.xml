@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="FunForrest" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#251200"/>
+    <option name="FOREGROUND" value="#DEC165"/>
+    <option name="CARET_COLOR" value="#E5591C"/>
+    <option name="SELECTION_BACKGROUND" value="#E5591C"/>
+    <option name="SELECTION_FOREGROUND" value="#000000"/>
+    <option name="LINE_NUMBERS_COLOR" value="#917E42"/>
+    <option name="GUTTER_BACKGROUND" value="#251200"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="8D4331"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="919C00"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="D6262B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="7F6A55"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="DEC165"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="4699A3"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="BE8A13"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="DA8213"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

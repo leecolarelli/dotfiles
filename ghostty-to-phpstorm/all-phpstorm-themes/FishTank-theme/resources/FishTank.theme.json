@@ -1,0 +1,50 @@
+{
+  "name": "Fishtank",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/FishTank.xml",
+  "colors": {
+    "primaryBackground": "#232537",
+    "primaryForeground": "#ecf0fe",
+    "selectionBackground": "#fcf7e9",
+    "selectionForeground": "#232537"
+  },
+  "ui": {
+    "*": {
+      "background": "#232537",
+      "foreground": "#ecf0fe"
+    },
+    "Panel.background": "#333650",
+    "Menu.background": "#333650",
+    "MenuBar.background": "#232537",
+    "ToolWindow.background": "#333650",
+    "Editor.background": "#232537",
+    "EditorTabs.background": "#333650",
+    "Tree.background": "#232537",
+    "List.background": "#232537",
+    "Table.background": "#232537",
+    "TextField.background": "#232537",
+    "Button.background": "#333650",
+    "Button.foreground": "#ecf0fe",
+    "Button.hoverBackground": "#3b3e5d",
+    "Button.pressedBackground": "#12131d",
+    "Component.borderColor": "#43476a",
+    "Component.focusedBorderColor": "#525fb8",
+    "Component.disabledForeground": "#8d8f98",
+    "Link.activeForeground": "#525fb8",
+    "Link.hoverForeground": "#525fb8",
+    "Link.pressedForeground": "#525fb8",
+    "Label.disabledForeground": "#8d8f98",
+    "Separator.foreground": "#43476a",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#333650",
+    "ProgressBar.progressColor": "#525fb8",
+    "ScrollBar.thumbColor": "#535883",
+    "SearchEverywhere.background": "#333650",
+    "Notification.background": "#333650",
+    "Notification.errorBackground": "#332138",
+    "Notification.warningBackground": "#38353a",
+    "ValidationTooltip.errorBackground": "#c6004a",
+    "ValidationTooltip.warningBackground": "#fecd5e"
+  }
+}

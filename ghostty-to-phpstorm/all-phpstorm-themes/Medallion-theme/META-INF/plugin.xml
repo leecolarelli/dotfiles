@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.medallion</id>
+  <name>Medallion Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Medallion
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="0cca4fdb-ee8e-4ce3-9905-28dbc5fa6b5f" path="/Medallion.theme.json"/>
+  </extensions>
+</idea-plugin>

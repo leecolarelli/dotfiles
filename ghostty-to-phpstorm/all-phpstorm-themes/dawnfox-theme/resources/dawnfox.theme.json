@@ -1,0 +1,50 @@
+{
+  "name": "Dawnfox",
+  "dark": false,
+  "author": "Ghostty Converter",
+  "editorScheme": "/dawnfox.xml",
+  "colors": {
+    "primaryBackground": "#faf4ed",
+    "primaryForeground": "#575279",
+    "selectionBackground": "#d0d8d8",
+    "selectionForeground": "#575279"
+  },
+  "ui": {
+    "*": {
+      "background": "#faf4ed",
+      "foreground": "#575279"
+    },
+    "Panel.background": "#ede7e0",
+    "Menu.background": "#ede7e0",
+    "MenuBar.background": "#faf4ed",
+    "ToolWindow.background": "#ede7e0",
+    "Editor.background": "#faf4ed",
+    "EditorTabs.background": "#ede7e0",
+    "Tree.background": "#faf4ed",
+    "List.background": "#faf4ed",
+    "Table.background": "#faf4ed",
+    "TextField.background": "#faf4ed",
+    "Button.background": "#ede7e0",
+    "Button.foreground": "#575279",
+    "Button.hoverBackground": "#e0dbd4",
+    "Button.pressedBackground": "#c6c2bc",
+    "Component.borderColor": "#d3cec8",
+    "Component.focusedBorderColor": "#286983",
+    "Component.disabledForeground": "#a097df",
+    "Link.activeForeground": "#286983",
+    "Link.hoverForeground": "#286983",
+    "Link.pressedForeground": "#286983",
+    "Label.disabledForeground": "#a097df",
+    "Separator.foreground": "#d3cec8",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#ede7e0",
+    "ProgressBar.progressColor": "#286983",
+    "ScrollBar.thumbColor": "#ada9a4",
+    "SearchEverywhere.background": "#ede7e0",
+    "Notification.background": "#ede7e0",
+    "Notification.errorBackground": "#f3e5e1",
+    "Notification.warningBackground": "#f8ebda",
+    "ValidationTooltip.errorBackground": "#b4637a",
+    "ValidationTooltip.warningBackground": "#ea9d34"
+  }
+}

@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.teerb</id>
+  <name>Teerb Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Teerb
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="214e60b9-1baf-468d-93c2-21ae23318434" path="/Teerb.theme.json"/>
+  </extensions>
+</idea-plugin>

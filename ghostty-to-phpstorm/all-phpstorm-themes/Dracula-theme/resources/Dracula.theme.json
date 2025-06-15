@@ -1,0 +1,50 @@
+{
+  "name": "Dracula",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Dracula.xml",
+  "colors": {
+    "primaryBackground": "#1e1f29",
+    "primaryForeground": "#e6e6e6",
+    "selectionBackground": "#44475a",
+    "selectionForeground": "#ffffff"
+  },
+  "ui": {
+    "*": {
+      "background": "#1e1f29",
+      "foreground": "#e6e6e6"
+    },
+    "Panel.background": "#303242",
+    "Menu.background": "#303242",
+    "MenuBar.background": "#1e1f29",
+    "ToolWindow.background": "#303242",
+    "Editor.background": "#1e1f29",
+    "EditorTabs.background": "#303242",
+    "Tree.background": "#1e1f29",
+    "List.background": "#1e1f29",
+    "Table.background": "#1e1f29",
+    "TextField.background": "#1e1f29",
+    "Button.background": "#303242",
+    "Button.foreground": "#e6e6e6",
+    "Button.hoverBackground": "#393b4f",
+    "Button.pressedBackground": "#0b0b0f",
+    "Component.borderColor": "#43455c",
+    "Component.focusedBorderColor": "#bd93f9",
+    "Component.disabledForeground": "#808080",
+    "Link.activeForeground": "#bd93f9",
+    "Link.hoverForeground": "#bd93f9",
+    "Link.pressedForeground": "#bd93f9",
+    "Label.disabledForeground": "#808080",
+    "Separator.foreground": "#43455c",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#303242",
+    "ProgressBar.progressColor": "#bd93f9",
+    "ScrollBar.thumbColor": "#555875",
+    "SearchEverywhere.background": "#303242",
+    "Notification.background": "#303242",
+    "Notification.errorBackground": "#34242d",
+    "Notification.warningBackground": "#333432",
+    "ValidationTooltip.errorBackground": "#ff5555",
+    "ValidationTooltip.warningBackground": "#f1fa8c"
+  }
+}

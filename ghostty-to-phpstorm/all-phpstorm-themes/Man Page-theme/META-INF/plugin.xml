@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.man_page</id>
+  <name>Man Page Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Man Page
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="ff54aa6e-876a-4d7d-89c4-737879e05283" path="/Man Page.theme.json"/>
+  </extensions>
+</idea-plugin>

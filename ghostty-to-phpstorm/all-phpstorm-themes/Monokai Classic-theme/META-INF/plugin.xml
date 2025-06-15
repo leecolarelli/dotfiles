@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.monokai_classic</id>
+  <name>Monokai Classic Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Monokai Classic
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="d8e972d1-60fa-48b5-b3a2-4e91fdcc1531" path="/Monokai Classic.theme.json"/>
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,50 @@
+{
+  "name": "Cyberdyne",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Cyberdyne.xml",
+  "colors": {
+    "primaryBackground": "#151144",
+    "primaryForeground": "#00ff92",
+    "selectionBackground": "#454d96",
+    "selectionForeground": "#f4f4f4"
+  },
+  "ui": {
+    "*": {
+      "background": "#151144",
+      "foreground": "#00ff92"
+    },
+    "Panel.background": "#1c175d",
+    "Menu.background": "#1c175d",
+    "MenuBar.background": "#151144",
+    "ToolWindow.background": "#1c175d",
+    "Editor.background": "#151144",
+    "EditorTabs.background": "#1c175d",
+    "Tree.background": "#151144",
+    "List.background": "#151144",
+    "Table.background": "#151144",
+    "TextField.background": "#151144",
+    "Button.background": "#1c175d",
+    "Button.foreground": "#00ff92",
+    "Button.hoverBackground": "#201a6a",
+    "Button.pressedBackground": "#0d0a2a",
+    "Component.borderColor": "#241d77",
+    "Component.focusedBorderColor": "#0071cf",
+    "Component.disabledForeground": "#009957",
+    "Link.activeForeground": "#0071cf",
+    "Link.hoverForeground": "#0071cf",
+    "Link.pressedForeground": "#0071cf",
+    "Label.disabledForeground": "#009957",
+    "Separator.foreground": "#241d77",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#1c175d",
+    "ProgressBar.progressColor": "#0071cf",
+    "ScrollBar.thumbColor": "#2c2490",
+    "SearchEverywhere.background": "#1c175d",
+    "Notification.background": "#1c175d",
+    "Notification.errorBackground": "#2c1c48",
+    "Notification.warningBackground": "#27203d",
+    "ValidationTooltip.errorBackground": "#ff8373",
+    "ValidationTooltip.warningBackground": "#d2a700"
+  }
+}

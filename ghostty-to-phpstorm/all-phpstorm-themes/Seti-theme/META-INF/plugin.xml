@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.seti</id>
+  <name>Seti Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Seti
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="60f037d5-901e-4623-99f9-f80b492ba62a" path="/Seti.theme.json"/>
+  </extensions>
+</idea-plugin>

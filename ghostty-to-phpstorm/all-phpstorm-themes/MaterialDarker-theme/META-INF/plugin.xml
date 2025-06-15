@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.materialdarker</id>
+  <name>Materialdarker Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: MaterialDarker
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="a859c9e6-a722-4559-9305-6e60d227be6a" path="/MaterialDarker.theme.json"/>
+  </extensions>
+</idea-plugin>

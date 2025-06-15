@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Everforest Dark - Hard" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#1E2326"/>
+    <option name="FOREGROUND" value="#D3C6AA"/>
+    <option name="CARET_COLOR" value="#E69875"/>
+    <option name="SELECTION_BACKGROUND" value="#4C3743"/>
+    <option name="SELECTION_FOREGROUND" value="#D3C6AA"/>
+    <option name="LINE_NUMBERS_COLOR" value="#867E6C"/>
+    <option name="GUTTER_BACKGROUND" value="#1E2326"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="D699B6"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="A7C080"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="E67E80"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="A6B0A0"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="D3C6AA"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="7FBBB3"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="DBBC7F"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="83C092"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

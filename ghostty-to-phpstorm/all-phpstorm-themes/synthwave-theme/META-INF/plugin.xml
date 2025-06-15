@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.synthwave</id>
+  <name>Synthwave Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: synthwave
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="d59112c3-4783-4e5d-9276-30f06022595c" path="/synthwave.theme.json"/>
+  </extensions>
+</idea-plugin>

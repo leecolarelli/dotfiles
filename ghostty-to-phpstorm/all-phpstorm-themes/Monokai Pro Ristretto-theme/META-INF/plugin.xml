@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.monokai_pro_ristretto</id>
+  <name>Monokai Pro Ristretto Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Monokai Pro Ristretto
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="a3979795-be2f-40db-8665-4b3e53004c33" path="/Monokai Pro Ristretto.theme.json"/>
+  </extensions>
+</idea-plugin>

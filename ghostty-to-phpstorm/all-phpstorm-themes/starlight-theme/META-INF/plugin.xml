@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.starlight</id>
+  <name>Starlight Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: starlight
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="98ee626d-9761-4f78-9404-dc9a17705658" path="/starlight.theme.json"/>
+  </extensions>
+</idea-plugin>

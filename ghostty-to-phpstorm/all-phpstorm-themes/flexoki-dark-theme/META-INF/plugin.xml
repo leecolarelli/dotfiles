@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.flexoki-dark</id>
+  <name>Flexoki-Dark Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: flexoki-dark
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="041759e9-a77c-44a7-9979-f57b83524917" path="/flexoki-dark.theme.json"/>
+  </extensions>
+</idea-plugin>

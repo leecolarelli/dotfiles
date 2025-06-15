@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="electron-highlighter" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#24283B"/>
+    <option name="FOREGROUND" value="#A8B5D1"/>
+    <option name="CARET_COLOR" value="#A8B5D1"/>
+    <option name="SELECTION_BACKGROUND" value="#283457"/>
+    <option name="SELECTION_FOREGROUND" value="#A8B5D1"/>
+    <option name="LINE_NUMBERS_COLOR" value="#6A7284"/>
+    <option name="GUTTER_BACKGROUND" value="#24283B"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="D2A6EF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="58FFC7"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="F7768E"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="506686"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="A8B5D1"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="82AAFF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="FFD9AF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="57F9FF"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

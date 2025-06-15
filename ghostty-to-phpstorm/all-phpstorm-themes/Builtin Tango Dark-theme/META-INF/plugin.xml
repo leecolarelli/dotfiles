@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.builtin_tango_dark</id>
+  <name>Builtin Tango Dark Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Builtin Tango Dark
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="5404efa4-dff4-4f71-8661-2ead97584993" path="/Builtin Tango Dark.theme.json"/>
+  </extensions>
+</idea-plugin>

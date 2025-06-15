@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.primary</id>
+  <name>Primary Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: primary
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="23debba1-e033-45c8-8de6-835396175508" path="/primary.theme.json"/>
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,50 @@
+{
+  "name": "Breeze",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Breeze.xml",
+  "colors": {
+    "primaryBackground": "#31363b",
+    "primaryForeground": "#eff0f1",
+    "selectionBackground": "#eff0f1",
+    "selectionForeground": "#31363b"
+  },
+  "ui": {
+    "*": {
+      "background": "#31363b",
+      "foreground": "#eff0f1"
+    },
+    "Panel.background": "#464d54",
+    "Menu.background": "#464d54",
+    "MenuBar.background": "#31363b",
+    "ToolWindow.background": "#464d54",
+    "Editor.background": "#31363b",
+    "EditorTabs.background": "#464d54",
+    "Tree.background": "#31363b",
+    "List.background": "#31363b",
+    "Table.background": "#31363b",
+    "TextField.background": "#31363b",
+    "Button.background": "#464d54",
+    "Button.foreground": "#eff0f1",
+    "Button.hoverBackground": "#505961",
+    "Button.pressedBackground": "#1b1e21",
+    "Component.borderColor": "#5b646e",
+    "Component.focusedBorderColor": "#1d99f3",
+    "Component.disabledForeground": "#898a8b",
+    "Link.activeForeground": "#1d99f3",
+    "Link.hoverForeground": "#1d99f3",
+    "Link.pressedForeground": "#1d99f3",
+    "Label.disabledForeground": "#898a8b",
+    "Separator.foreground": "#5b646e",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#464d54",
+    "ProgressBar.progressColor": "#1d99f3",
+    "ScrollBar.thumbColor": "#707c87",
+    "SearchEverywhere.background": "#464d54",
+    "Notification.background": "#464d54",
+    "Notification.errorBackground": "#433237",
+    "Notification.warningBackground": "#443c35",
+    "ValidationTooltip.errorBackground": "#ed1515",
+    "ValidationTooltip.warningBackground": "#f67400"
+  }
+}

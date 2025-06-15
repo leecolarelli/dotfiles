@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Fairyfloss" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#5A5475"/>
+    <option name="FOREGROUND" value="#F8F8F2"/>
+    <option name="CARET_COLOR" value="#F8F8F0"/>
+    <option name="SELECTION_BACKGROUND" value="#8077A8"/>
+    <option name="SELECTION_FOREGROUND" value="#F6E1CE"/>
+    <option name="LINE_NUMBERS_COLOR" value="#ABABA7"/>
+    <option name="GUTTER_BACKGROUND" value="#5A5475"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="FFB8D1"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="C2FFDF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="F92672"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="6090CB"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="F8F8F2"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="C2FFDF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="E6C000"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="C5A3FF"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

@@ -1,0 +1,50 @@
+{
+  "name": "Nvimdark",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/NvimDark.xml",
+  "colors": {
+    "primaryBackground": "#14161b",
+    "primaryForeground": "#e0e2ea",
+    "selectionBackground": "#4f5258",
+    "selectionForeground": "#e0e2ea"
+  },
+  "ui": {
+    "*": {
+      "background": "#14161b",
+      "foreground": "#e0e2ea"
+    },
+    "Panel.background": "#262a34",
+    "Menu.background": "#262a34",
+    "MenuBar.background": "#14161b",
+    "ToolWindow.background": "#262a34",
+    "Editor.background": "#14161b",
+    "EditorTabs.background": "#262a34",
+    "Tree.background": "#14161b",
+    "List.background": "#14161b",
+    "Table.background": "#14161b",
+    "TextField.background": "#14161b",
+    "Button.background": "#262a34",
+    "Button.foreground": "#e0e2ea",
+    "Button.hoverBackground": "#303541",
+    "Button.pressedBackground": "#010101",
+    "Component.borderColor": "#393f4e",
+    "Component.focusedBorderColor": "#a6dbff",
+    "Component.disabledForeground": "#7e7f83",
+    "Link.activeForeground": "#a6dbff",
+    "Link.hoverForeground": "#a6dbff",
+    "Link.pressedForeground": "#a6dbff",
+    "Label.disabledForeground": "#7e7f83",
+    "Separator.foreground": "#393f4e",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#262a34",
+    "ProgressBar.progressColor": "#a6dbff",
+    "ScrollBar.thumbColor": "#4c5467",
+    "SearchEverywhere.background": "#262a34",
+    "Notification.background": "#262a34",
+    "Notification.errorBackground": "#2b272a",
+    "Notification.warningBackground": "#2b2a27",
+    "ValidationTooltip.errorBackground": "#ffc0b9",
+    "ValidationTooltip.warningBackground": "#fce094"
+  }
+}

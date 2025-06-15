@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.wilmersdorf</id>
+  <name>Wilmersdorf Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: wilmersdorf
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="e3f35a41-37b2-43be-b4bb-a799a7986a29" path="/wilmersdorf.theme.json"/>
+  </extensions>
+</idea-plugin>

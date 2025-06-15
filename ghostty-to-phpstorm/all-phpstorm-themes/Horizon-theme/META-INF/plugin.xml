@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.horizon</id>
+  <name>Horizon Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Horizon
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="871a8f23-e02f-4b38-b436-924433171f0c" path="/Horizon.theme.json"/>
+  </extensions>
+</idea-plugin>

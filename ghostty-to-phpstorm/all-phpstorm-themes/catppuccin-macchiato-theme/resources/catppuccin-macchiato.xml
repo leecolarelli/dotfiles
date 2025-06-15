@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="catppuccin-macchiato" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#24273A"/>
+    <option name="FOREGROUND" value="#CAD3F5"/>
+    <option name="CARET_COLOR" value="#F4DBD6"/>
+    <option name="SELECTION_BACKGROUND" value="#5B6078"/>
+    <option name="SELECTION_FOREGROUND" value="#CAD3F5"/>
+    <option name="LINE_NUMBERS_COLOR" value="#8A91A8"/>
+    <option name="GUTTER_BACKGROUND" value="#24273A"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="F5BDE6"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="A6DA95"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="ED8796"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="5B6078"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="CAD3F5"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="8AADF4"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="EED49F"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="8BD5CA"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

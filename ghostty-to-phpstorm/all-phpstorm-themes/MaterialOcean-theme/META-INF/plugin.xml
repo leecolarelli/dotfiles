@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.materialocean</id>
+  <name>Materialocean Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: MaterialOcean
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="8d947de3-ba02-46e1-8994-763aa688d7b9" path="/MaterialOcean.theme.json"/>
+  </extensions>
+</idea-plugin>

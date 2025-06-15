@@ -1,0 +1,50 @@
+{
+  "name": "Sugarplum",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Sugarplum.xml",
+  "colors": {
+    "primaryBackground": "#111147",
+    "primaryForeground": "#db7ddd",
+    "selectionBackground": "#5ca8dc",
+    "selectionForeground": "#d0beee"
+  },
+  "ui": {
+    "*": {
+      "background": "#111147",
+      "foreground": "#db7ddd"
+    },
+    "Panel.background": "#171760",
+    "Menu.background": "#171760",
+    "MenuBar.background": "#111147",
+    "ToolWindow.background": "#171760",
+    "Editor.background": "#111147",
+    "EditorTabs.background": "#171760",
+    "Tree.background": "#111147",
+    "List.background": "#111147",
+    "Table.background": "#111147",
+    "TextField.background": "#111147",
+    "Button.background": "#171760",
+    "Button.foreground": "#db7ddd",
+    "Button.hoverBackground": "#1a1a6d",
+    "Button.pressedBackground": "#0a0a2d",
+    "Component.borderColor": "#1d1d7a",
+    "Component.focusedBorderColor": "#db7ddd",
+    "Component.disabledForeground": "#754377",
+    "Link.activeForeground": "#db7ddd",
+    "Link.hoverForeground": "#db7ddd",
+    "Link.pressedForeground": "#db7ddd",
+    "Label.disabledForeground": "#754377",
+    "Separator.foreground": "#1d1d7a",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#171760",
+    "ProgressBar.progressColor": "#db7ddd",
+    "ScrollBar.thumbColor": "#232393",
+    "SearchEverywhere.background": "#171760",
+    "Notification.background": "#171760",
+    "Notification.errorBackground": "#182055",
+    "Notification.warningBackground": "#121e4d",
+    "ValidationTooltip.errorBackground": "#5ca8dc",
+    "ValidationTooltip.warningBackground": "#249a84"
+  }
+}

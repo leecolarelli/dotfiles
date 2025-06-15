@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Obsidian" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#283033"/>
+    <option name="FOREGROUND" value="#CDCDCD"/>
+    <option name="CARET_COLOR" value="#C0CAD0"/>
+    <option name="SELECTION_BACKGROUND" value="#3E4C4F"/>
+    <option name="SELECTION_FOREGROUND" value="#DFE1E2"/>
+    <option name="LINE_NUMBERS_COLOR" value="#808080"/>
+    <option name="GUTTER_BACKGROUND" value="#283033"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="BB00BB"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="00BB00"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="A60001"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="555555"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="CDCDCD"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="3A9BDB"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="FECD22"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="00BBBB"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

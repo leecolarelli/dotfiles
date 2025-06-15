@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.novel</id>
+  <name>Novel Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Novel
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="6580e5d2-7694-46e2-a218-7847145ecf04" path="/Novel.theme.json"/>
+  </extensions>
+</idea-plugin>

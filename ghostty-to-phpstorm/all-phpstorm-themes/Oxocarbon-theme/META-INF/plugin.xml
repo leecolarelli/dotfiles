@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.oxocarbon</id>
+  <name>Oxocarbon Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Oxocarbon
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="cd7a4cf0-3a6b-4c76-96cb-ec89a1c6573c" path="/Oxocarbon.theme.json"/>
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,50 @@
+{
+  "name": "Aurora",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Aurora.xml",
+  "colors": {
+    "primaryBackground": "#23262e",
+    "primaryForeground": "#ffca28",
+    "selectionBackground": "#292e38",
+    "selectionForeground": "#00e8c6"
+  },
+  "ui": {
+    "*": {
+      "background": "#23262e",
+      "foreground": "#ffca28"
+    },
+    "Panel.background": "#363b47",
+    "Menu.background": "#363b47",
+    "MenuBar.background": "#23262e",
+    "ToolWindow.background": "#363b47",
+    "Editor.background": "#23262e",
+    "EditorTabs.background": "#363b47",
+    "Tree.background": "#23262e",
+    "List.background": "#23262e",
+    "Table.background": "#23262e",
+    "TextField.background": "#23262e",
+    "Button.background": "#363b47",
+    "Button.foreground": "#ffca28",
+    "Button.hoverBackground": "#404554",
+    "Button.pressedBackground": "#0f1014",
+    "Component.borderColor": "#495061",
+    "Component.focusedBorderColor": "#0321d7",
+    "Component.disabledForeground": "#997918",
+    "Link.activeForeground": "#0321d7",
+    "Link.hoverForeground": "#0321d7",
+    "Link.pressedForeground": "#0321d7",
+    "Label.disabledForeground": "#997918",
+    "Separator.foreground": "#495061",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#363b47",
+    "ProgressBar.progressColor": "#0321d7",
+    "ScrollBar.thumbColor": "#5d657a",
+    "SearchEverywhere.background": "#363b47",
+    "Notification.background": "#363b47",
+    "Notification.errorBackground": "#372634",
+    "Notification.warningBackground": "#393934",
+    "ValidationTooltip.errorBackground": "#f0266f",
+    "ValidationTooltip.warningBackground": "#ffe66d"
+  }
+}

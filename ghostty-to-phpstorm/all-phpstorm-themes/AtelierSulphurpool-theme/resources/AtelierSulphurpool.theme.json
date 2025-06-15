@@ -1,0 +1,50 @@
+{
+  "name": "Ateliersulphurpool",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/AtelierSulphurpool.xml",
+  "colors": {
+    "primaryBackground": "#202746",
+    "primaryForeground": "#979db4",
+    "selectionBackground": "#5e6687",
+    "selectionForeground": "#979db4"
+  },
+  "ui": {
+    "*": {
+      "background": "#202746",
+      "foreground": "#979db4"
+    },
+    "Panel.background": "#2b355f",
+    "Menu.background": "#2b355f",
+    "MenuBar.background": "#202746",
+    "ToolWindow.background": "#2b355f",
+    "Editor.background": "#202746",
+    "EditorTabs.background": "#2b355f",
+    "Tree.background": "#202746",
+    "List.background": "#202746",
+    "Table.background": "#202746",
+    "TextField.background": "#202746",
+    "Button.background": "#2b355f",
+    "Button.foreground": "#979db4",
+    "Button.hoverBackground": "#313c6c",
+    "Button.pressedBackground": "#14182c",
+    "Component.borderColor": "#374379",
+    "Component.focusedBorderColor": "#3d8fd1",
+    "Component.disabledForeground": "#41444e",
+    "Link.activeForeground": "#3d8fd1",
+    "Link.hoverForeground": "#3d8fd1",
+    "Link.pressedForeground": "#3d8fd1",
+    "Label.disabledForeground": "#41444e",
+    "Separator.foreground": "#374379",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#2b355f",
+    "ProgressBar.progressColor": "#3d8fd1",
+    "ScrollBar.thumbColor": "#425192",
+    "SearchEverywhere.background": "#2b355f",
+    "Notification.background": "#2b355f",
+    "Notification.errorBackground": "#302a42",
+    "Notification.warningBackground": "#303143",
+    "ValidationTooltip.errorBackground": "#c94922",
+    "ValidationTooltip.warningBackground": "#c08b30"
+  }
+}

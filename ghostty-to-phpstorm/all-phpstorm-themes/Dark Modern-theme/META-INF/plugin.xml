@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.dark_modern</id>
+  <name>Dark Modern Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Dark Modern
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="3fc9833c-2084-42cb-b468-e2c61ad82fbe" path="/Dark Modern.theme.json"/>
+  </extensions>
+</idea-plugin>

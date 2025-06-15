@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Unikitty" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#FF8CD9"/>
+    <option name="FOREGROUND" value="#0B0B0B"/>
+    <option name="CARET_COLOR" value="#BAFC8B"/>
+    <option name="SELECTION_BACKGROUND" value="#3EA9FE"/>
+    <option name="SELECTION_FOREGROUND" value="#FFFFFF"/>
+    <option name="LINE_NUMBERS_COLOR" value="#000000"/>
+    <option name="GUTTER_BACKGROUND" value="#FF8CD9"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="FF36A2"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="BAFC8B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="A80F20"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="434343"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="0B0B0B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="145FCD"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="EEDF4B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="6BD1BC"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

@@ -1,0 +1,50 @@
+{
+  "name": "Blulocodark",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/BlulocoDark.xml",
+  "colors": {
+    "primaryBackground": "#282c34",
+    "primaryForeground": "#b9c0cb",
+    "selectionBackground": "#b9c0ca",
+    "selectionForeground": "#272b33"
+  },
+  "ui": {
+    "*": {
+      "background": "#282c34",
+      "foreground": "#b9c0cb"
+    },
+    "Panel.background": "#3b414d",
+    "Menu.background": "#3b414d",
+    "MenuBar.background": "#282c34",
+    "ToolWindow.background": "#3b414d",
+    "Editor.background": "#282c34",
+    "EditorTabs.background": "#3b414d",
+    "Tree.background": "#282c34",
+    "List.background": "#282c34",
+    "Table.background": "#282c34",
+    "TextField.background": "#282c34",
+    "Button.background": "#3b414d",
+    "Button.foreground": "#b9c0cb",
+    "Button.hoverBackground": "#454c5a",
+    "Button.pressedBackground": "#14161a",
+    "Component.borderColor": "#4f5767",
+    "Component.focusedBorderColor": "#3476ff",
+    "Component.disabledForeground": "#5c5f64",
+    "Link.activeForeground": "#3476ff",
+    "Link.hoverForeground": "#3476ff",
+    "Link.pressedForeground": "#3476ff",
+    "Label.disabledForeground": "#5c5f64",
+    "Separator.foreground": "#4f5767",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#3b414d",
+    "ProgressBar.progressColor": "#3476ff",
+    "ScrollBar.thumbColor": "#626c80",
+    "SearchEverywhere.background": "#3b414d",
+    "Notification.background": "#3b414d",
+    "Notification.errorBackground": "#3d2c37",
+    "Notification.warningBackground": "#3d3639",
+    "ValidationTooltip.errorBackground": "#fc2f52",
+    "ValidationTooltip.warningBackground": "#ff936a"
+  }
+}

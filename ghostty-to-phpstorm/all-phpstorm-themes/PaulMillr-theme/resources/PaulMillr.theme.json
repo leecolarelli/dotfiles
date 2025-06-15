@@ -1,0 +1,50 @@
+{
+  "name": "Paulmillr",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/PaulMillr.xml",
+  "colors": {
+    "primaryBackground": "#000000",
+    "primaryForeground": "#f2f2f2",
+    "selectionBackground": "#414141",
+    "selectionForeground": "#ffffff"
+  },
+  "ui": {
+    "*": {
+      "background": "#000000",
+      "foreground": "#f2f2f2"
+    },
+    "Panel.background": "#191919",
+    "Menu.background": "#191919",
+    "MenuBar.background": "#000000",
+    "ToolWindow.background": "#191919",
+    "Editor.background": "#000000",
+    "EditorTabs.background": "#191919",
+    "Tree.background": "#000000",
+    "List.background": "#000000",
+    "Table.background": "#000000",
+    "TextField.background": "#000000",
+    "Button.background": "#191919",
+    "Button.foreground": "#f2f2f2",
+    "Button.hoverBackground": "#262626",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#333333",
+    "Component.focusedBorderColor": "#396bd7",
+    "Component.disabledForeground": "#8b8b8b",
+    "Link.activeForeground": "#396bd7",
+    "Link.hoverForeground": "#396bd7",
+    "Link.pressedForeground": "#396bd7",
+    "Label.disabledForeground": "#8b8b8b",
+    "Separator.foreground": "#333333",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#191919",
+    "ProgressBar.progressColor": "#396bd7",
+    "ScrollBar.thumbColor": "#4c4c4c",
+    "SearchEverywhere.background": "#191919",
+    "Notification.background": "#191919",
+    "Notification.errorBackground": "#190000",
+    "Notification.warningBackground": "#171300",
+    "ValidationTooltip.errorBackground": "#ff0000",
+    "ValidationTooltip.warningBackground": "#e7bf00"
+  }
+}

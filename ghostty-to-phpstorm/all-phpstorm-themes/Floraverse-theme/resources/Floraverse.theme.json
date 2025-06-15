@@ -1,0 +1,50 @@
+{
+  "name": "Floraverse",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Floraverse.xml",
+  "colors": {
+    "primaryBackground": "#0e0d15",
+    "primaryForeground": "#dbd1b9",
+    "selectionBackground": "#f3e0b8",
+    "selectionForeground": "#08002e"
+  },
+  "ui": {
+    "*": {
+      "background": "#0e0d15",
+      "foreground": "#dbd1b9"
+    },
+    "Panel.background": "#1f1c2e",
+    "Menu.background": "#1f1c2e",
+    "MenuBar.background": "#0e0d15",
+    "ToolWindow.background": "#1f1c2e",
+    "Editor.background": "#0e0d15",
+    "EditorTabs.background": "#1f1c2e",
+    "Tree.background": "#0e0d15",
+    "List.background": "#0e0d15",
+    "Table.background": "#0e0d15",
+    "TextField.background": "#0e0d15",
+    "Button.background": "#1f1c2e",
+    "Button.foreground": "#dbd1b9",
+    "Button.hoverBackground": "#27243b",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#302c48",
+    "Component.focusedBorderColor": "#1d6da1",
+    "Component.disabledForeground": "#746f62",
+    "Link.activeForeground": "#1d6da1",
+    "Link.hoverForeground": "#1d6da1",
+    "Link.pressedForeground": "#1d6da1",
+    "Label.disabledForeground": "#746f62",
+    "Separator.foreground": "#302c48",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#1f1c2e",
+    "ProgressBar.progressColor": "#1d6da1",
+    "ScrollBar.thumbColor": "#413c61",
+    "SearchEverywhere.background": "#1f1c2e",
+    "Notification.background": "#1f1c2e",
+    "Notification.errorBackground": "#160b17",
+    "Notification.warningBackground": "#211715",
+    "ValidationTooltip.errorBackground": "#64002c",
+    "ValidationTooltip.warningBackground": "#cd751c"
+  }
+}

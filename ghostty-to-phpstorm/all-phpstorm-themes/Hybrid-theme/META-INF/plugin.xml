@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.hybrid</id>
+  <name>Hybrid Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Hybrid
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="7129d348-7bef-4b5e-917f-67e80c62fd8b" path="/Hybrid.theme.json"/>
+  </extensions>
+</idea-plugin>

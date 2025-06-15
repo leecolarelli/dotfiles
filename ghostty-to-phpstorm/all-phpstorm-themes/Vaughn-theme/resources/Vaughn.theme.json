@@ -1,0 +1,50 @@
+{
+  "name": "Vaughn",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Vaughn.xml",
+  "colors": {
+    "primaryBackground": "#25234f",
+    "primaryForeground": "#dcdccc",
+    "selectionBackground": "#b5d5ff",
+    "selectionForeground": "#000000"
+  },
+  "ui": {
+    "*": {
+      "background": "#25234f",
+      "foreground": "#dcdccc"
+    },
+    "Panel.background": "#302e68",
+    "Menu.background": "#302e68",
+    "MenuBar.background": "#25234f",
+    "ToolWindow.background": "#302e68",
+    "Editor.background": "#25234f",
+    "EditorTabs.background": "#302e68",
+    "Tree.background": "#25234f",
+    "List.background": "#25234f",
+    "Table.background": "#25234f",
+    "TextField.background": "#25234f",
+    "Button.background": "#302e68",
+    "Button.foreground": "#dcdccc",
+    "Button.hoverBackground": "#363375",
+    "Button.pressedBackground": "#191735",
+    "Component.borderColor": "#3c3982",
+    "Component.focusedBorderColor": "#5555ff",
+    "Component.disabledForeground": "#76766d",
+    "Link.activeForeground": "#5555ff",
+    "Link.hoverForeground": "#5555ff",
+    "Link.pressedForeground": "#5555ff",
+    "Label.disabledForeground": "#76766d",
+    "Separator.foreground": "#3c3982",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#302e68",
+    "ProgressBar.progressColor": "#5555ff",
+    "ScrollBar.thumbColor": "#48449b",
+    "SearchEverywhere.background": "#302e68",
+    "Notification.background": "#302e68",
+    "Notification.errorBackground": "#2c274f",
+    "Notification.warningBackground": "#373155",
+    "ValidationTooltip.errorBackground": "#705050",
+    "ValidationTooltip.warningBackground": "#dfaf8f"
+  }
+}

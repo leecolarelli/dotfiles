@@ -1,0 +1,50 @@
+{
+  "name": "Arcoiris",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/arcoiris.xml",
+  "colors": {
+    "primaryBackground": "#201f1e",
+    "primaryForeground": "#eee4d9",
+    "selectionBackground": "#25524a",
+    "selectionForeground": "#f3fffd"
+  },
+  "ui": {
+    "*": {
+      "background": "#201f1e",
+      "foreground": "#eee4d9"
+    },
+    "Panel.background": "#393735",
+    "Menu.background": "#393735",
+    "MenuBar.background": "#201f1e",
+    "ToolWindow.background": "#393735",
+    "Editor.background": "#201f1e",
+    "EditorTabs.background": "#393735",
+    "Tree.background": "#201f1e",
+    "List.background": "#201f1e",
+    "Table.background": "#201f1e",
+    "TextField.background": "#201f1e",
+    "Button.background": "#393735",
+    "Button.foreground": "#eee4d9",
+    "Button.hoverBackground": "#464441",
+    "Button.pressedBackground": "#060606",
+    "Component.borderColor": "#53504d",
+    "Component.focusedBorderColor": "#518bfc",
+    "Component.disabledForeground": "#88827c",
+    "Link.activeForeground": "#518bfc",
+    "Link.hoverForeground": "#518bfc",
+    "Link.pressedForeground": "#518bfc",
+    "Label.disabledForeground": "#88827c",
+    "Separator.foreground": "#53504d",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#393735",
+    "ProgressBar.progressColor": "#518bfc",
+    "ScrollBar.thumbColor": "#6c6965",
+    "SearchEverywhere.background": "#393735",
+    "Notification.background": "#393735",
+    "Notification.errorBackground": "#321f1b",
+    "Notification.warningBackground": "#362f23",
+    "ValidationTooltip.errorBackground": "#da2700",
+    "ValidationTooltip.warningBackground": "#ffc656"
+  }
+}

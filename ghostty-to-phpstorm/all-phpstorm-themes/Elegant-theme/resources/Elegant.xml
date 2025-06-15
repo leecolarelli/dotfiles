@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Elegant" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#292B31"/>
+    <option name="FOREGROUND" value="#CFD2D6"/>
+    <option name="CARET_COLOR" value="#55BBF9"/>
+    <option name="SELECTION_BACKGROUND" value="#D5D5D5"/>
+    <option name="SELECTION_FOREGROUND" value="#224281"/>
+    <option name="LINE_NUMBERS_COLOR" value="#858689"/>
+    <option name="GUTTER_BACKGROUND" value="#292B31"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="BF94E5"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="95CA9A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="EA335B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="575656"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="CFD2D6"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="93AADD"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="F7CD94"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="8CCAEC"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

@@ -1,0 +1,50 @@
+{
+  "name": "Softserver",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/SoftServer.xml",
+  "colors": {
+    "primaryBackground": "#242626",
+    "primaryForeground": "#99a3a2",
+    "selectionBackground": "#7f8786",
+    "selectionForeground": "#effffe"
+  },
+  "ui": {
+    "*": {
+      "background": "#242626",
+      "foreground": "#99a3a2"
+    },
+    "Panel.background": "#3c3f3f",
+    "Menu.background": "#3c3f3f",
+    "MenuBar.background": "#242626",
+    "ToolWindow.background": "#3c3f3f",
+    "Editor.background": "#242626",
+    "EditorTabs.background": "#3c3f3f",
+    "Tree.background": "#242626",
+    "List.background": "#242626",
+    "Table.background": "#242626",
+    "TextField.background": "#242626",
+    "Button.background": "#3c3f3f",
+    "Button.foreground": "#99a3a2",
+    "Button.hoverBackground": "#484c4c",
+    "Button.pressedBackground": "#0b0c0c",
+    "Component.borderColor": "#545959",
+    "Component.focusedBorderColor": "#6b8fa3",
+    "Component.disabledForeground": "#393c3c",
+    "Link.activeForeground": "#6b8fa3",
+    "Link.hoverForeground": "#6b8fa3",
+    "Link.pressedForeground": "#6b8fa3",
+    "Label.disabledForeground": "#393c3c",
+    "Separator.foreground": "#545959",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#3c3f3f",
+    "ProgressBar.progressColor": "#6b8fa3",
+    "ScrollBar.thumbColor": "#6c7272",
+    "SearchEverywhere.background": "#3c3f3f",
+    "Notification.background": "#3c3f3f",
+    "Notification.errorBackground": "#302c2c",
+    "Notification.warningBackground": "#30302c",
+    "ValidationTooltip.errorBackground": "#a2686a",
+    "ValidationTooltip.warningBackground": "#a3906a"
+  }
+}

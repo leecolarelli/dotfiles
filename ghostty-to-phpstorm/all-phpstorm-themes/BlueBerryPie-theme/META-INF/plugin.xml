@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.blueberrypie</id>
+  <name>Blueberrypie Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: BlueBerryPie
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="e26b1732-9883-49ab-9d10-e865f70b30a1" path="/BlueBerryPie.theme.json"/>
+  </extensions>
+</idea-plugin>

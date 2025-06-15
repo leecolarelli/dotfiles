@@ -1,0 +1,50 @@
+{
+  "name": "Fideloper",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Fideloper.xml",
+  "colors": {
+    "primaryBackground": "#292f33",
+    "primaryForeground": "#dbdae0",
+    "selectionBackground": "#efb8ac",
+    "selectionForeground": "#ffffff"
+  },
+  "ui": {
+    "*": {
+      "background": "#292f33",
+      "foreground": "#dbdae0"
+    },
+    "Panel.background": "#3d464c",
+    "Menu.background": "#3d464c",
+    "MenuBar.background": "#292f33",
+    "ToolWindow.background": "#3d464c",
+    "Editor.background": "#292f33",
+    "EditorTabs.background": "#3d464c",
+    "Tree.background": "#292f33",
+    "List.background": "#292f33",
+    "Table.background": "#292f33",
+    "TextField.background": "#292f33",
+    "Button.background": "#3d464c",
+    "Button.foreground": "#dbdae0",
+    "Button.hoverBackground": "#475259",
+    "Button.pressedBackground": "#141719",
+    "Component.borderColor": "#525e66",
+    "Component.focusedBorderColor": "#2e78c2",
+    "Component.disabledForeground": "#777679",
+    "Link.activeForeground": "#2e78c2",
+    "Link.hoverForeground": "#2e78c2",
+    "Link.pressedForeground": "#2e78c2",
+    "Label.disabledForeground": "#777679",
+    "Separator.foreground": "#525e66",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#3d464c",
+    "ProgressBar.progressColor": "#2e78c2",
+    "ScrollBar.thumbColor": "#66757f",
+    "SearchEverywhere.background": "#3d464c",
+    "Notification.background": "#3d464c",
+    "Notification.errorBackground": "#392d32",
+    "Notification.warningBackground": "#373b3d",
+    "ValidationTooltip.errorBackground": "#cb1e2d",
+    "ValidationTooltip.warningBackground": "#b7ab9b"
+  }
+}

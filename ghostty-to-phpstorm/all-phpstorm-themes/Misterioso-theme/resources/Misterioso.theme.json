@@ -1,0 +1,50 @@
+{
+  "name": "Misterioso",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Misterioso.xml",
+  "colors": {
+    "primaryBackground": "#2d3743",
+    "primaryForeground": "#e1e1e0",
+    "selectionBackground": "#2d37ff",
+    "selectionForeground": "#000000"
+  },
+  "ui": {
+    "*": {
+      "background": "#2d3743",
+      "foreground": "#e1e1e0"
+    },
+    "Panel.background": "#3e4b5c",
+    "Menu.background": "#3e4b5c",
+    "MenuBar.background": "#2d3743",
+    "ToolWindow.background": "#3e4b5c",
+    "Editor.background": "#2d3743",
+    "EditorTabs.background": "#3e4b5c",
+    "Tree.background": "#2d3743",
+    "List.background": "#2d3743",
+    "Table.background": "#2d3743",
+    "TextField.background": "#2d3743",
+    "Button.background": "#3e4b5c",
+    "Button.foreground": "#e1e1e0",
+    "Button.hoverBackground": "#465669",
+    "Button.pressedBackground": "#1b2229",
+    "Component.borderColor": "#4f6076",
+    "Component.focusedBorderColor": "#338f86",
+    "Component.disabledForeground": "#7a7a7a",
+    "Link.activeForeground": "#338f86",
+    "Link.hoverForeground": "#338f86",
+    "Link.pressedForeground": "#338f86",
+    "Label.disabledForeground": "#7a7a7a",
+    "Separator.foreground": "#4f6076",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#3e4b5c",
+    "ProgressBar.progressColor": "#338f86",
+    "ScrollBar.thumbColor": "#60758f",
+    "SearchEverywhere.background": "#3e4b5c",
+    "Notification.background": "#3e4b5c",
+    "Notification.errorBackground": "#423842",
+    "Notification.warningBackground": "#424240",
+    "ValidationTooltip.errorBackground": "#ff4242",
+    "ValidationTooltip.warningBackground": "#ffad29"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Firefoxdev",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/FirefoxDev.xml",
+  "colors": {
+    "primaryBackground": "#0e1011",
+    "primaryForeground": "#7c8fa4",
+    "selectionBackground": "#163c61",
+    "selectionForeground": "#f2f5f9"
+  },
+  "ui": {
+    "*": {
+      "background": "#0e1011",
+      "foreground": "#7c8fa4"
+    },
+    "Panel.background": "#23282a",
+    "Menu.background": "#23282a",
+    "MenuBar.background": "#0e1011",
+    "ToolWindow.background": "#23282a",
+    "Editor.background": "#0e1011",
+    "EditorTabs.background": "#23282a",
+    "Tree.background": "#0e1011",
+    "List.background": "#0e1011",
+    "Table.background": "#0e1011",
+    "TextField.background": "#0e1011",
+    "Button.background": "#23282a",
+    "Button.foreground": "#7c8fa4",
+    "Button.hoverBackground": "#2d3437",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#384044",
+    "Component.focusedBorderColor": "#359ddf",
+    "Component.disabledForeground": "#2e363e",
+    "Link.activeForeground": "#359ddf",
+    "Link.hoverForeground": "#359ddf",
+    "Link.pressedForeground": "#359ddf",
+    "Label.disabledForeground": "#2e363e",
+    "Separator.foreground": "#384044",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#23282a",
+    "ProgressBar.progressColor": "#359ddf",
+    "ScrollBar.thumbColor": "#4d585d",
+    "SearchEverywhere.background": "#23282a",
+    "Notification.background": "#23282a",
+    "Notification.errorBackground": "#231417",
+    "Notification.warningBackground": "#1d1a0f",
+    "ValidationTooltip.errorBackground": "#e63853",
+    "ValidationTooltip.warningBackground": "#a57706"
+  }
+}

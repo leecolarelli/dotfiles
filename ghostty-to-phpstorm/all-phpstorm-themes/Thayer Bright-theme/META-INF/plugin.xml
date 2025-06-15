@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.thayer_bright</id>
+  <name>Thayer Bright Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Thayer Bright
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="9cfece95-58db-4d0d-a67a-07554a809276" path="/Thayer Bright.theme.json"/>
+  </extensions>
+</idea-plugin>

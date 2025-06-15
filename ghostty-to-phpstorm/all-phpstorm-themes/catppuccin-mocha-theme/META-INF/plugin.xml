@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.catppuccin-mocha</id>
+  <name>Catppuccin-Mocha Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: catppuccin-mocha
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="fc910c7e-738d-462d-8b45-9a86ce80572a" path="/catppuccin-mocha.theme.json"/>
+  </extensions>
+</idea-plugin>

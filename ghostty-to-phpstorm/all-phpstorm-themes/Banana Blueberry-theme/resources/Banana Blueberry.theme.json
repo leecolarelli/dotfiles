@@ -1,0 +1,50 @@
+{
+  "name": "Banana Blueberry",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Banana Blueberry.xml",
+  "colors": {
+    "primaryBackground": "#191323",
+    "primaryForeground": "#cccccc",
+    "selectionBackground": "#220525",
+    "selectionForeground": "#f4f4f4"
+  },
+  "ui": {
+    "*": {
+      "background": "#191323",
+      "foreground": "#cccccc"
+    },
+    "Panel.background": "#2b203c",
+    "Menu.background": "#2b203c",
+    "MenuBar.background": "#191323",
+    "ToolWindow.background": "#2b203c",
+    "Editor.background": "#191323",
+    "EditorTabs.background": "#2b203c",
+    "Tree.background": "#191323",
+    "List.background": "#191323",
+    "Table.background": "#191323",
+    "TextField.background": "#191323",
+    "Button.background": "#2b203c",
+    "Button.foreground": "#cccccc",
+    "Button.hoverBackground": "#342749",
+    "Button.pressedBackground": "#060509",
+    "Component.borderColor": "#3d2e56",
+    "Component.focusedBorderColor": "#22e8df",
+    "Component.disabledForeground": "#666666",
+    "Link.activeForeground": "#22e8df",
+    "Link.hoverForeground": "#22e8df",
+    "Link.pressedForeground": "#22e8df",
+    "Label.disabledForeground": "#666666",
+    "Separator.foreground": "#3d2e56",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#2b203c",
+    "ProgressBar.progressColor": "#22e8df",
+    "ScrollBar.thumbColor": "#4f3c6f",
+    "SearchEverywhere.background": "#2b203c",
+    "Notification.background": "#2b203c",
+    "Notification.errorBackground": "#301b2c",
+    "Notification.warningBackground": "#2d2424",
+    "ValidationTooltip.errorBackground": "#ff6b7f",
+    "ValidationTooltip.warningBackground": "#e6c62f"
+  }
+}

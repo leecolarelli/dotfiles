@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.electron-highlighter</id>
+  <name>Electron-Highlighter Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: electron-highlighter
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="2782d63b-a580-44b4-bb2e-3ed32d036eef" path="/electron-highlighter.theme.json"/>
+  </extensions>
+</idea-plugin>

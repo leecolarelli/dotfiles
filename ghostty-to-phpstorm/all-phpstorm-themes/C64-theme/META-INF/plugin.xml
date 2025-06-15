@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.c64</id>
+  <name>C64 Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: C64
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="aa8e2ebe-dd85-4861-b4e6-037251b96a51" path="/C64.theme.json"/>
+  </extensions>
+</idea-plugin>

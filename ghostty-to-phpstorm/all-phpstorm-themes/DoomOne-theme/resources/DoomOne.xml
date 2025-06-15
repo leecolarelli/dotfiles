@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="DoomOne" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#282C34"/>
+    <option name="FOREGROUND" value="#BBC2CF"/>
+    <option name="CARET_COLOR" value="#51AFEF"/>
+    <option name="SELECTION_BACKGROUND" value="#42444B"/>
+    <option name="SELECTION_FOREGROUND" value="#BBC2CF"/>
+    <option name="LINE_NUMBERS_COLOR" value="#757A82"/>
+    <option name="GUTTER_BACKGROUND" value="#282C34"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="C678DD"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="98BE65"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="FF6C6B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="000000"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="BBC2CF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="A9A1E1"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="ECBE7B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="51AFEF"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

@@ -1,0 +1,50 @@
+{
+  "name": "Raycast Light",
+  "dark": false,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Raycast_Light.xml",
+  "colors": {
+    "primaryBackground": "#ffffff",
+    "primaryForeground": "#000000",
+    "selectionBackground": "#e5e5e5",
+    "selectionForeground": "#000000"
+  },
+  "ui": {
+    "*": {
+      "background": "#ffffff",
+      "foreground": "#000000"
+    },
+    "Panel.background": "#f2f2f2",
+    "Menu.background": "#f2f2f2",
+    "MenuBar.background": "#ffffff",
+    "ToolWindow.background": "#f2f2f2",
+    "Editor.background": "#ffffff",
+    "EditorTabs.background": "#f2f2f2",
+    "Tree.background": "#ffffff",
+    "List.background": "#ffffff",
+    "Table.background": "#ffffff",
+    "TextField.background": "#ffffff",
+    "Button.background": "#f2f2f2",
+    "Button.foreground": "#000000",
+    "Button.hoverBackground": "#e5e5e5",
+    "Button.pressedBackground": "#cccccc",
+    "Component.borderColor": "#d8d8d8",
+    "Component.focusedBorderColor": "#138af2",
+    "Component.disabledForeground": "#666666",
+    "Link.activeForeground": "#138af2",
+    "Link.hoverForeground": "#138af2",
+    "Link.pressedForeground": "#138af2",
+    "Label.disabledForeground": "#666666",
+    "Separator.foreground": "#d8d8d8",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#f2f2f2",
+    "ProgressBar.progressColor": "#138af2",
+    "ScrollBar.thumbColor": "#b2b2b2",
+    "SearchEverywhere.background": "#f2f2f2",
+    "Notification.background": "#f2f2f2",
+    "Notification.errorBackground": "#f7e9e9",
+    "Notification.warningBackground": "#fef5e5",
+    "ValidationTooltip.errorBackground": "#b12424",
+    "ValidationTooltip.warningBackground": "#f8a300"
+  }
+}

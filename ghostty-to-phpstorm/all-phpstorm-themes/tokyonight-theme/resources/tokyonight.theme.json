@@ -1,0 +1,50 @@
+{
+  "name": "Tokyonight",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/tokyonight.xml",
+  "colors": {
+    "primaryBackground": "#1a1b26",
+    "primaryForeground": "#c0caf5",
+    "selectionBackground": "#33467c",
+    "selectionForeground": "#c0caf5"
+  },
+  "ui": {
+    "*": {
+      "background": "#1a1b26",
+      "foreground": "#c0caf5"
+    },
+    "Panel.background": "#2b2d3f",
+    "Menu.background": "#2b2d3f",
+    "MenuBar.background": "#1a1b26",
+    "ToolWindow.background": "#2b2d3f",
+    "Editor.background": "#1a1b26",
+    "EditorTabs.background": "#2b2d3f",
+    "Tree.background": "#1a1b26",
+    "List.background": "#1a1b26",
+    "Table.background": "#1a1b26",
+    "TextField.background": "#1a1b26",
+    "Button.background": "#2b2d3f",
+    "Button.foreground": "#c0caf5",
+    "Button.hoverBackground": "#34364c",
+    "Button.pressedBackground": "#08080c",
+    "Component.borderColor": "#3c3f59",
+    "Component.focusedBorderColor": "#7aa2f7",
+    "Component.disabledForeground": "#70758f",
+    "Link.activeForeground": "#7aa2f7",
+    "Link.hoverForeground": "#7aa2f7",
+    "Link.pressedForeground": "#7aa2f7",
+    "Label.disabledForeground": "#70758f",
+    "Separator.foreground": "#3c3f59",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#2b2d3f",
+    "ProgressBar.progressColor": "#7aa2f7",
+    "ScrollBar.thumbColor": "#4e5172",
+    "SearchEverywhere.background": "#2b2d3f",
+    "Notification.background": "#2b2d3f",
+    "Notification.errorBackground": "#302430",
+    "Notification.warningBackground": "#2d292c",
+    "ValidationTooltip.errorBackground": "#f7768e",
+    "ValidationTooltip.warningBackground": "#e0af68"
+  }
+}

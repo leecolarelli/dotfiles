@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.djangosmooth</id>
+  <name>Djangosmooth Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: DjangoSmooth
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="fc2c84a4-05e0-418f-b3d9-3de15560a47a" path="/DjangoSmooth.theme.json"/>
+  </extensions>
+</idea-plugin>

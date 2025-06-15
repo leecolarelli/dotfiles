@@ -1,0 +1,50 @@
+{
+  "name": "Adwaita Dark",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Adwaita Dark.xml",
+  "colors": {
+    "primaryBackground": "#1e1e1e",
+    "primaryForeground": "#ffffff",
+    "selectionBackground": "#ffffff",
+    "selectionForeground": "#5e5c64"
+  },
+  "ui": {
+    "*": {
+      "background": "#1e1e1e",
+      "foreground": "#ffffff"
+    },
+    "Panel.background": "#373737",
+    "Menu.background": "#373737",
+    "MenuBar.background": "#1e1e1e",
+    "ToolWindow.background": "#373737",
+    "Editor.background": "#1e1e1e",
+    "EditorTabs.background": "#373737",
+    "Tree.background": "#1e1e1e",
+    "List.background": "#1e1e1e",
+    "Table.background": "#1e1e1e",
+    "TextField.background": "#1e1e1e",
+    "Button.background": "#373737",
+    "Button.foreground": "#ffffff",
+    "Button.hoverBackground": "#444444",
+    "Button.pressedBackground": "#040404",
+    "Component.borderColor": "#515151",
+    "Component.focusedBorderColor": "#1e78e4",
+    "Component.disabledForeground": "#999999",
+    "Link.activeForeground": "#1e78e4",
+    "Link.hoverForeground": "#1e78e4",
+    "Link.pressedForeground": "#1e78e4",
+    "Label.disabledForeground": "#999999",
+    "Separator.foreground": "#515151",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#373737",
+    "ProgressBar.progressColor": "#1e78e4",
+    "ScrollBar.thumbColor": "#6a6a6a",
+    "SearchEverywhere.background": "#373737",
+    "Notification.background": "#373737",
+    "Notification.errorBackground": "#2e1d1f",
+    "Notification.warningBackground": "#332e1c",
+    "ValidationTooltip.errorBackground": "#c01c28",
+    "ValidationTooltip.warningBackground": "#f5c211"
+  }
+}

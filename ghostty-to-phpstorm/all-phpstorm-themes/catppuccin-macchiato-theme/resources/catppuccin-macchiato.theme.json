@@ -1,0 +1,50 @@
+{
+  "name": "Catppuccin-Macchiato",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/catppuccin-macchiato.xml",
+  "colors": {
+    "primaryBackground": "#24273a",
+    "primaryForeground": "#cad3f5",
+    "selectionBackground": "#5b6078",
+    "selectionForeground": "#cad3f5"
+  },
+  "ui": {
+    "*": {
+      "background": "#24273a",
+      "foreground": "#cad3f5"
+    },
+    "Panel.background": "#333853",
+    "Menu.background": "#333853",
+    "MenuBar.background": "#24273a",
+    "ToolWindow.background": "#333853",
+    "Editor.background": "#24273a",
+    "EditorTabs.background": "#333853",
+    "Tree.background": "#24273a",
+    "List.background": "#24273a",
+    "Table.background": "#24273a",
+    "TextField.background": "#24273a",
+    "Button.background": "#333853",
+    "Button.foreground": "#cad3f5",
+    "Button.hoverBackground": "#3b4060",
+    "Button.pressedBackground": "#141520",
+    "Component.borderColor": "#43496d",
+    "Component.focusedBorderColor": "#8aadf4",
+    "Component.disabledForeground": "#757b8f",
+    "Link.activeForeground": "#8aadf4",
+    "Link.hoverForeground": "#8aadf4",
+    "Link.pressedForeground": "#8aadf4",
+    "Label.disabledForeground": "#757b8f",
+    "Separator.foreground": "#43496d",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#333853",
+    "ProgressBar.progressColor": "#8aadf4",
+    "ScrollBar.thumbColor": "#535a86",
+    "SearchEverywhere.background": "#333853",
+    "Notification.background": "#333853",
+    "Notification.errorBackground": "#383043",
+    "Notification.warningBackground": "#383844",
+    "ValidationTooltip.errorBackground": "#ed8796",
+    "ValidationTooltip.warningBackground": "#eed49f"
+  }
+}

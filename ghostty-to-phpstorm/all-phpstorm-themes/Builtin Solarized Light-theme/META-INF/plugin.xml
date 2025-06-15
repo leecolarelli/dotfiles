@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.builtin_solarized_light</id>
+  <name>Builtin Solarized Light Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Builtin Solarized Light
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="0b6894c8-25a5-4ba0-ba98-7083c428601b" path="/Builtin Solarized Light.theme.json"/>
+  </extensions>
+</idea-plugin>

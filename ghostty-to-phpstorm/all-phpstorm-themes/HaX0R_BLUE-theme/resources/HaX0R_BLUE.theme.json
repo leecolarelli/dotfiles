@@ -1,0 +1,50 @@
+{
+  "name": "Hax0R Blue",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/HaX0R_BLUE.xml",
+  "colors": {
+    "primaryBackground": "#010515",
+    "primaryForeground": "#11b7ff",
+    "selectionBackground": "#c1e4ff",
+    "selectionForeground": "#f6f6f6"
+  },
+  "ui": {
+    "*": {
+      "background": "#010515",
+      "foreground": "#11b7ff"
+    },
+    "Panel.background": "#020b2e",
+    "Menu.background": "#020b2e",
+    "MenuBar.background": "#010515",
+    "ToolWindow.background": "#020b2e",
+    "Editor.background": "#010515",
+    "EditorTabs.background": "#020b2e",
+    "Tree.background": "#010515",
+    "List.background": "#010515",
+    "Table.background": "#010515",
+    "TextField.background": "#010515",
+    "Button.background": "#020b2e",
+    "Button.foreground": "#11b7ff",
+    "Button.hoverBackground": "#020e3b",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#031148",
+    "Component.focusedBorderColor": "#10b6ff",
+    "Component.disabledForeground": "#0a6d99",
+    "Link.activeForeground": "#10b6ff",
+    "Link.hoverForeground": "#10b6ff",
+    "Link.pressedForeground": "#10b6ff",
+    "Label.disabledForeground": "#0a6d99",
+    "Separator.foreground": "#031148",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#020b2e",
+    "ProgressBar.progressColor": "#10b6ff",
+    "ScrollBar.thumbColor": "#041761",
+    "SearchEverywhere.background": "#020b2e",
+    "Notification.background": "#020b2e",
+    "Notification.errorBackground": "#02162c",
+    "Notification.warningBackground": "#02162c",
+    "ValidationTooltip.errorBackground": "#10b6ff",
+    "ValidationTooltip.warningBackground": "#10b6ff"
+  }
+}

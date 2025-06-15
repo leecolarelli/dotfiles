@@ -1,0 +1,50 @@
+{
+  "name": "Wilmersdorf",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/wilmersdorf.xml",
+  "colors": {
+    "primaryBackground": "#282b33",
+    "primaryForeground": "#c6c6c6",
+    "selectionBackground": "#1f2024",
+    "selectionForeground": "#c6c6c6"
+  },
+  "ui": {
+    "*": {
+      "background": "#282b33",
+      "foreground": "#c6c6c6"
+    },
+    "Panel.background": "#3c404c",
+    "Menu.background": "#3c404c",
+    "MenuBar.background": "#282b33",
+    "ToolWindow.background": "#3c404c",
+    "Editor.background": "#282b33",
+    "EditorTabs.background": "#3c404c",
+    "Tree.background": "#282b33",
+    "List.background": "#282b33",
+    "Table.background": "#282b33",
+    "TextField.background": "#282b33",
+    "Button.background": "#3c404c",
+    "Button.foreground": "#c6c6c6",
+    "Button.hoverBackground": "#454b59",
+    "Button.pressedBackground": "#141519",
+    "Component.borderColor": "#505666",
+    "Component.focusedBorderColor": "#a6c1e0",
+    "Component.disabledForeground": "#606060",
+    "Link.activeForeground": "#a6c1e0",
+    "Link.hoverForeground": "#a6c1e0",
+    "Link.pressedForeground": "#a6c1e0",
+    "Label.disabledForeground": "#606060",
+    "Separator.foreground": "#505666",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#3c404c",
+    "ProgressBar.progressColor": "#a6c1e0",
+    "ScrollBar.thumbColor": "#636b7f",
+    "SearchEverywhere.background": "#3c404c",
+    "Notification.background": "#3c404c",
+    "Notification.errorBackground": "#3a303b",
+    "Notification.warningBackground": "#383b42",
+    "ValidationTooltip.errorBackground": "#e06383",
+    "ValidationTooltip.warningBackground": "#cccccc"
+  }
+}

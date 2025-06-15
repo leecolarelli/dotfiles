@@ -1,0 +1,50 @@
+{
+  "name": "Sublette",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Sublette.xml",
+  "colors": {
+    "primaryBackground": "#202535",
+    "primaryForeground": "#ccced0",
+    "selectionBackground": "#ccced0",
+    "selectionForeground": "#202535"
+  },
+  "ui": {
+    "*": {
+      "background": "#202535",
+      "foreground": "#ccced0"
+    },
+    "Panel.background": "#2f364e",
+    "Menu.background": "#2f364e",
+    "MenuBar.background": "#202535",
+    "ToolWindow.background": "#2f364e",
+    "Editor.background": "#202535",
+    "EditorTabs.background": "#2f364e",
+    "Tree.background": "#202535",
+    "List.background": "#202535",
+    "Table.background": "#202535",
+    "TextField.background": "#202535",
+    "Button.background": "#2f364e",
+    "Button.foreground": "#ccced0",
+    "Button.hoverBackground": "#373f5b",
+    "Button.pressedBackground": "#10131b",
+    "Component.borderColor": "#3e4868",
+    "Component.focusedBorderColor": "#5588ff",
+    "Component.disabledForeground": "#676869",
+    "Link.activeForeground": "#5588ff",
+    "Link.hoverForeground": "#5588ff",
+    "Link.pressedForeground": "#5588ff",
+    "Label.disabledForeground": "#676869",
+    "Separator.foreground": "#3e4868",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#2f364e",
+    "ProgressBar.progressColor": "#5588ff",
+    "ScrollBar.thumbColor": "#4e5a81",
+    "SearchEverywhere.background": "#2f364e",
+    "Notification.background": "#2f364e",
+    "Notification.errorBackground": "#34293b",
+    "Notification.warningBackground": "#36373d",
+    "ValidationTooltip.errorBackground": "#ee5577",
+    "ValidationTooltip.warningBackground": "#ffdd88"
+  }
+}

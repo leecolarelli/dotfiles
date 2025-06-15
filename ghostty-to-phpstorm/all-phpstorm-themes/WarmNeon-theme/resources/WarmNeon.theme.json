@@ -1,0 +1,50 @@
+{
+  "name": "Warmneon",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/WarmNeon.xml",
+  "colors": {
+    "primaryBackground": "#404040",
+    "primaryForeground": "#afdab6",
+    "selectionBackground": "#b0ad21",
+    "selectionForeground": "#ffffff"
+  },
+  "ui": {
+    "*": {
+      "background": "#404040",
+      "foreground": "#afdab6"
+    },
+    "Panel.background": "#595959",
+    "Menu.background": "#595959",
+    "MenuBar.background": "#404040",
+    "ToolWindow.background": "#595959",
+    "Editor.background": "#404040",
+    "EditorTabs.background": "#595959",
+    "Tree.background": "#404040",
+    "List.background": "#404040",
+    "Table.background": "#404040",
+    "TextField.background": "#404040",
+    "Button.background": "#595959",
+    "Button.foreground": "#afdab6",
+    "Button.hoverBackground": "#666666",
+    "Button.pressedBackground": "#262626",
+    "Component.borderColor": "#737373",
+    "Component.focusedBorderColor": "#4261c5",
+    "Component.disabledForeground": "#5d7360",
+    "Link.activeForeground": "#4261c5",
+    "Link.hoverForeground": "#4261c5",
+    "Link.pressedForeground": "#4261c5",
+    "Label.disabledForeground": "#5d7360",
+    "Separator.foreground": "#737373",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#595959",
+    "ProgressBar.progressColor": "#4261c5",
+    "ScrollBar.thumbColor": "#8c8c8c",
+    "SearchEverywhere.background": "#595959",
+    "Notification.background": "#595959",
+    "Notification.errorBackground": "#504040",
+    "Notification.warningBackground": "#4f5040",
+    "ValidationTooltip.errorBackground": "#e24346",
+    "ValidationTooltip.warningBackground": "#dae145"
+  }
+}

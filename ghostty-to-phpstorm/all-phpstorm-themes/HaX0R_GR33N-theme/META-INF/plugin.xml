@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.hax0r_gr33n</id>
+  <name>Hax0R Gr33N Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: HaX0R_GR33N
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="0144bb60-734d-4a66-b5a6-1c124878496c" path="/HaX0R_GR33N.theme.json"/>
+  </extensions>
+</idea-plugin>

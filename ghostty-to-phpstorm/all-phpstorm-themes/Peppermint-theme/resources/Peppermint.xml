@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Peppermint" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#000000"/>
+    <option name="FOREGROUND" value="#C8C8C8"/>
+    <option name="CARET_COLOR" value="#BBBBBB"/>
+    <option name="SELECTION_BACKGROUND" value="#E6E6E6"/>
+    <option name="SELECTION_FOREGROUND" value="#000000"/>
+    <option name="LINE_NUMBERS_COLOR" value="#7B7B7B"/>
+    <option name="GUTTER_BACKGROUND" value="#000000"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="DA62DC"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="89D287"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="E74669"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="535353"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="C8C8C8"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="449FD0"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="DAB853"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="65AAAF"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

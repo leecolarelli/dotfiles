@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Highway" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#222225"/>
+    <option name="FOREGROUND" value="#EDEDED"/>
+    <option name="CARET_COLOR" value="#E0D9B9"/>
+    <option name="SELECTION_BACKGROUND" value="#384564"/>
+    <option name="SELECTION_FOREGROUND" value="#EDEDED"/>
+    <option name="LINE_NUMBERS_COLOR" value="#A0A0A0"/>
+    <option name="GUTTER_BACKGROUND" value="#222225"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="6B2775"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="138034"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="D00E18"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="5D504A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="EDEDED"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="006BB3"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="FFCB3E"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="384564"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

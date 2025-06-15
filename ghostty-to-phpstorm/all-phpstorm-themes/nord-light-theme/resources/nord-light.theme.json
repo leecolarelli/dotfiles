@@ -1,0 +1,50 @@
+{
+  "name": "Nord-Light",
+  "dark": false,
+  "author": "Ghostty Converter",
+  "editorScheme": "/nord-light.xml",
+  "colors": {
+    "primaryBackground": "#e5e9f0",
+    "primaryForeground": "#414858",
+    "selectionBackground": "#d8dee9",
+    "selectionForeground": "#4c556a"
+  },
+  "ui": {
+    "*": {
+      "background": "#e5e9f0",
+      "foreground": "#414858"
+    },
+    "Panel.background": "#d8dce3",
+    "Menu.background": "#d8dce3",
+    "MenuBar.background": "#e5e9f0",
+    "ToolWindow.background": "#d8dce3",
+    "Editor.background": "#e5e9f0",
+    "EditorTabs.background": "#d8dce3",
+    "Tree.background": "#e5e9f0",
+    "List.background": "#e5e9f0",
+    "Table.background": "#e5e9f0",
+    "TextField.background": "#e5e9f0",
+    "Button.background": "#d8dce3",
+    "Button.foreground": "#414858",
+    "Button.hoverBackground": "#ccd0d6",
+    "Button.pressedBackground": "#b4b7bd",
+    "Component.borderColor": "#c0c3c9",
+    "Component.focusedBorderColor": "#81a1c1",
+    "Component.disabledForeground": "#8c9bbe",
+    "Link.activeForeground": "#81a1c1",
+    "Link.hoverForeground": "#81a1c1",
+    "Link.pressedForeground": "#81a1c1",
+    "Label.disabledForeground": "#8c9bbe",
+    "Separator.foreground": "#c0c3c9",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#d8dce3",
+    "ProgressBar.progressColor": "#81a1c1",
+    "ScrollBar.thumbColor": "#9c9ea3",
+    "SearchEverywhere.background": "#d8dce3",
+    "Notification.background": "#d8dce3",
+    "Notification.errorBackground": "#e1dbe2",
+    "Notification.warningBackground": "#e5e6e5",
+    "ValidationTooltip.errorBackground": "#bf616a",
+    "ValidationTooltip.warningBackground": "#ebcb8b"
+  }
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Chalkboard" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#29262F"/>
+    <option name="FOREGROUND" value="#D9E6F2"/>
+    <option name="CARET_COLOR" value="#D9E6F2"/>
+    <option name="SELECTION_BACKGROUND" value="#073642"/>
+    <option name="SELECTION_FOREGROUND" value="#FFFFFF"/>
+    <option name="LINE_NUMBERS_COLOR" value="#949DA5"/>
+    <option name="GUTTER_BACKGROUND" value="#29262F"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="C372C2"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="72C373"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="C37372"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="323232"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="D9E6F2"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="7372C3"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="C2C372"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="72C2C3"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

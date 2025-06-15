@@ -1,0 +1,50 @@
+{
+  "name": "Solarized-Osaka-Night",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/solarized-osaka-night.xml",
+  "colors": {
+    "primaryBackground": "#1a1b25",
+    "primaryForeground": "#c2caf1",
+    "selectionBackground": "#2a3454",
+    "selectionForeground": "#c2caf1"
+  },
+  "ui": {
+    "*": {
+      "background": "#1a1b25",
+      "foreground": "#c2caf1"
+    },
+    "Panel.background": "#2b2d3e",
+    "Menu.background": "#2b2d3e",
+    "MenuBar.background": "#1a1b25",
+    "ToolWindow.background": "#2b2d3e",
+    "Editor.background": "#1a1b25",
+    "EditorTabs.background": "#2b2d3e",
+    "Tree.background": "#1a1b25",
+    "List.background": "#1a1b25",
+    "Table.background": "#1a1b25",
+    "TextField.background": "#1a1b25",
+    "Button.background": "#2b2d3e",
+    "Button.foreground": "#c2caf1",
+    "Button.hoverBackground": "#34364b",
+    "Button.pressedBackground": "#08080b",
+    "Component.borderColor": "#3d4058",
+    "Component.focusedBorderColor": "#82a1f1",
+    "Component.disabledForeground": "#6f748b",
+    "Link.activeForeground": "#82a1f1",
+    "Link.hoverForeground": "#82a1f1",
+    "Link.pressedForeground": "#82a1f1",
+    "Label.disabledForeground": "#6f748b",
+    "Separator.foreground": "#3d4058",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#2b2d3e",
+    "ProgressBar.progressColor": "#82a1f1",
+    "ScrollBar.thumbColor": "#4f5271",
+    "SearchEverywhere.background": "#2b2d3e",
+    "Notification.background": "#2b2d3e",
+    "Notification.errorBackground": "#2e242f",
+    "Notification.warningBackground": "#2d2a2c",
+    "ValidationTooltip.errorBackground": "#e77d8f",
+    "ValidationTooltip.warningBackground": "#d8b172"
+  }
+}

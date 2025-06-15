@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.github-light-high-contrast</id>
+  <name>Github-Light-High-Contrast Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: GitHub-Light-High-Contrast
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="40db3524-7d2d-4d87-8481-28bae294267c" path="/GitHub-Light-High-Contrast.theme.json"/>
+  </extensions>
+</idea-plugin>

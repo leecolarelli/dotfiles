@@ -1,0 +1,50 @@
+{
+  "name": "Niji",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/niji.xml",
+  "colors": {
+    "primaryBackground": "#141515",
+    "primaryForeground": "#ffffff",
+    "selectionBackground": "#515151",
+    "selectionForeground": "#ffc663"
+  },
+  "ui": {
+    "*": {
+      "background": "#141515",
+      "foreground": "#ffffff"
+    },
+    "Panel.background": "#2c2e2e",
+    "Menu.background": "#2c2e2e",
+    "MenuBar.background": "#141515",
+    "ToolWindow.background": "#2c2e2e",
+    "Editor.background": "#141515",
+    "EditorTabs.background": "#2c2e2e",
+    "Tree.background": "#141515",
+    "List.background": "#141515",
+    "Table.background": "#141515",
+    "TextField.background": "#141515",
+    "Button.background": "#2c2e2e",
+    "Button.foreground": "#ffffff",
+    "Button.hoverBackground": "#383b3b",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#444848",
+    "Component.focusedBorderColor": "#2ab9ff",
+    "Component.disabledForeground": "#999999",
+    "Link.activeForeground": "#2ab9ff",
+    "Link.hoverForeground": "#2ab9ff",
+    "Link.pressedForeground": "#2ab9ff",
+    "Label.disabledForeground": "#999999",
+    "Separator.foreground": "#444848",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#2c2e2e",
+    "ProgressBar.progressColor": "#2ab9ff",
+    "ScrollBar.thumbColor": "#5c6161",
+    "SearchEverywhere.background": "#2c2e2e",
+    "Notification.background": "#2c2e2e",
+    "Notification.errorBackground": "#271913",
+    "Notification.warningBackground": "#2b2b12",
+    "ValidationTooltip.errorBackground": "#d23e08",
+    "ValidationTooltip.warningBackground": "#fff700"
+  }
+}

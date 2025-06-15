@@ -1,0 +1,50 @@
+{
+  "name": "Thayer Bright",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Thayer Bright.xml",
+  "colors": {
+    "primaryBackground": "#1b1d1e",
+    "primaryForeground": "#f8f8f8",
+    "selectionBackground": "#4d4d4d",
+    "selectionForeground": "#ffffff"
+  },
+  "ui": {
+    "*": {
+      "background": "#1b1d1e",
+      "foreground": "#f8f8f8"
+    },
+    "Panel.background": "#313537",
+    "Menu.background": "#313537",
+    "MenuBar.background": "#1b1d1e",
+    "ToolWindow.background": "#313537",
+    "Editor.background": "#1b1d1e",
+    "EditorTabs.background": "#313537",
+    "Tree.background": "#1b1d1e",
+    "List.background": "#1b1d1e",
+    "Table.background": "#1b1d1e",
+    "TextField.background": "#1b1d1e",
+    "Button.background": "#313537",
+    "Button.foreground": "#f8f8f8",
+    "Button.hoverBackground": "#3d4144",
+    "Button.pressedBackground": "#040404",
+    "Component.borderColor": "#484e51",
+    "Component.focusedBorderColor": "#2757d6",
+    "Component.disabledForeground": "#929292",
+    "Link.activeForeground": "#2757d6",
+    "Link.hoverForeground": "#2757d6",
+    "Link.pressedForeground": "#2757d6",
+    "Label.disabledForeground": "#929292",
+    "Separator.foreground": "#484e51",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#313537",
+    "ProgressBar.progressColor": "#2757d6",
+    "ScrollBar.thumbColor": "#5f666a",
+    "SearchEverywhere.background": "#313537",
+    "Notification.background": "#313537",
+    "Notification.errorBackground": "#311d26",
+    "Notification.warningBackground": "#30331e",
+    "ValidationTooltip.errorBackground": "#f92672",
+    "ValidationTooltip.warningBackground": "#f4fd22"
+  }
+}

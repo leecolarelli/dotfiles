@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.retro</id>
+  <name>Retro Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Retro
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="f71989b0-b96e-493d-a2a4-2ac6f61d852a" path="/Retro.theme.json"/>
+  </extensions>
+</idea-plugin>

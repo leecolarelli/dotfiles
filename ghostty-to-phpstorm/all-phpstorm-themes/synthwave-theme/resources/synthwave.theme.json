@@ -1,0 +1,50 @@
+{
+  "name": "Synthwave",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/synthwave.xml",
+  "colors": {
+    "primaryBackground": "#000000",
+    "primaryForeground": "#dad9c7",
+    "selectionBackground": "#19cde6",
+    "selectionForeground": "#000000"
+  },
+  "ui": {
+    "*": {
+      "background": "#000000",
+      "foreground": "#dad9c7"
+    },
+    "Panel.background": "#191919",
+    "Menu.background": "#191919",
+    "MenuBar.background": "#000000",
+    "ToolWindow.background": "#191919",
+    "Editor.background": "#000000",
+    "EditorTabs.background": "#191919",
+    "Tree.background": "#000000",
+    "List.background": "#000000",
+    "Table.background": "#000000",
+    "TextField.background": "#000000",
+    "Button.background": "#191919",
+    "Button.foreground": "#dad9c7",
+    "Button.hoverBackground": "#262626",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#333333",
+    "Component.focusedBorderColor": "#2186ec",
+    "Component.disabledForeground": "#737369",
+    "Link.activeForeground": "#2186ec",
+    "Link.hoverForeground": "#2186ec",
+    "Link.pressedForeground": "#2186ec",
+    "Label.disabledForeground": "#737369",
+    "Separator.foreground": "#333333",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#191919",
+    "ProgressBar.progressColor": "#2186ec",
+    "ScrollBar.thumbColor": "#4c4c4c",
+    "SearchEverywhere.background": "#191919",
+    "Notification.background": "#191919",
+    "Notification.errorBackground": "#18020e",
+    "Notification.warningBackground": "#191805",
+    "ValidationTooltip.errorBackground": "#f6188f",
+    "ValidationTooltip.warningBackground": "#fdf834"
+  }
+}

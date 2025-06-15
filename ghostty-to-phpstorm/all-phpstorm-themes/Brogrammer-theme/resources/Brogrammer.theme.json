@@ -1,0 +1,50 @@
+{
+  "name": "Brogrammer",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Brogrammer.xml",
+  "colors": {
+    "primaryBackground": "#131313",
+    "primaryForeground": "#d6dbe5",
+    "selectionBackground": "#1f1f1f",
+    "selectionForeground": "#d6dbe5"
+  },
+  "ui": {
+    "*": {
+      "background": "#131313",
+      "foreground": "#d6dbe5"
+    },
+    "Panel.background": "#2c2c2c",
+    "Menu.background": "#2c2c2c",
+    "MenuBar.background": "#131313",
+    "ToolWindow.background": "#2c2c2c",
+    "Editor.background": "#131313",
+    "EditorTabs.background": "#2c2c2c",
+    "Tree.background": "#131313",
+    "List.background": "#131313",
+    "Table.background": "#131313",
+    "TextField.background": "#131313",
+    "Button.background": "#2c2c2c",
+    "Button.foreground": "#d6dbe5",
+    "Button.hoverBackground": "#393939",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#464646",
+    "Component.focusedBorderColor": "#2a84d2",
+    "Component.disabledForeground": "#76797f",
+    "Link.activeForeground": "#2a84d2",
+    "Link.hoverForeground": "#2a84d2",
+    "Link.pressedForeground": "#2a84d2",
+    "Label.disabledForeground": "#76797f",
+    "Separator.foreground": "#464646",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#2c2c2c",
+    "ProgressBar.progressColor": "#2a84d2",
+    "ScrollBar.thumbColor": "#5f5f5f",
+    "SearchEverywhere.background": "#2c2c2c",
+    "Notification.background": "#2c2c2c",
+    "Notification.errorBackground": "#291213",
+    "Notification.warningBackground": "#282312",
+    "ValidationTooltip.errorBackground": "#f81118",
+    "ValidationTooltip.warningBackground": "#ecba0f"
+  }
+}

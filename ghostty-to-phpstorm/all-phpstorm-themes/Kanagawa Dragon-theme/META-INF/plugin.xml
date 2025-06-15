@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.kanagawa_dragon</id>
+  <name>Kanagawa Dragon Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Kanagawa Dragon
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="1657b358-2fdc-4e50-a285-3241f733de19" path="/Kanagawa Dragon.theme.json"/>
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,50 @@
+{
+  "name": "Pnevma",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Pnevma.xml",
+  "colors": {
+    "primaryBackground": "#1c1c1c",
+    "primaryForeground": "#d0d0d0",
+    "selectionBackground": "#4d4d4d",
+    "selectionForeground": "#ffffff"
+  },
+  "ui": {
+    "*": {
+      "background": "#1c1c1c",
+      "foreground": "#d0d0d0"
+    },
+    "Panel.background": "#353535",
+    "Menu.background": "#353535",
+    "MenuBar.background": "#1c1c1c",
+    "ToolWindow.background": "#353535",
+    "Editor.background": "#1c1c1c",
+    "EditorTabs.background": "#353535",
+    "Tree.background": "#1c1c1c",
+    "List.background": "#1c1c1c",
+    "Table.background": "#1c1c1c",
+    "TextField.background": "#1c1c1c",
+    "Button.background": "#353535",
+    "Button.foreground": "#d0d0d0",
+    "Button.hoverBackground": "#424242",
+    "Button.pressedBackground": "#020202",
+    "Component.borderColor": "#4f4f4f",
+    "Component.focusedBorderColor": "#7fa5bd",
+    "Component.disabledForeground": "#696969",
+    "Link.activeForeground": "#7fa5bd",
+    "Link.hoverForeground": "#7fa5bd",
+    "Link.pressedForeground": "#7fa5bd",
+    "Label.disabledForeground": "#696969",
+    "Separator.foreground": "#4f4f4f",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#353535",
+    "ProgressBar.progressColor": "#7fa5bd",
+    "ScrollBar.thumbColor": "#686868",
+    "SearchEverywhere.background": "#353535",
+    "Notification.background": "#353535",
+    "Notification.errorBackground": "#292323",
+    "Notification.warningBackground": "#2e2a26",
+    "ValidationTooltip.errorBackground": "#a36666",
+    "ValidationTooltip.warningBackground": "#d7af87"
+  }
+}

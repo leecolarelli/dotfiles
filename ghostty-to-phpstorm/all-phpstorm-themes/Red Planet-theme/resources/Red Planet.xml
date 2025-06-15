@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Red Planet" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#222222"/>
+    <option name="FOREGROUND" value="#C2B790"/>
+    <option name="CARET_COLOR" value="#C2B790"/>
+    <option name="SELECTION_BACKGROUND" value="#1B324A"/>
+    <option name="SELECTION_FOREGROUND" value="#BCB291"/>
+    <option name="LINE_NUMBERS_COLOR" value="#756E57"/>
+    <option name="GUTTER_BACKGROUND" value="#222222"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="896492"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="728271"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="8C3432"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="676767"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="C2B790"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="69819E"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="E8BF6A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="5B8390"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

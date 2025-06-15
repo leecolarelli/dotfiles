@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.melange_dark</id>
+  <name>Melange Dark Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Melange_dark
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="14518123-e931-407b-9190-d1ccccf75284" path="/Melange_dark.theme.json"/>
+  </extensions>
+</idea-plugin>

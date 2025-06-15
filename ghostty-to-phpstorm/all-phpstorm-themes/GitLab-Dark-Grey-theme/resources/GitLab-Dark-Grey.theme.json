@@ -1,0 +1,50 @@
+{
+  "name": "Gitlab-Dark-Grey",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/GitLab-Dark-Grey.xml",
+  "colors": {
+    "primaryBackground": "#222222",
+    "primaryForeground": "#ffffff",
+    "selectionBackground": "#ad95e9",
+    "selectionForeground": "#222222"
+  },
+  "ui": {
+    "*": {
+      "background": "#222222",
+      "foreground": "#ffffff"
+    },
+    "Panel.background": "#3b3b3b",
+    "Menu.background": "#3b3b3b",
+    "MenuBar.background": "#222222",
+    "ToolWindow.background": "#3b3b3b",
+    "Editor.background": "#222222",
+    "EditorTabs.background": "#3b3b3b",
+    "Tree.background": "#222222",
+    "List.background": "#222222",
+    "Table.background": "#222222",
+    "TextField.background": "#222222",
+    "Button.background": "#3b3b3b",
+    "Button.foreground": "#ffffff",
+    "Button.hoverBackground": "#484848",
+    "Button.pressedBackground": "#080808",
+    "Component.borderColor": "#555555",
+    "Component.focusedBorderColor": "#7fb6ed",
+    "Component.disabledForeground": "#999999",
+    "Link.activeForeground": "#7fb6ed",
+    "Link.hoverForeground": "#7fb6ed",
+    "Link.pressedForeground": "#7fb6ed",
+    "Label.disabledForeground": "#999999",
+    "Separator.foreground": "#555555",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#3b3b3b",
+    "ProgressBar.progressColor": "#7fb6ed",
+    "ScrollBar.thumbColor": "#6e6e6e",
+    "SearchEverywhere.background": "#3b3b3b",
+    "Notification.background": "#3b3b3b",
+    "Notification.errorBackground": "#372b29",
+    "Notification.warningBackground": "#342d23",
+    "ValidationTooltip.errorBackground": "#f57f6c",
+    "ValidationTooltip.warningBackground": "#d99530"
+  }
+}

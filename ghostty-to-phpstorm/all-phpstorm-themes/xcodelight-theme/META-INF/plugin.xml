@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.xcodelight</id>
+  <name>Xcodelight Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: xcodelight
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="0fbd1701-136a-4712-a14c-80b36cf19fda" path="/xcodelight.theme.json"/>
+  </extensions>
+</idea-plugin>

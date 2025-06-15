@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.gitlab-dark-grey</id>
+  <name>Gitlab-Dark-Grey Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: GitLab-Dark-Grey
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="c4752649-8947-465b-a290-cbe854d62be5" path="/GitLab-Dark-Grey.theme.json"/>
+  </extensions>
+</idea-plugin>

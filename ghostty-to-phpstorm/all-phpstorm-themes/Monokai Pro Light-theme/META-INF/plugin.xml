@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.monokai_pro_light</id>
+  <name>Monokai Pro Light Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Monokai Pro Light
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="ccc624f1-8f3c-4bb0-b74f-40f74ccdca68" path="/Monokai Pro Light.theme.json"/>
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,50 @@
+{
+  "name": "Piatto Light",
+  "dark": false,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Piatto Light.xml",
+  "colors": {
+    "primaryBackground": "#ffffff",
+    "primaryForeground": "#414141",
+    "selectionBackground": "#706b4e",
+    "selectionForeground": "#acbcdc"
+  },
+  "ui": {
+    "*": {
+      "background": "#ffffff",
+      "foreground": "#414141"
+    },
+    "Panel.background": "#f2f2f2",
+    "Menu.background": "#f2f2f2",
+    "MenuBar.background": "#ffffff",
+    "ToolWindow.background": "#f2f2f2",
+    "Editor.background": "#ffffff",
+    "EditorTabs.background": "#f2f2f2",
+    "Tree.background": "#ffffff",
+    "List.background": "#ffffff",
+    "Table.background": "#ffffff",
+    "TextField.background": "#ffffff",
+    "Button.background": "#f2f2f2",
+    "Button.foreground": "#414141",
+    "Button.hoverBackground": "#e5e5e5",
+    "Button.pressedBackground": "#cccccc",
+    "Component.borderColor": "#d8d8d8",
+    "Component.focusedBorderColor": "#3c5ea8",
+    "Component.disabledForeground": "#a7a7a7",
+    "Link.activeForeground": "#3c5ea8",
+    "Link.hoverForeground": "#3c5ea8",
+    "Link.pressedForeground": "#3c5ea8",
+    "Label.disabledForeground": "#a7a7a7",
+    "Separator.foreground": "#d8d8d8",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#f2f2f2",
+    "ProgressBar.progressColor": "#3c5ea8",
+    "ScrollBar.thumbColor": "#b2b2b2",
+    "SearchEverywhere.background": "#f2f2f2",
+    "Notification.background": "#f2f2f2",
+    "Notification.errorBackground": "#f7ebf0",
+    "Notification.warningBackground": "#faf0ea",
+    "ValidationTooltip.errorBackground": "#b23771",
+    "ValidationTooltip.warningBackground": "#cd6f34"
+  }
+}

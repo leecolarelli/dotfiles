@@ -1,0 +1,50 @@
+{
+  "name": "Dayfox",
+  "dark": false,
+  "author": "Ghostty Converter",
+  "editorScheme": "/dayfox.xml",
+  "colors": {
+    "primaryBackground": "#f6f2ee",
+    "primaryForeground": "#3d2b5a",
+    "selectionBackground": "#e7d2be",
+    "selectionForeground": "#3d2b5a"
+  },
+  "ui": {
+    "*": {
+      "background": "#f6f2ee",
+      "foreground": "#3d2b5a"
+    },
+    "Panel.background": "#e9e5e1",
+    "Menu.background": "#e9e5e1",
+    "MenuBar.background": "#f6f2ee",
+    "ToolWindow.background": "#e9e5e1",
+    "Editor.background": "#f6f2ee",
+    "EditorTabs.background": "#e9e5e1",
+    "Tree.background": "#f6f2ee",
+    "List.background": "#f6f2ee",
+    "Table.background": "#f6f2ee",
+    "TextField.background": "#f6f2ee",
+    "Button.background": "#e9e5e1",
+    "Button.foreground": "#3d2b5a",
+    "Button.hoverBackground": "#dcd8d5",
+    "Button.pressedBackground": "#c3bfbc",
+    "Component.borderColor": "#cfccc8",
+    "Component.focusedBorderColor": "#2848a9",
+    "Component.disabledForeground": "#825bc0",
+    "Link.activeForeground": "#2848a9",
+    "Link.hoverForeground": "#2848a9",
+    "Link.pressedForeground": "#2848a9",
+    "Label.disabledForeground": "#825bc0",
+    "Separator.foreground": "#cfccc8",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#e9e5e1",
+    "ProgressBar.progressColor": "#2848a9",
+    "ScrollBar.thumbColor": "#a9a6a3",
+    "SearchEverywhere.background": "#e9e5e1",
+    "Notification.background": "#e9e5e1",
+    "Notification.errorBackground": "#edddda",
+    "Notification.warningBackground": "#eee2d6",
+    "ValidationTooltip.errorBackground": "#a5222f",
+    "ValidationTooltip.warningBackground": "#ac5402"
+  }
+}

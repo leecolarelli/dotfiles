@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.adwaita_dark</id>
+  <name>Adwaita Dark Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Adwaita Dark
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="29279823-f556-4d24-8e11-1f0057071f4d" path="/Adwaita Dark.theme.json"/>
+  </extensions>
+</idea-plugin>

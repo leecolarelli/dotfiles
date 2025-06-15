@@ -1,0 +1,50 @@
+{
+  "name": "Andromeda",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Andromeda.xml",
+  "colors": {
+    "primaryBackground": "#262a33",
+    "primaryForeground": "#e5e5e5",
+    "selectionBackground": "#5a5c62",
+    "selectionForeground": "#ece7e7"
+  },
+  "ui": {
+    "*": {
+      "background": "#262a33",
+      "foreground": "#e5e5e5"
+    },
+    "Panel.background": "#393f4c",
+    "Menu.background": "#393f4c",
+    "MenuBar.background": "#262a33",
+    "ToolWindow.background": "#393f4c",
+    "Editor.background": "#262a33",
+    "EditorTabs.background": "#393f4c",
+    "Tree.background": "#262a33",
+    "List.background": "#262a33",
+    "Table.background": "#262a33",
+    "TextField.background": "#262a33",
+    "Button.background": "#393f4c",
+    "Button.foreground": "#e5e5e5",
+    "Button.hoverBackground": "#424959",
+    "Button.pressedBackground": "#131519",
+    "Component.borderColor": "#4c5466",
+    "Component.focusedBorderColor": "#2472c8",
+    "Component.disabledForeground": "#7f7f7f",
+    "Link.activeForeground": "#2472c8",
+    "Link.hoverForeground": "#2472c8",
+    "Link.pressedForeground": "#2472c8",
+    "Label.disabledForeground": "#7f7f7f",
+    "Separator.foreground": "#4c5466",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#393f4c",
+    "ProgressBar.progressColor": "#2472c8",
+    "ScrollBar.thumbColor": "#5f697f",
+    "SearchEverywhere.background": "#393f4c",
+    "Notification.background": "#393f4c",
+    "Notification.errorBackground": "#362a32",
+    "Notification.warningBackground": "#393c2f",
+    "ValidationTooltip.errorBackground": "#cd3131",
+    "ValidationTooltip.warningBackground": "#e5e512"
+  }
+}

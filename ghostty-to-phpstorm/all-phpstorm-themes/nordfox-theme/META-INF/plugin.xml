@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.nordfox</id>
+  <name>Nordfox Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: nordfox
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="cae594a4-4081-4ec3-90fa-4f69279b0705" path="/nordfox.theme.json"/>
+  </extensions>
+</idea-plugin>

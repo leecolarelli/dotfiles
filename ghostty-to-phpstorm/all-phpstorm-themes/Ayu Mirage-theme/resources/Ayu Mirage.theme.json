@@ -1,0 +1,50 @@
+{
+  "name": "Ayu Mirage",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Ayu Mirage.xml",
+  "colors": {
+    "primaryBackground": "#1f2430",
+    "primaryForeground": "#cbccc6",
+    "selectionBackground": "#33415e",
+    "selectionForeground": "#cbccc6"
+  },
+  "ui": {
+    "*": {
+      "background": "#1f2430",
+      "foreground": "#cbccc6"
+    },
+    "Panel.background": "#2f3749",
+    "Menu.background": "#2f3749",
+    "MenuBar.background": "#1f2430",
+    "ToolWindow.background": "#2f3749",
+    "Editor.background": "#1f2430",
+    "EditorTabs.background": "#2f3749",
+    "Tree.background": "#1f2430",
+    "List.background": "#1f2430",
+    "Table.background": "#1f2430",
+    "TextField.background": "#1f2430",
+    "Button.background": "#2f3749",
+    "Button.foreground": "#cbccc6",
+    "Button.hoverBackground": "#374056",
+    "Button.pressedBackground": "#0e1016",
+    "Component.borderColor": "#3f4a63",
+    "Component.focusedBorderColor": "#6dcbfa",
+    "Component.disabledForeground": "#656663",
+    "Link.activeForeground": "#6dcbfa",
+    "Link.hoverForeground": "#6dcbfa",
+    "Link.pressedForeground": "#6dcbfa",
+    "Label.disabledForeground": "#656663",
+    "Separator.foreground": "#3f4a63",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#2f3749",
+    "ProgressBar.progressColor": "#6dcbfa",
+    "ScrollBar.thumbColor": "#505d7c",
+    "SearchEverywhere.background": "#2f3749",
+    "Notification.background": "#2f3749",
+    "Notification.errorBackground": "#332d36",
+    "Notification.warningBackground": "#343537",
+    "ValidationTooltip.errorBackground": "#ed8274",
+    "ValidationTooltip.warningBackground": "#fad07b"
+  }
+}

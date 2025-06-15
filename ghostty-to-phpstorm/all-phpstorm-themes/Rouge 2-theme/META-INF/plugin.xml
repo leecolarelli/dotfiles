@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.rouge_2</id>
+  <name>Rouge 2 Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Rouge 2
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="80a6e228-9d0e-4deb-a55e-92ef0a4596d8" path="/Rouge 2.theme.json"/>
+  </extensions>
+</idea-plugin>

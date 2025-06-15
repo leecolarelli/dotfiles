@@ -1,0 +1,50 @@
+{
+  "name": "Duotone Dark",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Duotone Dark.xml",
+  "colors": {
+    "primaryBackground": "#1f1d27",
+    "primaryForeground": "#b7a1ff",
+    "selectionBackground": "#353147",
+    "selectionForeground": "#b7a2ff"
+  },
+  "ui": {
+    "*": {
+      "background": "#1f1d27",
+      "foreground": "#b7a1ff"
+    },
+    "Panel.background": "#332f40",
+    "Menu.background": "#332f40",
+    "MenuBar.background": "#1f1d27",
+    "ToolWindow.background": "#332f40",
+    "Editor.background": "#1f1d27",
+    "EditorTabs.background": "#332f40",
+    "Tree.background": "#1f1d27",
+    "List.background": "#1f1d27",
+    "Table.background": "#1f1d27",
+    "TextField.background": "#1f1d27",
+    "Button.background": "#332f40",
+    "Button.foreground": "#b7a1ff",
+    "Button.hoverBackground": "#3d394d",
+    "Button.pressedBackground": "#0a0a0d",
+    "Component.borderColor": "#47425a",
+    "Component.focusedBorderColor": "#ffc284",
+    "Component.disabledForeground": "#6d6099",
+    "Link.activeForeground": "#ffc284",
+    "Link.hoverForeground": "#ffc284",
+    "Link.pressedForeground": "#ffc284",
+    "Label.disabledForeground": "#6d6099",
+    "Separator.foreground": "#47425a",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#332f40",
+    "ProgressBar.progressColor": "#ffc284",
+    "ScrollBar.thumbColor": "#5b5573",
+    "SearchEverywhere.background": "#332f40",
+    "Notification.background": "#332f40",
+    "Notification.errorBackground": "#311f29",
+    "Notification.warningBackground": "#312c2e",
+    "ValidationTooltip.errorBackground": "#d9393e",
+    "ValidationTooltip.warningBackground": "#d9b76e"
+  }
+}

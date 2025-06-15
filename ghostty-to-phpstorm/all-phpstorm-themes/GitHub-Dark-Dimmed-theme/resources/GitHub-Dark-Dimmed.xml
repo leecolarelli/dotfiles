@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="GitHub-Dark-Dimmed" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#22272E"/>
+    <option name="FOREGROUND" value="#ADBAC7"/>
+    <option name="CARET_COLOR" value="#539BF5"/>
+    <option name="SELECTION_BACKGROUND" value="#ADBAC7"/>
+    <option name="SELECTION_FOREGROUND" value="#22272E"/>
+    <option name="LINE_NUMBERS_COLOR" value="#6A727A"/>
+    <option name="GUTTER_BACKGROUND" value="#22272E"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="B083F0"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="57AB5A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="F47067"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="636E7B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="ADBAC7"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="539BF5"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="C69026"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="39C5CF"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

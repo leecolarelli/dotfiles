@@ -1,0 +1,50 @@
+{
+  "name": "Tinacious Design (Light)",
+  "dark": false,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Tinacious Design (Light).xml",
+  "colors": {
+    "primaryBackground": "#f8f8ff",
+    "primaryForeground": "#1d1d26",
+    "selectionBackground": "#ff3399",
+    "selectionForeground": "#ffffff"
+  },
+  "ui": {
+    "*": {
+      "background": "#f8f8ff",
+      "foreground": "#1d1d26"
+    },
+    "Panel.background": "#ebebf2",
+    "Menu.background": "#ebebf2",
+    "MenuBar.background": "#f8f8ff",
+    "ToolWindow.background": "#ebebf2",
+    "Editor.background": "#f8f8ff",
+    "EditorTabs.background": "#ebebf2",
+    "Tree.background": "#f8f8ff",
+    "List.background": "#f8f8ff",
+    "Table.background": "#f8f8ff",
+    "TextField.background": "#f8f8ff",
+    "Button.background": "#ebebf2",
+    "Button.foreground": "#1d1d26",
+    "Button.hoverBackground": "#dfdfe5",
+    "Button.pressedBackground": "#c6c6cc",
+    "Component.borderColor": "#d2d2d8",
+    "Component.focusedBorderColor": "#00cbff",
+    "Component.disabledForeground": "#6a6a8c",
+    "Link.activeForeground": "#00cbff",
+    "Link.hoverForeground": "#00cbff",
+    "Link.pressedForeground": "#00cbff",
+    "Label.disabledForeground": "#6a6a8c",
+    "Separator.foreground": "#d2d2d8",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#ebebf2",
+    "ProgressBar.progressColor": "#00cbff",
+    "ScrollBar.thumbColor": "#adadb2",
+    "SearchEverywhere.background": "#ebebf2",
+    "Notification.background": "#ebebf2",
+    "Notification.errorBackground": "#f8e4f4",
+    "Notification.warningBackground": "#f8f3ef",
+    "ValidationTooltip.errorBackground": "#ff3399",
+    "ValidationTooltip.warningBackground": "#ffcc66"
+  }
+}

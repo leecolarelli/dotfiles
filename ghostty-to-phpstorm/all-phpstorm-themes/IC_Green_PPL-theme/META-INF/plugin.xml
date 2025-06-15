@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.ic_green_ppl</id>
+  <name>Ic Green Ppl Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: IC_Green_PPL
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="8413b359-a157-45e4-b9a2-b6726a5c3890" path="/IC_Green_PPL.theme.json"/>
+  </extensions>
+</idea-plugin>

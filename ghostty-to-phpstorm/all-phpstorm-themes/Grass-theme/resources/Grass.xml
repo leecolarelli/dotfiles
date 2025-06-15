@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Grass" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#13773D"/>
+    <option name="FOREGROUND" value="#FFF0A5"/>
+    <option name="CARET_COLOR" value="#8C2800"/>
+    <option name="SELECTION_BACKGROUND" value="#B64926"/>
+    <option name="SELECTION_FOREGROUND" value="#FFFFFF"/>
+    <option name="LINE_NUMBERS_COLOR" value="#B2A873"/>
+    <option name="GUTTER_BACKGROUND" value="#13773D"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="950062"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="00BB00"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="BB0000"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="555555"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="FFF0A5"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="0000A3"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="E7B000"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="00BBBB"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

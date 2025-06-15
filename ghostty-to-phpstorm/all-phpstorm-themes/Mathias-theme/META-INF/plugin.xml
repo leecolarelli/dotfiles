@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.mathias</id>
+  <name>Mathias Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Mathias
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="215a96e5-577b-485f-9526-3ce08ea3c147" path="/Mathias.theme.json"/>
+  </extensions>
+</idea-plugin>

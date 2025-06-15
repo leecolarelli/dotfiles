@@ -1,0 +1,50 @@
+{
+  "name": "Smyck",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Smyck.xml",
+  "colors": {
+    "primaryBackground": "#1b1b1b",
+    "primaryForeground": "#f7f7f7",
+    "selectionBackground": "#207483",
+    "selectionForeground": "#f7f7f7"
+  },
+  "ui": {
+    "*": {
+      "background": "#1b1b1b",
+      "foreground": "#f7f7f7"
+    },
+    "Panel.background": "#343434",
+    "Menu.background": "#343434",
+    "MenuBar.background": "#1b1b1b",
+    "ToolWindow.background": "#343434",
+    "Editor.background": "#1b1b1b",
+    "EditorTabs.background": "#343434",
+    "Tree.background": "#1b1b1b",
+    "List.background": "#1b1b1b",
+    "Table.background": "#1b1b1b",
+    "TextField.background": "#1b1b1b",
+    "Button.background": "#343434",
+    "Button.foreground": "#f7f7f7",
+    "Button.hoverBackground": "#414141",
+    "Button.pressedBackground": "#010101",
+    "Component.borderColor": "#4e4e4e",
+    "Component.focusedBorderColor": "#62a3c4",
+    "Component.disabledForeground": "#919191",
+    "Link.activeForeground": "#62a3c4",
+    "Link.hoverForeground": "#62a3c4",
+    "Link.pressedForeground": "#62a3c4",
+    "Label.disabledForeground": "#919191",
+    "Separator.foreground": "#4e4e4e",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#343434",
+    "ProgressBar.progressColor": "#62a3c4",
+    "ScrollBar.thumbColor": "#676767",
+    "SearchEverywhere.background": "#343434",
+    "Notification.background": "#343434",
+    "Notification.errorBackground": "#2a1e1d",
+    "Notification.warningBackground": "#2b2818",
+    "ValidationTooltip.errorBackground": "#b84131",
+    "ValidationTooltip.warningBackground": "#c4a500"
+  }
+}

@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.molokai</id>
+  <name>Molokai Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Molokai
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="6cf01ae5-1885-4eab-99ba-d9c9f1aabf1f" path="/Molokai.theme.json"/>
+  </extensions>
+</idea-plugin>

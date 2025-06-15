@@ -1,0 +1,50 @@
+{
+  "name": "Neutron",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Neutron.xml",
+  "colors": {
+    "primaryBackground": "#1c1e22",
+    "primaryForeground": "#e6e8ef",
+    "selectionBackground": "#2f363e",
+    "selectionForeground": "#7d8fa4"
+  },
+  "ui": {
+    "*": {
+      "background": "#1c1e22",
+      "foreground": "#e6e8ef"
+    },
+    "Panel.background": "#30343b",
+    "Menu.background": "#30343b",
+    "MenuBar.background": "#1c1e22",
+    "ToolWindow.background": "#30343b",
+    "Editor.background": "#1c1e22",
+    "EditorTabs.background": "#30343b",
+    "Tree.background": "#1c1e22",
+    "List.background": "#1c1e22",
+    "Table.background": "#1c1e22",
+    "TextField.background": "#1c1e22",
+    "Button.background": "#30343b",
+    "Button.foreground": "#e6e8ef",
+    "Button.hoverBackground": "#3b3f48",
+    "Button.pressedBackground": "#060708",
+    "Component.borderColor": "#464b55",
+    "Component.focusedBorderColor": "#6a7c93",
+    "Component.disabledForeground": "#838489",
+    "Link.activeForeground": "#6a7c93",
+    "Link.hoverForeground": "#6a7c93",
+    "Link.pressedForeground": "#6a7c93",
+    "Label.disabledForeground": "#838489",
+    "Separator.foreground": "#464b55",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#30343b",
+    "ProgressBar.progressColor": "#6a7c93",
+    "ScrollBar.thumbColor": "#5b616e",
+    "SearchEverywhere.background": "#30343b",
+    "Notification.background": "#30343b",
+    "Notification.errorBackground": "#2b2124",
+    "Notification.warningBackground": "#2f2d28",
+    "ValidationTooltip.errorBackground": "#b54036",
+    "ValidationTooltip.warningBackground": "#deb566"
+  }
+}

@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.builtin_pastel_dark</id>
+  <name>Builtin Pastel Dark Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Builtin Pastel Dark
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="63c353c4-a1ef-406d-91a6-739e8301eb26" path="/Builtin Pastel Dark.theme.json"/>
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.iterm2_solarized_dark</id>
+  <name>Iterm2 Solarized Dark Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: iTerm2 Solarized Dark
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="616d031d-1f95-4bcd-ab68-82afe1f54180" path="/iTerm2 Solarized Dark.theme.json"/>
+  </extensions>
+</idea-plugin>

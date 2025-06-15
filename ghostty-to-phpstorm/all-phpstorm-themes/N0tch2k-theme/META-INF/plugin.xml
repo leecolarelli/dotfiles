@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.n0tch2k</id>
+  <name>N0Tch2K Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: N0tch2k
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="121e93ed-43d3-4b51-9380-94956d89272e" path="/N0tch2k.theme.json"/>
+  </extensions>
+</idea-plugin>

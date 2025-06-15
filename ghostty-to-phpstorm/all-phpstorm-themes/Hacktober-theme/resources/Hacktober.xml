@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Hacktober" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#141414"/>
+    <option name="FOREGROUND" value="#C9C9C9"/>
+    <option name="CARET_COLOR" value="#C9C9C9"/>
+    <option name="SELECTION_BACKGROUND" value="#141414"/>
+    <option name="SELECTION_FOREGROUND" value="#C9C9C9"/>
+    <option name="LINE_NUMBERS_COLOR" value="#7C7C7C"/>
+    <option name="GUTTER_BACKGROUND" value="#141414"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="864651"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="587744"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="B34538"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="2C2B2A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="C9C9C9"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="206EC5"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="D08949"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="AC9166"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

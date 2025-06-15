@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.afterglow</id>
+  <name>Afterglow Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Afterglow
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="2e6bd742-bf29-4610-8d4c-1099b6eeb335" path="/Afterglow.theme.json"/>
+  </extensions>
+</idea-plugin>

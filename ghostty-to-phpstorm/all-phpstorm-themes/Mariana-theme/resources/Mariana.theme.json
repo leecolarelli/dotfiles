@@ -1,0 +1,50 @@
+{
+  "name": "Mariana",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Mariana.xml",
+  "colors": {
+    "primaryBackground": "#343d46",
+    "primaryForeground": "#d8dee9",
+    "selectionBackground": "#4e5a65",
+    "selectionForeground": "#d8dee9"
+  },
+  "ui": {
+    "*": {
+      "background": "#343d46",
+      "foreground": "#d8dee9"
+    },
+    "Panel.background": "#46535f",
+    "Menu.background": "#46535f",
+    "MenuBar.background": "#343d46",
+    "ToolWindow.background": "#46535f",
+    "Editor.background": "#343d46",
+    "EditorTabs.background": "#46535f",
+    "Tree.background": "#343d46",
+    "List.background": "#343d46",
+    "Table.background": "#343d46",
+    "TextField.background": "#343d46",
+    "Button.background": "#46535f",
+    "Button.foreground": "#d8dee9",
+    "Button.hoverBackground": "#505e6c",
+    "Button.pressedBackground": "#21262c",
+    "Component.borderColor": "#596979",
+    "Component.focusedBorderColor": "#6699cc",
+    "Component.disabledForeground": "#797c83",
+    "Link.activeForeground": "#6699cc",
+    "Link.hoverForeground": "#6699cc",
+    "Link.pressedForeground": "#6699cc",
+    "Label.disabledForeground": "#797c83",
+    "Separator.foreground": "#596979",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#46535f",
+    "ProgressBar.progressColor": "#6699cc",
+    "ScrollBar.thumbColor": "#6c7f92",
+    "SearchEverywhere.background": "#46535f",
+    "Notification.background": "#46535f",
+    "Notification.errorBackground": "#464049",
+    "Notification.warningBackground": "#474847",
+    "ValidationTooltip.errorBackground": "#ec5f66",
+    "ValidationTooltip.warningBackground": "#f9ae58"
+  }
+}

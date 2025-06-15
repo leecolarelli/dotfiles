@@ -1,0 +1,50 @@
+{
+  "name": "Ubuntu",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Ubuntu.xml",
+  "colors": {
+    "primaryBackground": "#300a24",
+    "primaryForeground": "#eeeeec",
+    "selectionBackground": "#b5d5ff",
+    "selectionForeground": "#000000"
+  },
+  "ui": {
+    "*": {
+      "background": "#300a24",
+      "foreground": "#eeeeec"
+    },
+    "Panel.background": "#490f37",
+    "Menu.background": "#490f37",
+    "MenuBar.background": "#300a24",
+    "ToolWindow.background": "#490f37",
+    "Editor.background": "#300a24",
+    "EditorTabs.background": "#490f37",
+    "Tree.background": "#300a24",
+    "List.background": "#300a24",
+    "Table.background": "#300a24",
+    "TextField.background": "#300a24",
+    "Button.background": "#490f37",
+    "Button.foreground": "#eeeeec",
+    "Button.hoverBackground": "#561140",
+    "Button.pressedBackground": "#160410",
+    "Component.borderColor": "#63144a",
+    "Component.focusedBorderColor": "#3465a4",
+    "Component.disabledForeground": "#888886",
+    "Link.activeForeground": "#3465a4",
+    "Link.hoverForeground": "#3465a4",
+    "Link.pressedForeground": "#3465a4",
+    "Label.disabledForeground": "#888886",
+    "Separator.foreground": "#63144a",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#490f37",
+    "ProgressBar.progressColor": "#3465a4",
+    "ScrollBar.thumbColor": "#7c195d",
+    "SearchEverywhere.background": "#490f37",
+    "Notification.background": "#490f37",
+    "Notification.errorBackground": "#3f0920",
+    "Notification.warningBackground": "#3e1920",
+    "ValidationTooltip.errorBackground": "#cc0000",
+    "ValidationTooltip.warningBackground": "#c4a000"
+  }
+}

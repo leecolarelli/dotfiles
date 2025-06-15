@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.tomorrow_night_eighties</id>
+  <name>Tomorrow Night Eighties Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Tomorrow Night Eighties
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="c55ca386-7802-4756-b50e-667965d1197c" path="/Tomorrow Night Eighties.theme.json"/>
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.tomorrow_night_burns</id>
+  <name>Tomorrow Night Burns Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Tomorrow Night Burns
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="be8ded26-a710-4169-ba9c-c8935fbffbfc" path="/Tomorrow Night Burns.theme.json"/>
+  </extensions>
+</idea-plugin>

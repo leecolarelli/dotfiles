@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.glacier</id>
+  <name>Glacier Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Glacier
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="70bbf848-706e-4cb4-a083-5f623aa58c46" path="/Glacier.theme.json"/>
+  </extensions>
+</idea-plugin>

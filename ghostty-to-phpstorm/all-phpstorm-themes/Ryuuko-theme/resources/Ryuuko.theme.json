@@ -1,0 +1,50 @@
+{
+  "name": "Ryuuko",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Ryuuko.xml",
+  "colors": {
+    "primaryBackground": "#2c3941",
+    "primaryForeground": "#ececec",
+    "selectionBackground": "#002831",
+    "selectionForeground": "#819090"
+  },
+  "ui": {
+    "*": {
+      "background": "#2c3941",
+      "foreground": "#ececec"
+    },
+    "Panel.background": "#3d4f5a",
+    "Menu.background": "#3d4f5a",
+    "MenuBar.background": "#2c3941",
+    "ToolWindow.background": "#3d4f5a",
+    "Editor.background": "#2c3941",
+    "EditorTabs.background": "#3d4f5a",
+    "Tree.background": "#2c3941",
+    "List.background": "#2c3941",
+    "Table.background": "#2c3941",
+    "TextField.background": "#2c3941",
+    "Button.background": "#3d4f5a",
+    "Button.foreground": "#ececec",
+    "Button.hoverBackground": "#455a67",
+    "Button.pressedBackground": "#1a2227",
+    "Component.borderColor": "#4e6574",
+    "Component.focusedBorderColor": "#6a8e95",
+    "Component.disabledForeground": "#868686",
+    "Link.activeForeground": "#6a8e95",
+    "Link.hoverForeground": "#6a8e95",
+    "Link.pressedForeground": "#6a8e95",
+    "Label.disabledForeground": "#868686",
+    "Separator.foreground": "#4e6574",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#3d4f5a",
+    "ProgressBar.progressColor": "#6a8e95",
+    "ScrollBar.thumbColor": "#5f7c8d",
+    "SearchEverywhere.background": "#3d4f5a",
+    "Notification.background": "#3d4f5a",
+    "Notification.errorBackground": "#353c43",
+    "Notification.warningBackground": "#394448",
+    "ValidationTooltip.errorBackground": "#865f5b",
+    "ValidationTooltip.warningBackground": "#b1a990"
+  }
+}

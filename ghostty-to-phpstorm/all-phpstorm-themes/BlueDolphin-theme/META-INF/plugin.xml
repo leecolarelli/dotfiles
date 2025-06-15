@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.bluedolphin</id>
+  <name>Bluedolphin Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: BlueDolphin
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="768c6467-e9f1-4328-954b-589f44afc3c8" path="/BlueDolphin.theme.json"/>
+  </extensions>
+</idea-plugin>

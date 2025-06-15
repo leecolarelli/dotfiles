@@ -1,0 +1,50 @@
+{
+  "name": "Funforrest",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/FunForrest.xml",
+  "colors": {
+    "primaryBackground": "#251200",
+    "primaryForeground": "#dec165",
+    "selectionBackground": "#e5591c",
+    "selectionForeground": "#000000"
+  },
+  "ui": {
+    "*": {
+      "background": "#251200",
+      "foreground": "#dec165"
+    },
+    "Panel.background": "#3e1e00",
+    "Menu.background": "#3e1e00",
+    "MenuBar.background": "#251200",
+    "ToolWindow.background": "#3e1e00",
+    "Editor.background": "#251200",
+    "EditorTabs.background": "#3e1e00",
+    "Tree.background": "#251200",
+    "List.background": "#251200",
+    "Table.background": "#251200",
+    "TextField.background": "#251200",
+    "Button.background": "#3e1e00",
+    "Button.foreground": "#dec165",
+    "Button.hoverBackground": "#4b2400",
+    "Button.pressedBackground": "#0b0500",
+    "Component.borderColor": "#582a00",
+    "Component.focusedBorderColor": "#4699a3",
+    "Component.disabledForeground": "#786836",
+    "Link.activeForeground": "#4699a3",
+    "Link.hoverForeground": "#4699a3",
+    "Link.pressedForeground": "#4699a3",
+    "Label.disabledForeground": "#786836",
+    "Separator.foreground": "#582a00",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#3e1e00",
+    "ProgressBar.progressColor": "#4699a3",
+    "ScrollBar.thumbColor": "#713700",
+    "SearchEverywhere.background": "#3e1e00",
+    "Notification.background": "#3e1e00",
+    "Notification.errorBackground": "#361404",
+    "Notification.warningBackground": "#341e01",
+    "ValidationTooltip.errorBackground": "#d6262b",
+    "ValidationTooltip.warningBackground": "#be8a13"
+  }
+}

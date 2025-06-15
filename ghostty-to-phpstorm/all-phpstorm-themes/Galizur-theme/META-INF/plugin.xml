@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.galizur</id>
+  <name>Galizur Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Galizur
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="9779c82b-2525-454f-983b-0fda201426de" path="/Galizur.theme.json"/>
+  </extensions>
+</idea-plugin>

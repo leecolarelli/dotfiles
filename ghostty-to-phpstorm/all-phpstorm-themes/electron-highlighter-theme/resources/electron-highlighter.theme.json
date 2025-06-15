@@ -1,0 +1,50 @@
+{
+  "name": "Electron-Highlighter",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/electron-highlighter.xml",
+  "colors": {
+    "primaryBackground": "#24283b",
+    "primaryForeground": "#a8b5d1",
+    "selectionBackground": "#283457",
+    "selectionForeground": "#a8b5d1"
+  },
+  "ui": {
+    "*": {
+      "background": "#24283b",
+      "foreground": "#a8b5d1"
+    },
+    "Panel.background": "#333954",
+    "Menu.background": "#333954",
+    "MenuBar.background": "#24283b",
+    "ToolWindow.background": "#333954",
+    "Editor.background": "#24283b",
+    "EditorTabs.background": "#333954",
+    "Tree.background": "#24283b",
+    "List.background": "#24283b",
+    "Table.background": "#24283b",
+    "TextField.background": "#24283b",
+    "Button.background": "#333954",
+    "Button.foreground": "#a8b5d1",
+    "Button.hoverBackground": "#3b4161",
+    "Button.pressedBackground": "#141621",
+    "Component.borderColor": "#434a6e",
+    "Component.focusedBorderColor": "#82aaff",
+    "Component.disabledForeground": "#565c6a",
+    "Link.activeForeground": "#82aaff",
+    "Link.hoverForeground": "#82aaff",
+    "Link.pressedForeground": "#82aaff",
+    "Label.disabledForeground": "#565c6a",
+    "Separator.foreground": "#434a6e",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#333954",
+    "ProgressBar.progressColor": "#82aaff",
+    "ScrollBar.thumbColor": "#525b87",
+    "SearchEverywhere.background": "#333954",
+    "Notification.background": "#333954",
+    "Notification.errorBackground": "#392f43",
+    "Notification.warningBackground": "#393946",
+    "ValidationTooltip.errorBackground": "#f7768e",
+    "ValidationTooltip.warningBackground": "#ffd9af"
+  }
+}

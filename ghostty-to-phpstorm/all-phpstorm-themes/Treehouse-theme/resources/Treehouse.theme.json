@@ -1,0 +1,50 @@
+{
+  "name": "Treehouse",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Treehouse.xml",
+  "colors": {
+    "primaryBackground": "#191919",
+    "primaryForeground": "#786b53",
+    "selectionBackground": "#786b53",
+    "selectionForeground": "#fac800"
+  },
+  "ui": {
+    "*": {
+      "background": "#191919",
+      "foreground": "#786b53"
+    },
+    "Panel.background": "#323232",
+    "Menu.background": "#323232",
+    "MenuBar.background": "#191919",
+    "ToolWindow.background": "#323232",
+    "Editor.background": "#191919",
+    "EditorTabs.background": "#323232",
+    "Tree.background": "#191919",
+    "List.background": "#191919",
+    "Table.background": "#191919",
+    "TextField.background": "#191919",
+    "Button.background": "#323232",
+    "Button.foreground": "#786b53",
+    "Button.hoverBackground": "#3f3f3f",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#4c4c4c",
+    "Component.focusedBorderColor": "#58859a",
+    "Component.disabledForeground": "#11100c",
+    "Link.activeForeground": "#58859a",
+    "Link.hoverForeground": "#58859a",
+    "Link.pressedForeground": "#58859a",
+    "Label.disabledForeground": "#11100c",
+    "Separator.foreground": "#4c4c4c",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#323232",
+    "ProgressBar.progressColor": "#58859a",
+    "ScrollBar.thumbColor": "#656565",
+    "SearchEverywhere.background": "#323232",
+    "Notification.background": "#323232",
+    "Notification.errorBackground": "#281a17",
+    "Notification.warningBackground": "#272317",
+    "ValidationTooltip.errorBackground": "#b2270e",
+    "ValidationTooltip.warningBackground": "#aa820c"
+  }
+}

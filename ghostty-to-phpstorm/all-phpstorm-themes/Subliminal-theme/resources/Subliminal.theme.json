@@ -1,0 +1,50 @@
+{
+  "name": "Subliminal",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Subliminal.xml",
+  "colors": {
+    "primaryBackground": "#282c35",
+    "primaryForeground": "#d4d4d4",
+    "selectionBackground": "#484e5b",
+    "selectionForeground": "#ffffff"
+  },
+  "ui": {
+    "*": {
+      "background": "#282c35",
+      "foreground": "#d4d4d4"
+    },
+    "Panel.background": "#3b414e",
+    "Menu.background": "#3b414e",
+    "MenuBar.background": "#282c35",
+    "ToolWindow.background": "#3b414e",
+    "Editor.background": "#282c35",
+    "EditorTabs.background": "#3b414e",
+    "Tree.background": "#282c35",
+    "List.background": "#282c35",
+    "Table.background": "#282c35",
+    "TextField.background": "#282c35",
+    "Button.background": "#3b414e",
+    "Button.foreground": "#d4d4d4",
+    "Button.hoverBackground": "#444b5b",
+    "Button.pressedBackground": "#14161b",
+    "Component.borderColor": "#4e5668",
+    "Component.focusedBorderColor": "#6699cc",
+    "Component.disabledForeground": "#6e6e6e",
+    "Link.activeForeground": "#6699cc",
+    "Link.hoverForeground": "#6699cc",
+    "Link.pressedForeground": "#6699cc",
+    "Label.disabledForeground": "#6e6e6e",
+    "Separator.foreground": "#4e5668",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#3b414e",
+    "ProgressBar.progressColor": "#6699cc",
+    "ScrollBar.thumbColor": "#616b81",
+    "SearchEverywhere.background": "#3b414e",
+    "Notification.background": "#3b414e",
+    "Notification.errorBackground": "#3a3039",
+    "Notification.warningBackground": "#3d3e40",
+    "ValidationTooltip.errorBackground": "#e15a60",
+    "ValidationTooltip.warningBackground": "#ffe2a9"
+  }
+}

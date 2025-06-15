@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.pandora</id>
+  <name>Pandora Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Pandora
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="93fd1dc7-4e11-442f-bf8f-87fab9ad8702" path="/Pandora.theme.json"/>
+  </extensions>
+</idea-plugin>

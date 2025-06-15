@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.ultraviolent</id>
+  <name>Ultraviolent Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: UltraViolent
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="ba7bdb9b-8650-40c6-a398-6ea51910c574" path="/UltraViolent.theme.json"/>
+  </extensions>
+</idea-plugin>

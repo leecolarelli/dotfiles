@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.0x96f</id>
+  <name>0X96F Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: 0x96f
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="0f883cb7-e31b-4383-a7de-81a3a690a0ac" path="/0x96f.theme.json"/>
+  </extensions>
+</idea-plugin>

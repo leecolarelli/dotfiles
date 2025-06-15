@@ -1,0 +1,50 @@
+{
+  "name": "Srcery",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/srcery.xml",
+  "colors": {
+    "primaryBackground": "#1c1b19",
+    "primaryForeground": "#fce8c3",
+    "selectionBackground": "#fce8c3",
+    "selectionForeground": "#1c1b19"
+  },
+  "ui": {
+    "*": {
+      "background": "#1c1b19",
+      "foreground": "#fce8c3"
+    },
+    "Panel.background": "#35332f",
+    "Menu.background": "#35332f",
+    "MenuBar.background": "#1c1b19",
+    "ToolWindow.background": "#35332f",
+    "Editor.background": "#1c1b19",
+    "EditorTabs.background": "#35332f",
+    "Tree.background": "#1c1b19",
+    "List.background": "#1c1b19",
+    "Table.background": "#1c1b19",
+    "TextField.background": "#1c1b19",
+    "Button.background": "#35332f",
+    "Button.foreground": "#fce8c3",
+    "Button.hoverBackground": "#423f3b",
+    "Button.pressedBackground": "#020202",
+    "Component.borderColor": "#4f4c46",
+    "Component.focusedBorderColor": "#2c78bf",
+    "Component.disabledForeground": "#968a74",
+    "Link.activeForeground": "#2c78bf",
+    "Link.hoverForeground": "#2c78bf",
+    "Link.pressedForeground": "#2c78bf",
+    "Label.disabledForeground": "#968a74",
+    "Separator.foreground": "#4f4c46",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#35332f",
+    "ProgressBar.progressColor": "#2c78bf",
+    "ScrollBar.thumbColor": "#68645d",
+    "SearchEverywhere.background": "#35332f",
+    "Notification.background": "#35332f",
+    "Notification.errorBackground": "#311d1a",
+    "Notification.warningBackground": "#322a1a",
+    "ValidationTooltip.errorBackground": "#ef2f27",
+    "ValidationTooltip.warningBackground": "#fbb829"
+  }
+}

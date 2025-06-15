@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.rose-pine-dawn</id>
+  <name>Rose-Pine-Dawn Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: rose-pine-dawn
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="f49cc05a-8e09-45a9-bf6a-f303c4eba7e4" path="/rose-pine-dawn.theme.json"/>
+  </extensions>
+</idea-plugin>

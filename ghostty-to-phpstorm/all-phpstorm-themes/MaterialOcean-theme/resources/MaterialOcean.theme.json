@@ -1,0 +1,50 @@
+{
+  "name": "Materialocean",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/MaterialOcean.xml",
+  "colors": {
+    "primaryBackground": "#0f111a",
+    "primaryForeground": "#8f93a2",
+    "selectionBackground": "#1f2233",
+    "selectionForeground": "#8f93a2"
+  },
+  "ui": {
+    "*": {
+      "background": "#0f111a",
+      "foreground": "#8f93a2"
+    },
+    "Panel.background": "#1d2133",
+    "Menu.background": "#1d2133",
+    "MenuBar.background": "#0f111a",
+    "ToolWindow.background": "#1d2133",
+    "Editor.background": "#0f111a",
+    "EditorTabs.background": "#1d2133",
+    "Tree.background": "#0f111a",
+    "List.background": "#0f111a",
+    "Table.background": "#0f111a",
+    "TextField.background": "#0f111a",
+    "Button.background": "#1d2133",
+    "Button.foreground": "#8f93a2",
+    "Button.hoverBackground": "#252a40",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#2c324d",
+    "Component.focusedBorderColor": "#82aaff",
+    "Component.disabledForeground": "#34363b",
+    "Link.activeForeground": "#82aaff",
+    "Link.hoverForeground": "#82aaff",
+    "Link.pressedForeground": "#82aaff",
+    "Label.disabledForeground": "#34363b",
+    "Separator.foreground": "#2c324d",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#1d2133",
+    "ProgressBar.progressColor": "#82aaff",
+    "ScrollBar.thumbColor": "#3b4366",
+    "SearchEverywhere.background": "#1d2133",
+    "Notification.background": "#1d2133",
+    "Notification.errorBackground": "#271722",
+    "Notification.warningBackground": "#272322",
+    "ValidationTooltip.errorBackground": "#ff5370",
+    "ValidationTooltip.warningBackground": "#ffcb6b"
+  }
+}

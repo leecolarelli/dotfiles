@@ -1,0 +1,50 @@
+{
+  "name": "Alabaster",
+  "dark": false,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Alabaster.xml",
+  "colors": {
+    "primaryBackground": "#f7f7f7",
+    "primaryForeground": "#000000",
+    "selectionBackground": "#bfdbfe",
+    "selectionForeground": "#000000"
+  },
+  "ui": {
+    "*": {
+      "background": "#f7f7f7",
+      "foreground": "#000000"
+    },
+    "Panel.background": "#eaeaea",
+    "Menu.background": "#eaeaea",
+    "MenuBar.background": "#f7f7f7",
+    "ToolWindow.background": "#eaeaea",
+    "Editor.background": "#f7f7f7",
+    "EditorTabs.background": "#eaeaea",
+    "Tree.background": "#f7f7f7",
+    "List.background": "#f7f7f7",
+    "Table.background": "#f7f7f7",
+    "TextField.background": "#f7f7f7",
+    "Button.background": "#eaeaea",
+    "Button.foreground": "#000000",
+    "Button.hoverBackground": "#dddddd",
+    "Button.pressedBackground": "#c3c3c3",
+    "Component.borderColor": "#d0d0d0",
+    "Component.focusedBorderColor": "#325cc0",
+    "Component.disabledForeground": "#666666",
+    "Link.activeForeground": "#325cc0",
+    "Link.hoverForeground": "#325cc0",
+    "Link.pressedForeground": "#325cc0",
+    "Label.disabledForeground": "#666666",
+    "Separator.foreground": "#d0d0d0",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#eaeaea",
+    "ProgressBar.progressColor": "#325cc0",
+    "ScrollBar.thumbColor": "#aaaaaa",
+    "SearchEverywhere.background": "#eaeaea",
+    "Notification.background": "#eaeaea",
+    "Notification.errorBackground": "#efe3e3",
+    "Notification.warningBackground": "#f2ecde",
+    "ValidationTooltip.errorBackground": "#aa3731",
+    "ValidationTooltip.warningBackground": "#cb9000"
+  }
+}

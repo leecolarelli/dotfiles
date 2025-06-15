@@ -1,0 +1,50 @@
+{
+  "name": "Gruvboxlight",
+  "dark": false,
+  "author": "Ghostty Converter",
+  "editorScheme": "/GruvboxLight.xml",
+  "colors": {
+    "primaryBackground": "#fbf1c7",
+    "primaryForeground": "#282828",
+    "selectionBackground": "#d5c4a1",
+    "selectionForeground": "#665c54"
+  },
+  "ui": {
+    "*": {
+      "background": "#fbf1c7",
+      "foreground": "#282828"
+    },
+    "Panel.background": "#eee4bc",
+    "Menu.background": "#eee4bc",
+    "MenuBar.background": "#fbf1c7",
+    "ToolWindow.background": "#eee4bc",
+    "Editor.background": "#fbf1c7",
+    "EditorTabs.background": "#eee4bc",
+    "Tree.background": "#fbf1c7",
+    "List.background": "#fbf1c7",
+    "Table.background": "#fbf1c7",
+    "TextField.background": "#fbf1c7",
+    "Button.background": "#eee4bc",
+    "Button.foreground": "#282828",
+    "Button.hoverBackground": "#e1d8b2",
+    "Button.pressedBackground": "#c7c09e",
+    "Component.borderColor": "#d4cca8",
+    "Component.focusedBorderColor": "#076678",
+    "Component.disabledForeground": "#8e8e8e",
+    "Link.activeForeground": "#076678",
+    "Link.hoverForeground": "#076678",
+    "Link.pressedForeground": "#076678",
+    "Label.disabledForeground": "#8e8e8e",
+    "Separator.foreground": "#d4cca8",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#eee4bc",
+    "ProgressBar.progressColor": "#076678",
+    "ScrollBar.thumbColor": "#aea78a",
+    "SearchEverywhere.background": "#eee4bc",
+    "Notification.background": "#eee4bc",
+    "Notification.errorBackground": "#f1d8b3",
+    "Notification.warningBackground": "#f4e4b5",
+    "ValidationTooltip.errorBackground": "#9d0006",
+    "ValidationTooltip.warningBackground": "#b57614"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Melange Light",
+  "dark": false,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Melange_light.xml",
+  "colors": {
+    "primaryBackground": "#f1f1f1",
+    "primaryForeground": "#54433a",
+    "selectionBackground": "#54433a",
+    "selectionForeground": "#d9d3ce"
+  },
+  "ui": {
+    "*": {
+      "background": "#f1f1f1",
+      "foreground": "#54433a"
+    },
+    "Panel.background": "#e4e4e4",
+    "Menu.background": "#e4e4e4",
+    "MenuBar.background": "#f1f1f1",
+    "ToolWindow.background": "#e4e4e4",
+    "Editor.background": "#f1f1f1",
+    "EditorTabs.background": "#e4e4e4",
+    "Tree.background": "#f1f1f1",
+    "List.background": "#f1f1f1",
+    "Table.background": "#f1f1f1",
+    "TextField.background": "#f1f1f1",
+    "Button.background": "#e4e4e4",
+    "Button.foreground": "#54433a",
+    "Button.hoverBackground": "#d7d7d7",
+    "Button.pressedBackground": "#bebebe",
+    "Component.borderColor": "#cacaca",
+    "Component.focusedBorderColor": "#7892bd",
+    "Component.disabledForeground": "#ba9480",
+    "Link.activeForeground": "#7892bd",
+    "Link.hoverForeground": "#7892bd",
+    "Link.pressedForeground": "#7892bd",
+    "Label.disabledForeground": "#ba9480",
+    "Separator.foreground": "#cacaca",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#e4e4e4",
+    "ProgressBar.progressColor": "#7892bd",
+    "ScrollBar.thumbColor": "#a4a4a4",
+    "SearchEverywhere.background": "#e4e4e4",
+    "Notification.background": "#e4e4e4",
+    "Notification.errorBackground": "#ece5e6",
+    "Notification.warningBackground": "#ebe2d8",
+    "ValidationTooltip.errorBackground": "#c77b8b",
+    "ValidationTooltip.warningBackground": "#bc5c00"
+  }
+}

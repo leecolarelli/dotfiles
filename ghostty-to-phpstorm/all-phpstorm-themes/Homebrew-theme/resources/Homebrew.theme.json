@@ -1,0 +1,50 @@
+{
+  "name": "Homebrew",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Homebrew.xml",
+  "colors": {
+    "primaryBackground": "#000000",
+    "primaryForeground": "#00ff00",
+    "selectionBackground": "#083905",
+    "selectionForeground": "#ffffff"
+  },
+  "ui": {
+    "*": {
+      "background": "#000000",
+      "foreground": "#00ff00"
+    },
+    "Panel.background": "#191919",
+    "Menu.background": "#191919",
+    "MenuBar.background": "#000000",
+    "ToolWindow.background": "#191919",
+    "Editor.background": "#000000",
+    "EditorTabs.background": "#191919",
+    "Tree.background": "#000000",
+    "List.background": "#000000",
+    "Table.background": "#000000",
+    "TextField.background": "#000000",
+    "Button.background": "#191919",
+    "Button.foreground": "#00ff00",
+    "Button.hoverBackground": "#262626",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#333333",
+    "Component.focusedBorderColor": "#0000b2",
+    "Component.disabledForeground": "#009900",
+    "Link.activeForeground": "#0000b2",
+    "Link.hoverForeground": "#0000b2",
+    "Link.pressedForeground": "#0000b2",
+    "Label.disabledForeground": "#009900",
+    "Separator.foreground": "#333333",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#191919",
+    "ProgressBar.progressColor": "#0000b2",
+    "ScrollBar.thumbColor": "#4c4c4c",
+    "SearchEverywhere.background": "#191919",
+    "Notification.background": "#191919",
+    "Notification.errorBackground": "#0f0000",
+    "Notification.warningBackground": "#0f0f00",
+    "ValidationTooltip.errorBackground": "#990000",
+    "ValidationTooltip.warningBackground": "#999900"
+  }
+}

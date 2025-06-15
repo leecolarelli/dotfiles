@@ -1,0 +1,50 @@
+{
+  "name": "Iceberg-Light",
+  "dark": false,
+  "author": "Ghostty Converter",
+  "editorScheme": "/iceberg-light.xml",
+  "colors": {
+    "primaryBackground": "#e8e9ec",
+    "primaryForeground": "#33374c",
+    "selectionBackground": "#33374c",
+    "selectionForeground": "#e8e9ec"
+  },
+  "ui": {
+    "*": {
+      "background": "#e8e9ec",
+      "foreground": "#33374c"
+    },
+    "Panel.background": "#dbdcdf",
+    "Menu.background": "#dbdcdf",
+    "MenuBar.background": "#e8e9ec",
+    "ToolWindow.background": "#dbdcdf",
+    "Editor.background": "#e8e9ec",
+    "EditorTabs.background": "#dbdcdf",
+    "Tree.background": "#e8e9ec",
+    "List.background": "#e8e9ec",
+    "Table.background": "#e8e9ec",
+    "TextField.background": "#e8e9ec",
+    "Button.background": "#dbdcdf",
+    "Button.foreground": "#33374c",
+    "Button.hoverBackground": "#cecfd2",
+    "Button.pressedBackground": "#b5b6b9",
+    "Component.borderColor": "#c2c3c5",
+    "Component.focusedBorderColor": "#2d539e",
+    "Component.disabledForeground": "#7780b2",
+    "Link.activeForeground": "#2d539e",
+    "Link.hoverForeground": "#2d539e",
+    "Link.pressedForeground": "#2d539e",
+    "Label.disabledForeground": "#7780b2",
+    "Separator.foreground": "#c2c3c5",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#dbdcdf",
+    "ProgressBar.progressColor": "#2d539e",
+    "ScrollBar.thumbColor": "#9c9d9f",
+    "SearchEverywhere.background": "#dbdcdf",
+    "Notification.background": "#dbdcdf",
+    "Notification.errorBackground": "#e5d9e0",
+    "Notification.warningBackground": "#e4ddda",
+    "ValidationTooltip.errorBackground": "#cc517a",
+    "ValidationTooltip.warningBackground": "#c57339"
+  }
+}

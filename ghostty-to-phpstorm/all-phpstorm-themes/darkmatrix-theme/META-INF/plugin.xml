@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.darkmatrix</id>
+  <name>Darkmatrix Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: darkmatrix
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="5fda4962-c2a6-482a-940e-c3686a79d64f" path="/darkmatrix.theme.json"/>
+  </extensions>
+</idea-plugin>

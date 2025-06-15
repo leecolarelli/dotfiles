@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.arcoiris</id>
+  <name>Arcoiris Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: arcoiris
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="13649e7b-6885-426a-a8b1-d0b2f363834c" path="/arcoiris.theme.json"/>
+  </extensions>
+</idea-plugin>

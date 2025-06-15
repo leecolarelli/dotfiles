@@ -1,0 +1,50 @@
+{
+  "name": "Harper",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Harper.xml",
+  "colors": {
+    "primaryBackground": "#010101",
+    "primaryForeground": "#a8a49d",
+    "selectionBackground": "#5a5753",
+    "selectionForeground": "#a8a49d"
+  },
+  "ui": {
+    "*": {
+      "background": "#010101",
+      "foreground": "#a8a49d"
+    },
+    "Panel.background": "#1a1a1a",
+    "Menu.background": "#1a1a1a",
+    "MenuBar.background": "#010101",
+    "ToolWindow.background": "#1a1a1a",
+    "Editor.background": "#010101",
+    "EditorTabs.background": "#1a1a1a",
+    "Tree.background": "#010101",
+    "List.background": "#010101",
+    "Table.background": "#010101",
+    "TextField.background": "#010101",
+    "Button.background": "#1a1a1a",
+    "Button.foreground": "#a8a49d",
+    "Button.hoverBackground": "#272727",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#343434",
+    "Component.focusedBorderColor": "#489e48",
+    "Component.disabledForeground": "#41403d",
+    "Link.activeForeground": "#489e48",
+    "Link.hoverForeground": "#489e48",
+    "Link.pressedForeground": "#489e48",
+    "Label.disabledForeground": "#41403d",
+    "Separator.foreground": "#343434",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#1a1a1a",
+    "ProgressBar.progressColor": "#489e48",
+    "ScrollBar.thumbColor": "#4d4d4d",
+    "SearchEverywhere.background": "#1a1a1a",
+    "Notification.background": "#1a1a1a",
+    "Notification.errorBackground": "#191307",
+    "Notification.warningBackground": "#161604",
+    "ValidationTooltip.errorBackground": "#f8b63f",
+    "ValidationTooltip.warningBackground": "#d6da25"
+  }
+}

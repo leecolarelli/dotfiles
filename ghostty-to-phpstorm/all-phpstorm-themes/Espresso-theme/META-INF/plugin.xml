@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.espresso</id>
+  <name>Espresso Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Espresso
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="f1be33e1-8856-401d-9aad-80f04ebd3e34" path="/Espresso.theme.json"/>
+  </extensions>
+</idea-plugin>

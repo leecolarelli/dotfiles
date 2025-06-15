@@ -1,0 +1,50 @@
+{
+  "name": "Cobalt2",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Cobalt2.xml",
+  "colors": {
+    "primaryBackground": "#132738",
+    "primaryForeground": "#ffffff",
+    "selectionBackground": "#18354f",
+    "selectionForeground": "#b5b5b5"
+  },
+  "ui": {
+    "*": {
+      "background": "#132738",
+      "foreground": "#ffffff"
+    },
+    "Panel.background": "#1b3851",
+    "Menu.background": "#1b3851",
+    "MenuBar.background": "#132738",
+    "ToolWindow.background": "#1b3851",
+    "Editor.background": "#132738",
+    "EditorTabs.background": "#1b3851",
+    "Tree.background": "#132738",
+    "List.background": "#132738",
+    "Table.background": "#132738",
+    "TextField.background": "#132738",
+    "Button.background": "#1b3851",
+    "Button.foreground": "#ffffff",
+    "Button.hoverBackground": "#1f415e",
+    "Button.pressedBackground": "#0a151e",
+    "Component.borderColor": "#244a6b",
+    "Component.focusedBorderColor": "#1460d2",
+    "Component.disabledForeground": "#999999",
+    "Link.activeForeground": "#1460d2",
+    "Link.hoverForeground": "#1460d2",
+    "Link.pressedForeground": "#1460d2",
+    "Label.disabledForeground": "#999999",
+    "Separator.foreground": "#244a6b",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#1b3851",
+    "ProgressBar.progressColor": "#1460d2",
+    "ScrollBar.thumbColor": "#2c5c84",
+    "SearchEverywhere.background": "#1b3851",
+    "Notification.background": "#1b3851",
+    "Notification.errorBackground": "#2a2332",
+    "Notification.warningBackground": "#2a3a33",
+    "ValidationTooltip.errorBackground": "#ff0000",
+    "ValidationTooltip.warningBackground": "#ffe50a"
+  }
+}

@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.srcery</id>
+  <name>Srcery Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: srcery
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="355c5dbd-3f8d-4ac9-a22a-b183c55e1ecd" path="/srcery.theme.json"/>
+  </extensions>
+</idea-plugin>

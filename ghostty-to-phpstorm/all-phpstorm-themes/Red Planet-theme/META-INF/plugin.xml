@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.red_planet</id>
+  <name>Red Planet Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Red Planet
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="ed35b608-2e14-4b0a-96e1-49226a5ea01c" path="/Red Planet.theme.json"/>
+  </extensions>
+</idea-plugin>

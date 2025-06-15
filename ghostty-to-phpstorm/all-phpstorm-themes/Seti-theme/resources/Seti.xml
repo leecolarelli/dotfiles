@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Seti" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#111213"/>
+    <option name="FOREGROUND" value="#CACECD"/>
+    <option name="CARET_COLOR" value="#E3BF21"/>
+    <option name="SELECTION_BACKGROUND" value="#303233"/>
+    <option name="SELECTION_FOREGROUND" value="#CACECD"/>
+    <option name="LINE_NUMBERS_COLOR" value="#7E8180"/>
+    <option name="GUTTER_BACKGROUND" value="#111213"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="8B57B5"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="8EC43D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="C22832"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="323232"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="CACECD"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="43A5D5"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="E0C64F"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="8EC43D"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.3024_day</id>
+  <name>3024 Day Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: 3024 Day
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="b2463acb-8f94-4710-8b8b-a6c45a0f8e1b" path="/3024 Day.theme.json"/>
+  </extensions>
+</idea-plugin>

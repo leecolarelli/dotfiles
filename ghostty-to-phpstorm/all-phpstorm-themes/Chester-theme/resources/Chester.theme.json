@@ -1,0 +1,50 @@
+{
+  "name": "Chester",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Chester.xml",
+  "colors": {
+    "primaryBackground": "#2c3643",
+    "primaryForeground": "#ffffff",
+    "selectionBackground": "#67747c",
+    "selectionForeground": "#ffffff"
+  },
+  "ui": {
+    "*": {
+      "background": "#2c3643",
+      "foreground": "#ffffff"
+    },
+    "Panel.background": "#3c4a5c",
+    "Menu.background": "#3c4a5c",
+    "MenuBar.background": "#2c3643",
+    "ToolWindow.background": "#3c4a5c",
+    "Editor.background": "#2c3643",
+    "EditorTabs.background": "#3c4a5c",
+    "Tree.background": "#2c3643",
+    "List.background": "#2c3643",
+    "Table.background": "#2c3643",
+    "TextField.background": "#2c3643",
+    "Button.background": "#3c4a5c",
+    "Button.foreground": "#ffffff",
+    "Button.hoverBackground": "#455469",
+    "Button.pressedBackground": "#1b2129",
+    "Component.borderColor": "#4d5f76",
+    "Component.focusedBorderColor": "#288ad6",
+    "Component.disabledForeground": "#999999",
+    "Link.activeForeground": "#288ad6",
+    "Link.hoverForeground": "#288ad6",
+    "Link.pressedForeground": "#288ad6",
+    "Label.disabledForeground": "#999999",
+    "Separator.foreground": "#4d5f76",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#3c4a5c",
+    "ProgressBar.progressColor": "#288ad6",
+    "ScrollBar.thumbColor": "#5e738f",
+    "SearchEverywhere.background": "#3c4a5c",
+    "Notification.background": "#3c4a5c",
+    "Notification.errorBackground": "#403a45",
+    "Notification.warningBackground": "#414442",
+    "ValidationTooltip.errorBackground": "#fa5e5b",
+    "ValidationTooltip.warningBackground": "#ffc83f"
+  }
+}

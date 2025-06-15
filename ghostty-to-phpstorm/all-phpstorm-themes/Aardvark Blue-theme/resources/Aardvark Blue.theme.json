@@ -1,0 +1,50 @@
+{
+  "name": "Aardvark Blue",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Aardvark Blue.xml",
+  "colors": {
+    "primaryBackground": "#102040",
+    "primaryForeground": "#dddddd",
+    "selectionBackground": "#bfdbfe",
+    "selectionForeground": "#000000"
+  },
+  "ui": {
+    "*": {
+      "background": "#102040",
+      "foreground": "#dddddd"
+    },
+    "Panel.background": "#162c59",
+    "Menu.background": "#162c59",
+    "MenuBar.background": "#102040",
+    "ToolWindow.background": "#162c59",
+    "Editor.background": "#102040",
+    "EditorTabs.background": "#162c59",
+    "Tree.background": "#102040",
+    "List.background": "#102040",
+    "Table.background": "#102040",
+    "TextField.background": "#102040",
+    "Button.background": "#162c59",
+    "Button.foreground": "#dddddd",
+    "Button.hoverBackground": "#193366",
+    "Button.pressedBackground": "#091326",
+    "Component.borderColor": "#1c3973",
+    "Component.focusedBorderColor": "#1370d3",
+    "Component.disabledForeground": "#777777",
+    "Link.activeForeground": "#1370d3",
+    "Link.hoverForeground": "#1370d3",
+    "Link.pressedForeground": "#1370d3",
+    "Label.disabledForeground": "#777777",
+    "Separator.foreground": "#1c3973",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#162c59",
+    "ProgressBar.progressColor": "#1370d3",
+    "ScrollBar.thumbColor": "#23468c",
+    "SearchEverywhere.background": "#162c59",
+    "Notification.background": "#162c59",
+    "Notification.errorBackground": "#1f223e",
+    "Notification.warningBackground": "#242f39",
+    "ValidationTooltip.errorBackground": "#aa342e",
+    "ValidationTooltip.warningBackground": "#dbba00"
+  }
+}

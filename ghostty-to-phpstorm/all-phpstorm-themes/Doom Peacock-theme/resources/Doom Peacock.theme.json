@@ -1,0 +1,50 @@
+{
+  "name": "Doom Peacock",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Doom Peacock.xml",
+  "colors": {
+    "primaryBackground": "#2b2a27",
+    "primaryForeground": "#ede0ce",
+    "selectionBackground": "#a60033",
+    "selectionForeground": "#ffffff"
+  },
+  "ui": {
+    "*": {
+      "background": "#2b2a27",
+      "foreground": "#ede0ce"
+    },
+    "Panel.background": "#44423e",
+    "Menu.background": "#44423e",
+    "MenuBar.background": "#2b2a27",
+    "ToolWindow.background": "#44423e",
+    "Editor.background": "#2b2a27",
+    "EditorTabs.background": "#44423e",
+    "Tree.background": "#2b2a27",
+    "List.background": "#2b2a27",
+    "Table.background": "#2b2a27",
+    "TextField.background": "#2b2a27",
+    "Button.background": "#44423e",
+    "Button.foreground": "#ede0ce",
+    "Button.hoverBackground": "#514f49",
+    "Button.pressedBackground": "#11110f",
+    "Component.borderColor": "#5e5b55",
+    "Component.focusedBorderColor": "#2a6cc6",
+    "Component.disabledForeground": "#877f75",
+    "Link.activeForeground": "#2a6cc6",
+    "Link.hoverForeground": "#2a6cc6",
+    "Link.pressedForeground": "#2a6cc6",
+    "Label.disabledForeground": "#877f75",
+    "Separator.foreground": "#5e5b55",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#44423e",
+    "ProgressBar.progressColor": "#2a6cc6",
+    "ScrollBar.thumbColor": "#77746c",
+    "SearchEverywhere.background": "#44423e",
+    "Notification.background": "#44423e",
+    "Notification.errorBackground": "#3b2d25",
+    "Notification.warningBackground": "#393b27",
+    "ValidationTooltip.errorBackground": "#cb4b16",
+    "ValidationTooltip.warningBackground": "#bcd42a"
+  }
+}

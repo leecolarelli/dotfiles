@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.iterm2_default</id>
+  <name>Iterm2 Default Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: iTerm2 Default
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="9aab46f9-ab2c-420f-8efd-0da560ed512f" path="/iTerm2 Default.theme.json"/>
+  </extensions>
+</idea-plugin>

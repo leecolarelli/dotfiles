@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Builtin Tango Dark" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#000000"/>
+    <option name="FOREGROUND" value="#FFFFFF"/>
+    <option name="CARET_COLOR" value="#FFFFFF"/>
+    <option name="SELECTION_BACKGROUND" value="#B5D5FF"/>
+    <option name="SELECTION_FOREGROUND" value="#000000"/>
+    <option name="LINE_NUMBERS_COLOR" value="#B2B2B2"/>
+    <option name="GUTTER_BACKGROUND" value="#000000"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="75507B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="4E9A06"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="CC0000"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="555753"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="FFFFFF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="3465A4"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="C4A000"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="06989A"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

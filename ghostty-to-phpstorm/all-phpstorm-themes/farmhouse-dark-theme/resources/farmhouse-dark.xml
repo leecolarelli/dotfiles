@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="farmhouse-dark" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#1D2027"/>
+    <option name="FOREGROUND" value="#E8E4E1"/>
+    <option name="CARET_COLOR" value="#006EFE"/>
+    <option name="SELECTION_BACKGROUND" value="#4D5658"/>
+    <option name="SELECTION_FOREGROUND" value="#B3B1AA"/>
+    <option name="LINE_NUMBERS_COLOR" value="#9B9896"/>
+    <option name="GUTTER_BACKGROUND" value="#1D2027"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="9F1B61"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="549D00"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="BA0004"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="394047"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="E8E4E1"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="0049E6"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="C87300"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="1FB65C"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

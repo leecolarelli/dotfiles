@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.hivacruz</id>
+  <name>Hivacruz Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Hivacruz
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="1266409f-9c02-44d4-8b36-e79ec0c5da53" path="/Hivacruz.theme.json"/>
+  </extensions>
+</idea-plugin>

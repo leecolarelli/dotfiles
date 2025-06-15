@@ -1,0 +1,50 @@
+{
+  "name": "Monokai Vivid",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Monokai Vivid.xml",
+  "colors": {
+    "primaryBackground": "#121212",
+    "primaryForeground": "#f9f9f9",
+    "selectionBackground": "#ffffff",
+    "selectionForeground": "#000000"
+  },
+  "ui": {
+    "*": {
+      "background": "#121212",
+      "foreground": "#f9f9f9"
+    },
+    "Panel.background": "#2b2b2b",
+    "Menu.background": "#2b2b2b",
+    "MenuBar.background": "#121212",
+    "ToolWindow.background": "#2b2b2b",
+    "Editor.background": "#121212",
+    "EditorTabs.background": "#2b2b2b",
+    "Tree.background": "#121212",
+    "List.background": "#121212",
+    "Table.background": "#121212",
+    "TextField.background": "#121212",
+    "Button.background": "#2b2b2b",
+    "Button.foreground": "#f9f9f9",
+    "Button.hoverBackground": "#383838",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#454545",
+    "Component.focusedBorderColor": "#0443ff",
+    "Component.disabledForeground": "#939393",
+    "Link.activeForeground": "#0443ff",
+    "Link.hoverForeground": "#0443ff",
+    "Link.pressedForeground": "#0443ff",
+    "Label.disabledForeground": "#939393",
+    "Separator.foreground": "#454545",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#2b2b2b",
+    "ProgressBar.progressColor": "#0443ff",
+    "ScrollBar.thumbColor": "#5e5e5e",
+    "SearchEverywhere.background": "#2b2b2b",
+    "Notification.background": "#2b2b2b",
+    "Notification.errorBackground": "#291415",
+    "Notification.warningBackground": "#292811",
+    "ValidationTooltip.errorBackground": "#fa2934",
+    "ValidationTooltip.warningBackground": "#fff30a"
+  }
+}

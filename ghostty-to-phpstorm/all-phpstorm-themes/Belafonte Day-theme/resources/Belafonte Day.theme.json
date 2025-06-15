@@ -1,0 +1,50 @@
+{
+  "name": "Belafonte Day",
+  "dark": false,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Belafonte Day.xml",
+  "colors": {
+    "primaryBackground": "#d5ccba",
+    "primaryForeground": "#45373c",
+    "selectionBackground": "#968c83",
+    "selectionForeground": "#45373c"
+  },
+  "ui": {
+    "*": {
+      "background": "#d5ccba",
+      "foreground": "#45373c"
+    },
+    "Panel.background": "#c8bfae",
+    "Menu.background": "#c8bfae",
+    "MenuBar.background": "#d5ccba",
+    "ToolWindow.background": "#c8bfae",
+    "Editor.background": "#d5ccba",
+    "EditorTabs.background": "#c8bfae",
+    "Tree.background": "#d5ccba",
+    "List.background": "#d5ccba",
+    "Table.background": "#d5ccba",
+    "TextField.background": "#d5ccba",
+    "Button.background": "#c8bfae",
+    "Button.foreground": "#45373c",
+    "Button.hoverBackground": "#bbb3a3",
+    "Button.pressedBackground": "#a29b8d",
+    "Component.borderColor": "#aea798",
+    "Component.focusedBorderColor": "#426a79",
+    "Component.disabledForeground": "#ab8894",
+    "Link.activeForeground": "#426a79",
+    "Link.hoverForeground": "#426a79",
+    "Link.pressedForeground": "#426a79",
+    "Label.disabledForeground": "#ab8894",
+    "Separator.foreground": "#aea798",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#c8bfae",
+    "ProgressBar.progressColor": "#426a79",
+    "ScrollBar.thumbColor": "#888277",
+    "SearchEverywhere.background": "#c8bfae",
+    "Notification.background": "#c8bfae",
+    "Notification.errorBackground": "#d2b9a8",
+    "Notification.warningBackground": "#d7c8ae",
+    "ValidationTooltip.errorBackground": "#be100e",
+    "ValidationTooltip.warningBackground": "#eaa549"
+  }
+}

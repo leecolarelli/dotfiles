@@ -1,0 +1,50 @@
+{
+  "name": "Highway",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Highway.xml",
+  "colors": {
+    "primaryBackground": "#222225",
+    "primaryForeground": "#ededed",
+    "selectionBackground": "#384564",
+    "selectionForeground": "#ededed"
+  },
+  "ui": {
+    "*": {
+      "background": "#222225",
+      "foreground": "#ededed"
+    },
+    "Panel.background": "#39393e",
+    "Menu.background": "#39393e",
+    "MenuBar.background": "#222225",
+    "ToolWindow.background": "#39393e",
+    "Editor.background": "#222225",
+    "EditorTabs.background": "#39393e",
+    "Tree.background": "#222225",
+    "List.background": "#222225",
+    "Table.background": "#222225",
+    "TextField.background": "#222225",
+    "Button.background": "#39393e",
+    "Button.foreground": "#ededed",
+    "Button.hoverBackground": "#45454b",
+    "Button.pressedBackground": "#0a0a0b",
+    "Component.borderColor": "#505058",
+    "Component.focusedBorderColor": "#006bb3",
+    "Component.disabledForeground": "#878787",
+    "Link.activeForeground": "#006bb3",
+    "Link.hoverForeground": "#006bb3",
+    "Link.pressedForeground": "#006bb3",
+    "Label.disabledForeground": "#878787",
+    "Separator.foreground": "#505058",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#39393e",
+    "ProgressBar.progressColor": "#006bb3",
+    "ScrollBar.thumbColor": "#686871",
+    "SearchEverywhere.background": "#39393e",
+    "Notification.background": "#39393e",
+    "Notification.errorBackground": "#332023",
+    "Notification.warningBackground": "#383227",
+    "ValidationTooltip.errorBackground": "#d00e18",
+    "ValidationTooltip.warningBackground": "#ffcb3e"
+  }
+}

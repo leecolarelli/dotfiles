@@ -1,0 +1,50 @@
+{
+  "name": "Seti",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Seti.xml",
+  "colors": {
+    "primaryBackground": "#111213",
+    "primaryForeground": "#cacecd",
+    "selectionBackground": "#303233",
+    "selectionForeground": "#cacecd"
+  },
+  "ui": {
+    "*": {
+      "background": "#111213",
+      "foreground": "#cacecd"
+    },
+    "Panel.background": "#272a2c",
+    "Menu.background": "#272a2c",
+    "MenuBar.background": "#111213",
+    "ToolWindow.background": "#272a2c",
+    "Editor.background": "#111213",
+    "EditorTabs.background": "#272a2c",
+    "Tree.background": "#111213",
+    "List.background": "#111213",
+    "Table.background": "#111213",
+    "TextField.background": "#111213",
+    "Button.background": "#272a2c",
+    "Button.foreground": "#cacecd",
+    "Button.hoverBackground": "#333639",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#3e4246",
+    "Component.focusedBorderColor": "#43a5d5",
+    "Component.disabledForeground": "#656867",
+    "Link.activeForeground": "#43a5d5",
+    "Link.hoverForeground": "#43a5d5",
+    "Link.pressedForeground": "#43a5d5",
+    "Label.disabledForeground": "#656867",
+    "Separator.foreground": "#3e4246",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#272a2c",
+    "ProgressBar.progressColor": "#43a5d5",
+    "ScrollBar.thumbColor": "#555a5f",
+    "SearchEverywhere.background": "#272a2c",
+    "Notification.background": "#272a2c",
+    "Notification.errorBackground": "#221416",
+    "Notification.warningBackground": "#252419",
+    "ValidationTooltip.errorBackground": "#c22832",
+    "ValidationTooltip.warningBackground": "#e0c64f"
+  }
+}

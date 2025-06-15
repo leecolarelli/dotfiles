@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.citruszest</id>
+  <name>Citruszest Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: citruszest
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="5001474c-7454-4eae-9f87-e2a8afed9702" path="/citruszest.theme.json"/>
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.the_hulk</id>
+  <name>The Hulk Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: The Hulk
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="21cee8f0-1a6e-4473-989a-c57832b859b1" path="/The Hulk.theme.json"/>
+  </extensions>
+</idea-plugin>

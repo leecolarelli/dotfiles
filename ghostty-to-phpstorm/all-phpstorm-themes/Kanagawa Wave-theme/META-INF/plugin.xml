@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.kanagawa_wave</id>
+  <name>Kanagawa Wave Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Kanagawa Wave
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="40ca05f5-f7ea-42dd-ba12-a8e9bb2817a5" path="/Kanagawa Wave.theme.json"/>
+  </extensions>
+</idea-plugin>

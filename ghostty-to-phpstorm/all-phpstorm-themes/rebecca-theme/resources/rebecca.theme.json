@@ -1,0 +1,50 @@
+{
+  "name": "Rebecca",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/rebecca.xml",
+  "colors": {
+    "primaryBackground": "#292a44",
+    "primaryForeground": "#e8e6ed",
+    "selectionBackground": "#663399",
+    "selectionForeground": "#f4f2f9"
+  },
+  "ui": {
+    "*": {
+      "background": "#292a44",
+      "foreground": "#e8e6ed"
+    },
+    "Panel.background": "#38395d",
+    "Menu.background": "#38395d",
+    "MenuBar.background": "#292a44",
+    "ToolWindow.background": "#38395d",
+    "Editor.background": "#292a44",
+    "EditorTabs.background": "#38395d",
+    "Tree.background": "#292a44",
+    "List.background": "#292a44",
+    "Table.background": "#292a44",
+    "TextField.background": "#292a44",
+    "Button.background": "#38395d",
+    "Button.foreground": "#e8e6ed",
+    "Button.hoverBackground": "#40416a",
+    "Button.pressedBackground": "#191a2a",
+    "Component.borderColor": "#474977",
+    "Component.focusedBorderColor": "#7aa5ff",
+    "Component.disabledForeground": "#848387",
+    "Link.activeForeground": "#7aa5ff",
+    "Link.hoverForeground": "#7aa5ff",
+    "Link.pressedForeground": "#7aa5ff",
+    "Label.disabledForeground": "#848387",
+    "Separator.foreground": "#474977",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#38395d",
+    "ProgressBar.progressColor": "#7aa5ff",
+    "ScrollBar.thumbColor": "#575990",
+    "SearchEverywhere.background": "#38395d",
+    "Notification.background": "#38395d",
+    "Notification.errorBackground": "#3b3145",
+    "Notification.warningBackground": "#3d3c4f",
+    "ValidationTooltip.errorBackground": "#dd7755",
+    "ValidationTooltip.warningBackground": "#f2e7b7"
+  }
+}

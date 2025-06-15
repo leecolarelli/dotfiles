@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.nightlion_v1</id>
+  <name>Nightlion V1 Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: NightLion v1
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="2c310af1-b6b6-44e9-931b-4f421c1fd757" path="/NightLion v1.theme.json"/>
+  </extensions>
+</idea-plugin>

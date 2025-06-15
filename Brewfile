@@ -7,7 +7,7 @@ brew 'bash' # Latest Bash version
 brew 'git'
 # brew 'mackup'
 brew 'mas' # Mac App Store manager
-brew 'zsh'
+brew 'zsh' # Latest zsh version
 
 # Development
 brew 'composer'

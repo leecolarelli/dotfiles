@@ -1,0 +1,50 @@
+{
+  "name": "Github-Dark-Default",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/GitHub-Dark-Default.xml",
+  "colors": {
+    "primaryBackground": "#0d1117",
+    "primaryForeground": "#e6edf3",
+    "selectionBackground": "#e6edf3",
+    "selectionForeground": "#0d1117"
+  },
+  "ui": {
+    "*": {
+      "background": "#0d1117",
+      "foreground": "#e6edf3"
+    },
+    "Panel.background": "#1b2330",
+    "Menu.background": "#1b2330",
+    "MenuBar.background": "#0d1117",
+    "ToolWindow.background": "#1b2330",
+    "Editor.background": "#0d1117",
+    "EditorTabs.background": "#1b2330",
+    "Tree.background": "#0d1117",
+    "List.background": "#0d1117",
+    "Table.background": "#0d1117",
+    "TextField.background": "#0d1117",
+    "Button.background": "#1b2330",
+    "Button.foreground": "#e6edf3",
+    "Button.hoverBackground": "#222d3d",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#29364a",
+    "Component.focusedBorderColor": "#58a6ff",
+    "Component.disabledForeground": "#85898c",
+    "Link.activeForeground": "#58a6ff",
+    "Link.hoverForeground": "#58a6ff",
+    "Link.pressedForeground": "#58a6ff",
+    "Label.disabledForeground": "#85898c",
+    "Separator.foreground": "#29364a",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#1b2330",
+    "ProgressBar.progressColor": "#58a6ff",
+    "ScrollBar.thumbColor": "#384963",
+    "SearchEverywhere.background": "#1b2330",
+    "Notification.background": "#1b2330",
+    "Notification.errorBackground": "#251b20",
+    "Notification.warningBackground": "#201e18",
+    "ValidationTooltip.errorBackground": "#ff7b72",
+    "ValidationTooltip.warningBackground": "#d29922"
+  }
+}

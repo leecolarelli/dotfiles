@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.github-dark-high-contrast</id>
+  <name>Github-Dark-High-Contrast Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: GitHub-Dark-High-Contrast
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="f532126a-7047-4a6a-bb82-c7ae36de6008" path="/GitHub-Dark-High-Contrast.theme.json"/>
+  </extensions>
+</idea-plugin>

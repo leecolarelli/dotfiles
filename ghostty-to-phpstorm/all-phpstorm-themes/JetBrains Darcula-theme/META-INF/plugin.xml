@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.jetbrains_darcula</id>
+  <name>Jetbrains Darcula Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: JetBrains Darcula
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="3a88ecb6-6f10-493c-8e3d-11615a0a0166" path="/JetBrains Darcula.theme.json"/>
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.ic_orange_ppl</id>
+  <name>Ic Orange Ppl Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: IC_Orange_PPL
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="6d17dc17-89f0-4586-85c3-33fbfc14a0c4" path="/IC_Orange_PPL.theme.json"/>
+  </extensions>
+</idea-plugin>

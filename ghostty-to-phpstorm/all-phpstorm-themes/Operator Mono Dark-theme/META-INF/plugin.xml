@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.operator_mono_dark</id>
+  <name>Operator Mono Dark Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Operator Mono Dark
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="39b6378d-1217-4f57-a212-659eb6716598" path="/Operator Mono Dark.theme.json"/>
+  </extensions>
+</idea-plugin>

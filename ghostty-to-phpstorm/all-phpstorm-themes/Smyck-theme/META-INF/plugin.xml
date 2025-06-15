@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.smyck</id>
+  <name>Smyck Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Smyck
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="c23ab90b-b906-4d65-acb8-9e5e7bdebc29" path="/Smyck.theme.json"/>
+  </extensions>
+</idea-plugin>

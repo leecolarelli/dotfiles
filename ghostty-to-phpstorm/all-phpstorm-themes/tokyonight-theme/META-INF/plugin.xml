@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.tokyonight</id>
+  <name>Tokyonight Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: tokyonight
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="7b4efd39-a5b2-4da3-a15e-2ad3946bbdec" path="/tokyonight.theme.json"/>
+  </extensions>
+</idea-plugin>

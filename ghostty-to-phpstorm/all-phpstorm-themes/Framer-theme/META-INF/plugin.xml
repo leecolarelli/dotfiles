@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.framer</id>
+  <name>Framer Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Framer
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="32250ff1-90ce-49a7-9029-f1ee618c41d3" path="/Framer.theme.json"/>
+  </extensions>
+</idea-plugin>

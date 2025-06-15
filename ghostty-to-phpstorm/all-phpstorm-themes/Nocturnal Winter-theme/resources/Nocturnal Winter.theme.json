@@ -1,0 +1,50 @@
+{
+  "name": "Nocturnal Winter",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Nocturnal Winter.xml",
+  "colors": {
+    "primaryBackground": "#0d0d17",
+    "primaryForeground": "#e6e5e5",
+    "selectionBackground": "#adbdd0",
+    "selectionForeground": "#000000"
+  },
+  "ui": {
+    "*": {
+      "background": "#0d0d17",
+      "foreground": "#e6e5e5"
+    },
+    "Panel.background": "#1b1b30",
+    "Menu.background": "#1b1b30",
+    "MenuBar.background": "#0d0d17",
+    "ToolWindow.background": "#1b1b30",
+    "Editor.background": "#0d0d17",
+    "EditorTabs.background": "#1b1b30",
+    "Tree.background": "#0d0d17",
+    "List.background": "#0d0d17",
+    "Table.background": "#0d0d17",
+    "TextField.background": "#0d0d17",
+    "Button.background": "#1b1b30",
+    "Button.foreground": "#e6e5e5",
+    "Button.hoverBackground": "#22223d",
+    "Button.pressedBackground": "#000000",
+    "Component.borderColor": "#29294a",
+    "Component.focusedBorderColor": "#3182e0",
+    "Component.disabledForeground": "#807f7f",
+    "Link.activeForeground": "#3182e0",
+    "Link.hoverForeground": "#3182e0",
+    "Link.pressedForeground": "#3182e0",
+    "Label.disabledForeground": "#807f7f",
+    "Separator.foreground": "#29294a",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#1b1b30",
+    "ProgressBar.progressColor": "#3182e0",
+    "ScrollBar.thumbColor": "#383863",
+    "SearchEverywhere.background": "#1b1b30",
+    "Notification.background": "#1b1b30",
+    "Notification.errorBackground": "#23101c",
+    "Notification.warningBackground": "#242320",
+    "ValidationTooltip.errorBackground": "#f12d52",
+    "ValidationTooltip.warningBackground": "#f5f17a"
+  }
+}

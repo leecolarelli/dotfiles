@@ -1,0 +1,50 @@
+{
+  "name": "Oceanicmaterial",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/OceanicMaterial.xml",
+  "colors": {
+    "primaryBackground": "#1c262b",
+    "primaryForeground": "#c2c8d7",
+    "selectionBackground": "#6dc2b8",
+    "selectionForeground": "#c2c8d7"
+  },
+  "ui": {
+    "*": {
+      "background": "#1c262b",
+      "foreground": "#c2c8d7"
+    },
+    "Panel.background": "#2c3c44",
+    "Menu.background": "#2c3c44",
+    "MenuBar.background": "#1c262b",
+    "ToolWindow.background": "#2c3c44",
+    "Editor.background": "#1c262b",
+    "EditorTabs.background": "#2c3c44",
+    "Tree.background": "#1c262b",
+    "List.background": "#1c262b",
+    "Table.background": "#1c262b",
+    "TextField.background": "#1c262b",
+    "Button.background": "#2c3c44",
+    "Button.foreground": "#c2c8d7",
+    "Button.hoverBackground": "#344751",
+    "Button.pressedBackground": "#0b0f11",
+    "Component.borderColor": "#3d535e",
+    "Component.focusedBorderColor": "#1e80f0",
+    "Component.disabledForeground": "#656971",
+    "Link.activeForeground": "#1e80f0",
+    "Link.hoverForeground": "#1e80f0",
+    "Link.pressedForeground": "#1e80f0",
+    "Label.disabledForeground": "#656971",
+    "Separator.foreground": "#3d535e",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#2c3c44",
+    "ProgressBar.progressColor": "#1e80f0",
+    "ScrollBar.thumbColor": "#4d6977",
+    "SearchEverywhere.background": "#2c3c44",
+    "Notification.background": "#2c3c44",
+    "Notification.errorBackground": "#31262a",
+    "Notification.warningBackground": "#32392b",
+    "ValidationTooltip.errorBackground": "#ee2b2a",
+    "ValidationTooltip.warningBackground": "#ffea2e"
+  }
+}

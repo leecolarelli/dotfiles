@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.piatto_light</id>
+  <name>Piatto Light Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Piatto Light
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="dc364b42-a3a0-4ad4-89ca-181a2efa8c3c" path="/Piatto Light.theme.json"/>
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.chester</id>
+  <name>Chester Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Chester
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="fac079c4-2dce-459a-9f15-6f272f115c84" path="/Chester.theme.json"/>
+  </extensions>
+</idea-plugin>

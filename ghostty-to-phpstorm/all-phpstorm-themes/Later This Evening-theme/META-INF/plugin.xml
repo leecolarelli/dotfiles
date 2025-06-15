@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.later_this_evening</id>
+  <name>Later This Evening Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Later This Evening
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="3a3db943-371e-435e-91c7-0e956f09798b" path="/Later This Evening.theme.json"/>
+  </extensions>
+</idea-plugin>

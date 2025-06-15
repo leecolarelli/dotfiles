@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="starlight" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#242424"/>
+    <option name="FOREGROUND" value="#FFFFFF"/>
+    <option name="CARET_COLOR" value="#FFFFFF"/>
+    <option name="SELECTION_BACKGROUND" value="#FFFFFF"/>
+    <option name="SELECTION_FOREGROUND" value="#242424"/>
+    <option name="LINE_NUMBERS_COLOR" value="#B2B2B2"/>
+    <option name="GUTTER_BACKGROUND" value="#242424"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="E8B2F8"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="66B238"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="E2425D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="616161"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="FFFFFF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="54AAD0"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="DEC541"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="5ABF9B"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

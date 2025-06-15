@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.flat</id>
+  <name>Flat Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Flat
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="eaff12f3-355d-4aaf-b4dc-652ae20a9f79" path="/Flat.theme.json"/>
+  </extensions>
+</idea-plugin>

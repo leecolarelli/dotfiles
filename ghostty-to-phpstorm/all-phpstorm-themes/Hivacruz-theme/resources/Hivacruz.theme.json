@@ -1,0 +1,50 @@
+{
+  "name": "Hivacruz",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Hivacruz.xml",
+  "colors": {
+    "primaryBackground": "#132638",
+    "primaryForeground": "#ede4e4",
+    "selectionBackground": "#5e6687",
+    "selectionForeground": "#979db4"
+  },
+  "ui": {
+    "*": {
+      "background": "#132638",
+      "foreground": "#ede4e4"
+    },
+    "Panel.background": "#1b3751",
+    "Menu.background": "#1b3751",
+    "MenuBar.background": "#132638",
+    "ToolWindow.background": "#1b3751",
+    "Editor.background": "#132638",
+    "EditorTabs.background": "#1b3751",
+    "Tree.background": "#132638",
+    "List.background": "#132638",
+    "Table.background": "#132638",
+    "TextField.background": "#132638",
+    "Button.background": "#1b3751",
+    "Button.foreground": "#ede4e4",
+    "Button.hoverBackground": "#1f3f5e",
+    "Button.pressedBackground": "#0a141e",
+    "Component.borderColor": "#24486b",
+    "Component.focusedBorderColor": "#3d8fd1",
+    "Component.disabledForeground": "#878181",
+    "Link.activeForeground": "#3d8fd1",
+    "Link.hoverForeground": "#3d8fd1",
+    "Link.pressedForeground": "#3d8fd1",
+    "Label.disabledForeground": "#878181",
+    "Separator.foreground": "#24486b",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#1b3751",
+    "ProgressBar.progressColor": "#3d8fd1",
+    "ScrollBar.thumbColor": "#2c5984",
+    "SearchEverywhere.background": "#1b3751",
+    "Notification.background": "#1b3751",
+    "Notification.errorBackground": "#252935",
+    "Notification.warningBackground": "#243037",
+    "ValidationTooltip.errorBackground": "#c94922",
+    "ValidationTooltip.warningBackground": "#c08b30"
+  }
+}

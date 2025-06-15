@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.rose-pine-moon</id>
+  <name>Rose-Pine-Moon Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: rose-pine-moon
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="d24e5a46-56cb-4bfb-ad49-82cebe4e443d" path="/rose-pine-moon.theme.json"/>
+  </extensions>
+</idea-plugin>

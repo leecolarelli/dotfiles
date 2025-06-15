@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="BlulocoLight" version="142" parent_scheme="Default">
+  <colors>
+    <option name="BACKGROUND" value="#F9F9F9"/>
+    <option name="FOREGROUND" value="#373A41"/>
+    <option name="CARET_COLOR" value="#F32759"/>
+    <option name="SELECTION_BACKGROUND" value="#DAF0FF"/>
+    <option name="SELECTION_FOREGROUND" value="#373A41"/>
+    <option name="LINE_NUMBERS_COLOR" value="#000000"/>
+    <option name="GUTTER_BACKGROUND" value="#F9F9F9"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="823FF1"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="23974A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="D52753"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="676A77"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="373A41"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="275FE4"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="DF631C"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="27618D"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

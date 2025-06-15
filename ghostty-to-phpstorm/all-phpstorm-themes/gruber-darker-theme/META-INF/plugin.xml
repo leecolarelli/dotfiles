@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.gruber-darker</id>
+  <name>Gruber-Darker Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: gruber-darker
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="cbd5c334-580a-4a58-9cac-0ee6dc73ca3d" path="/gruber-darker.theme.json"/>
+  </extensions>
+</idea-plugin>

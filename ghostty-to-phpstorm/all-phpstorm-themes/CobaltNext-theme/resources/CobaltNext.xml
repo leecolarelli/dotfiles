@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="CobaltNext" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#1B2B34"/>
+    <option name="FOREGROUND" value="#D8DEE9"/>
+    <option name="CARET_COLOR" value="#FAC863"/>
+    <option name="SELECTION_BACKGROUND" value="#4F5B66"/>
+    <option name="SELECTION_FOREGROUND" value="#FFFFFF"/>
+    <option name="LINE_NUMBERS_COLOR" value="#91959C"/>
+    <option name="GUTTER_BACKGROUND" value="#1B2B34"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="C5A5C5"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="99C794"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="ED5F7D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="65737E"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="D8DEE9"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="5A9BCF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="FAC863"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="5FB3B3"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

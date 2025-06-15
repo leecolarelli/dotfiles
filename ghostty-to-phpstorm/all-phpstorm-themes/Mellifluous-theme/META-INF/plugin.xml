@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.mellifluous</id>
+  <name>Mellifluous Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Mellifluous
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="61cc1bd6-9e73-4834-88a8-2bd3564d0972" path="/Mellifluous.theme.json"/>
+  </extensions>
+</idea-plugin>

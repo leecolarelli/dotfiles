@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.github-light-default</id>
+  <name>Github-Light-Default Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: GitHub-Light-Default
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="8aa78187-d790-402a-81e3-fe47ef9c758b" path="/GitHub-Light-Default.theme.json"/>
+  </extensions>
+</idea-plugin>

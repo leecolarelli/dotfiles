@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.scarlet_protocol</id>
+  <name>Scarlet Protocol Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Scarlet Protocol
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="1b88865d-bb94-4755-af73-5161beb8e883" path="/Scarlet Protocol.theme.json"/>
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="WarmNeon" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#404040"/>
+    <option name="FOREGROUND" value="#AFDAB6"/>
+    <option name="CARET_COLOR" value="#30FF24"/>
+    <option name="SELECTION_BACKGROUND" value="#B0AD21"/>
+    <option name="SELECTION_FOREGROUND" value="#FFFFFF"/>
+    <option name="LINE_NUMBERS_COLOR" value="#718D76"/>
+    <option name="GUTTER_BACKGROUND" value="#404040"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="F920FB"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="39B13A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="E24346"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="FEFCFC"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="AFDAB6"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="4261C5"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="DAE145"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="2ABBD4"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

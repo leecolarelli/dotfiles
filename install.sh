@@ -3,12 +3,12 @@
 echo "Setting up your Mac ❤️..."
 
 # Check for Oh My Zsh and install if we don't have it
-if ! [ -d ~/.oh-my-zsh ]; then
-  echo "Installing Oh My ZSH"
-  /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
-else
-  echo "Oh My ZSH is already installed"
-fi
+#if ! [ -d ~/.oh-my-zsh ]; then
+#  echo "Installing Oh My ZSH"
+#  /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
+#else
+#  echo "Oh My ZSH is already installed"
+#fi
 
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
@@ -17,10 +17,6 @@ if test ! $(which brew); then
 else
   echo "Homebrew is already installed"
 fi
-
-# Add brew to path
-(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> $HOME/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Create a Projects directory
 mkdir $HOME/Projects
@@ -54,16 +50,17 @@ pecl install xdebug
 
 # Install global Composer packages
 # composer global require laravel/installer laravel/valet beyondcode/expose roave/security-advisories:dev-latest
-composer global require laravel/installer laravel/valet beyondcode/expose
+# composer global require laravel/installer laravel/valet beyondcode/expose
+composer global require laravel/installer beyondcode/expose
 
 # Install Laravel Valet
-$HOME/.composer/vendor/bin/valet install
+# $HOME/.composer/vendor/bin/valet install
 
 # Clone Github repositories	(not currently used)
 # source clone.sh
 
-# Reload .zshrc (cannot run from here: Error: Oh My Zsh can't be loaded from: /bin/sh. You need to run zsh instead.)
-# source ~/.zshrc
+# Reload .zshrc
+source ~/.zshrc
 
 echo "Finished setting up your Mac ❤️. Continue to install macOS preferences and reload the shell..."
 

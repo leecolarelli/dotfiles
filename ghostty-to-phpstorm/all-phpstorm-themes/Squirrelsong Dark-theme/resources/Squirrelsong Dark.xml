@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="Squirrelsong Dark" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#352A21"/>
+    <option name="FOREGROUND" value="#AD9C8B"/>
+    <option name="CARET_COLOR" value="#AD9C8B"/>
+    <option name="SELECTION_BACKGROUND" value="#574131"/>
+    <option name="SELECTION_FOREGROUND" value="#AD9C8B"/>
+    <option name="LINE_NUMBERS_COLOR" value="#60574D"/>
+    <option name="GUTTER_BACKGROUND" value="#352A21"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="7F61B3"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="558240"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="AC493E"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="6B503C"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="AD9C8B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="5993C2"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="CEB250"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="4F9593"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

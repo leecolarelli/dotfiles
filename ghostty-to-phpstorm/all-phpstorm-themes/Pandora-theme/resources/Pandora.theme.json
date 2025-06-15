@@ -1,0 +1,50 @@
+{
+  "name": "Pandora",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Pandora.xml",
+  "colors": {
+    "primaryBackground": "#141e43",
+    "primaryForeground": "#e1e1e1",
+    "selectionBackground": "#2d37ff",
+    "selectionForeground": "#82e0ff"
+  },
+  "ui": {
+    "*": {
+      "background": "#141e43",
+      "foreground": "#e1e1e1"
+    },
+    "Panel.background": "#1b295c",
+    "Menu.background": "#1b295c",
+    "MenuBar.background": "#141e43",
+    "ToolWindow.background": "#1b295c",
+    "Editor.background": "#141e43",
+    "EditorTabs.background": "#1b295c",
+    "Tree.background": "#141e43",
+    "List.background": "#141e43",
+    "Table.background": "#141e43",
+    "TextField.background": "#141e43",
+    "Button.background": "#1b295c",
+    "Button.foreground": "#e1e1e1",
+    "Button.hoverBackground": "#1f2f69",
+    "Button.pressedBackground": "#0c1229",
+    "Component.borderColor": "#233476",
+    "Component.focusedBorderColor": "#338f86",
+    "Component.disabledForeground": "#7a7a7a",
+    "Link.activeForeground": "#338f86",
+    "Link.hoverForeground": "#338f86",
+    "Link.pressedForeground": "#338f86",
+    "Label.disabledForeground": "#7a7a7a",
+    "Separator.foreground": "#233476",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#1b295c",
+    "ProgressBar.progressColor": "#338f86",
+    "ScrollBar.thumbColor": "#2a408f",
+    "SearchEverywhere.background": "#1b295c",
+    "Notification.background": "#1b295c",
+    "Notification.errorBackground": "#2b2142",
+    "Notification.warningBackground": "#2b2c40",
+    "ValidationTooltip.errorBackground": "#ff4242",
+    "ValidationTooltip.warningBackground": "#ffad29"
+  }
+}

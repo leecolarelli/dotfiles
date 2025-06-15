@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<scheme name="ChallengerDeep" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#1E1C31"/>
+    <option name="FOREGROUND" value="#CBE1E7"/>
+    <option name="CARET_COLOR" value="#FBFCFC"/>
+    <option name="SELECTION_BACKGROUND" value="#CBE1E7"/>
+    <option name="SELECTION_FOREGROUND" value="#1E1C31"/>
+    <option name="LINE_NUMBERS_COLOR" value="#87969A"/>
+    <option name="GUTTER_BACKGROUND" value="#1E1C31"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="906CFF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="62D196"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="FF5458"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="565575"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="CBE1E7"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="65B2FF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="FFB378"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="63F2F1"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

@@ -1,0 +1,50 @@
+{
+  "name": "Urple",
+  "dark": true,
+  "author": "Ghostty Converter",
+  "editorScheme": "/Urple.xml",
+  "colors": {
+    "primaryBackground": "#1b1b23",
+    "primaryForeground": "#877a9b",
+    "selectionBackground": "#a063eb",
+    "selectionForeground": "#1b1b22"
+  },
+  "ui": {
+    "*": {
+      "background": "#1b1b23",
+      "foreground": "#877a9b"
+    },
+    "Panel.background": "#2e2e3c",
+    "Menu.background": "#2e2e3c",
+    "MenuBar.background": "#1b1b23",
+    "ToolWindow.background": "#2e2e3c",
+    "Editor.background": "#1b1b23",
+    "EditorTabs.background": "#2e2e3c",
+    "Tree.background": "#1b1b23",
+    "List.background": "#1b1b23",
+    "Table.background": "#1b1b23",
+    "TextField.background": "#1b1b23",
+    "Button.background": "#2e2e3c",
+    "Button.foreground": "#877a9b",
+    "Button.hoverBackground": "#383849",
+    "Button.pressedBackground": "#070709",
+    "Component.borderColor": "#424256",
+    "Component.focusedBorderColor": "#564d9b",
+    "Component.disabledForeground": "#2e2934",
+    "Link.activeForeground": "#564d9b",
+    "Link.hoverForeground": "#564d9b",
+    "Link.pressedForeground": "#564d9b",
+    "Label.disabledForeground": "#2e2934",
+    "Separator.foreground": "#424256",
+    "TabbedPane.tabSelectionHeight": 2,
+    "StatusBar.background": "#2e2e3c",
+    "ProgressBar.progressColor": "#564d9b",
+    "ScrollBar.thumbColor": "#56566f",
+    "SearchEverywhere.background": "#2e2e3c",
+    "Notification.background": "#2e2e3c",
+    "Notification.errorBackground": "#291e28",
+    "Notification.warningBackground": "#292126",
+    "ValidationTooltip.errorBackground": "#b0425b",
+    "ValidationTooltip.warningBackground": "#ad5c42"
+  }
+}

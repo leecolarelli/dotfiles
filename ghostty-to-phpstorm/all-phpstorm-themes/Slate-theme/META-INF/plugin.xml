@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.slate</id>
+  <name>Slate Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Slate
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="f2521b57-f536-4b06-ba45-cbcfbf132ddb" path="/Slate.theme.json"/>
+  </extensions>
+</idea-plugin>

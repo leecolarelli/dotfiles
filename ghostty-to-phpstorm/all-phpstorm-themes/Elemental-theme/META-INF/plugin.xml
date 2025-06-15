@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.elemental</id>
+  <name>Elemental Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Elemental
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="9eea8d77-fb12-42d6-b853-413aa6cac6a7" path="/Elemental.theme.json"/>
+  </extensions>
+</idea-plugin>

@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.vimbones</id>
+  <name>Vimbones Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: vimbones
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="fbec80c2-e4f1-433a-b1c2-4a692e9ccd6f" path="/vimbones.theme.json"/>
+  </extensions>
+</idea-plugin>

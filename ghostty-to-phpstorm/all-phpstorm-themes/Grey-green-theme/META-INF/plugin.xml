@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.grey-green</id>
+  <name>Grey-Green Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Grey-green
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="5163202b-7ddd-4499-9857-0eceb65076fb" path="/Grey-green.theme.json"/>
+  </extensions>
+</idea-plugin>

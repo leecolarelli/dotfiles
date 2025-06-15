@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.misterioso</id>
+  <name>Misterioso Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Misterioso
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="e9ef11bb-a0c8-4947-bea7-763ddde76511" path="/Misterioso.theme.json"/>
+  </extensions>
+</idea-plugin>

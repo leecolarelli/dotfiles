@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.aura</id>
+  <name>Aura Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Aura
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="cdacd91a-58ba-4789-9131-807cc56542ac" path="/Aura.theme.json"/>
+  </extensions>
+</idea-plugin>

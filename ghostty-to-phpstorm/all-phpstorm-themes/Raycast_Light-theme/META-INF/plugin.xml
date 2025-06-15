@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.raycast_light</id>
+  <name>Raycast Light Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Raycast_Light
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="71d2cf7d-76a1-4a44-8c6f-c18f72c7baec" path="/Raycast_Light.theme.json"/>
+  </extensions>
+</idea-plugin>

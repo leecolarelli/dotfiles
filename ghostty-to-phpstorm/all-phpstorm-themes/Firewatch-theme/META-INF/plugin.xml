@@ -1,0 +1,19 @@
+<idea-plugin>
+  <id>com.ghostty.theme.firewatch</id>
+  <name>Firewatch Theme</name>
+  <version>1.0</version>
+  <vendor>Ghostty Converter</vendor>
+  
+  <description><![CDATA[
+    Theme converted from Ghostty terminal theme: Firewatch
+    
+    This theme provides editor-focused color scheme based on the original
+    Ghostty terminal theme with intelligent UI color derivation.
+  ]]></description>
+  
+  <idea-version since-build="193"/>
+  
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="ebd26d23-02a2-4721-a4bc-c6a9b8d20a14" path="/Firewatch.theme.json"/>
+  </extensions>
+</idea-plugin>
