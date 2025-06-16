@@ -1,0 +1,53 @@
+<scheme name="Raycast_Dark" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#1A1A1A"/>
+    <option name="FOREGROUND" value="#FFFFFF"/>
+    <option name="CARET_COLOR" value="#CCCCCC"/>
+    <option name="SELECTION_BACKGROUND" value="#333333"/>
+    <option name="SELECTION_FOREGROUND" value="#000000"/>
+    <option name="LINE_NUMBERS_COLOR" value="#B2B2B2"/>
+    <option name="GUTTER_BACKGROUND" value="#1A1A1A"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="CF2F98"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="59D499"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="FF5360"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="000000"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="FFFFFF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="56C2FF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="FFC531"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="52EEE5"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

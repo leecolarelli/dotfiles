@@ -1,0 +1,53 @@
+<scheme name="Doom Peacock" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#2B2A27"/>
+    <option name="FOREGROUND" value="#EDE0CE"/>
+    <option name="CARET_COLOR" value="#9C9C9D"/>
+    <option name="SELECTION_BACKGROUND" value="#A60033"/>
+    <option name="SELECTION_FOREGROUND" value="#FFFFFF"/>
+    <option name="LINE_NUMBERS_COLOR" value="#A0978B"/>
+    <option name="GUTTER_BACKGROUND" value="#2B2A27"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="A9A1E1"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="26A6A6"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="CB4B16"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="2B2A27"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="EDE0CE"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="2A6CC6"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="BCD42A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="5699AF"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

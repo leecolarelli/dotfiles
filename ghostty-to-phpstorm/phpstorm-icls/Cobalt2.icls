@@ -1,0 +1,53 @@
+<scheme name="Cobalt2" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#132738"/>
+    <option name="FOREGROUND" value="#FFFFFF"/>
+    <option name="CARET_COLOR" value="#F0CC09"/>
+    <option name="SELECTION_BACKGROUND" value="#18354F"/>
+    <option name="SELECTION_FOREGROUND" value="#B5B5B5"/>
+    <option name="LINE_NUMBERS_COLOR" value="#B2B2B2"/>
+    <option name="GUTTER_BACKGROUND" value="#132738"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="FF005D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="38DE21"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="FF0000"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="555555"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="FFFFFF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="1460D2"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="FFE50A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="00BBBB"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

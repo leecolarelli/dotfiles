@@ -1,0 +1,53 @@
+<scheme name="Ryuuko" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#2C3941"/>
+    <option name="FOREGROUND" value="#ECECEC"/>
+    <option name="CARET_COLOR" value="#ECECEC"/>
+    <option name="SELECTION_BACKGROUND" value="#002831"/>
+    <option name="SELECTION_FOREGROUND" value="#819090"/>
+    <option name="LINE_NUMBERS_COLOR" value="#9F9F9F"/>
+    <option name="GUTTER_BACKGROUND" value="#2C3941"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="B18A73"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="66907D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="865F5B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="5D7079"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="ECECEC"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="6A8E95"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="B1A990"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="88B2AC"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

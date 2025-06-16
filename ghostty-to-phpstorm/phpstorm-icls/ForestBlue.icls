@@ -1,0 +1,53 @@
+<scheme name="ForestBlue" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#051519"/>
+    <option name="FOREGROUND" value="#E2D8CD"/>
+    <option name="CARET_COLOR" value="#9E9ECB"/>
+    <option name="SELECTION_BACKGROUND" value="#4D4D4D"/>
+    <option name="SELECTION_FOREGROUND" value="#FFFFFF"/>
+    <option name="LINE_NUMBERS_COLOR" value="#958E87"/>
+    <option name="GUTTER_BACKGROUND" value="#051519"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="5E468C"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="92D3A2"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="F8818E"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="3D3D3D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="E2D8CD"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="8ED0CE"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="1A8E63"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="31658C"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

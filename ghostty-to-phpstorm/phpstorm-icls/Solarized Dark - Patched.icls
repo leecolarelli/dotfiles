@@ -1,0 +1,53 @@
+<scheme name="Solarized Dark - Patched" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#001E27"/>
+    <option name="FOREGROUND" value="#708284"/>
+    <option name="CARET_COLOR" value="#708284"/>
+    <option name="SELECTION_BACKGROUND" value="#002831"/>
+    <option name="SELECTION_FOREGROUND" value="#819090"/>
+    <option name="LINE_NUMBERS_COLOR" value="#2F3637"/>
+    <option name="GUTTER_BACKGROUND" value="#001E27"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="C61C6F"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="738A05"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="D11C24"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="475B62"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="708284"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="2176C7"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="A57706"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="259286"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

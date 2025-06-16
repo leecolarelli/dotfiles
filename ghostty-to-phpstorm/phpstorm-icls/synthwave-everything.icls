@@ -1,0 +1,53 @@
+<scheme name="synthwave-everything" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#2A2139"/>
+    <option name="FOREGROUND" value="#F0EFF1"/>
+    <option name="CARET_COLOR" value="#72F1B8"/>
+    <option name="SELECTION_BACKGROUND" value="#181521"/>
+    <option name="SELECTION_FOREGROUND" value="#F0EFF1"/>
+    <option name="LINE_NUMBERS_COLOR" value="#A3A3A4"/>
+    <option name="GUTTER_BACKGROUND" value="#2A2139"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="C792EA"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="72F1B8"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="F97E72"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="FEFEFE"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="F0EFF1"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="6D77B3"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="FEDE5D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="F772E0"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

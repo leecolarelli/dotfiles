@@ -1,0 +1,53 @@
+<scheme name="Builtin Dark" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#000000"/>
+    <option name="FOREGROUND" value="#BBBBBB"/>
+    <option name="CARET_COLOR" value="#BBBBBB"/>
+    <option name="SELECTION_BACKGROUND" value="#B5D5FF"/>
+    <option name="SELECTION_FOREGROUND" value="#000000"/>
+    <option name="LINE_NUMBERS_COLOR" value="#6E6E6E"/>
+    <option name="GUTTER_BACKGROUND" value="#000000"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="BB00BB"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="00BB00"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="BB0000"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="555555"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="BBBBBB"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="0000BB"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="BBBB00"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="00BBBB"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

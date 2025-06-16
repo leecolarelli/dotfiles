@@ -1,0 +1,53 @@
+<scheme name="Operator Mono Dark" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#191919"/>
+    <option name="FOREGROUND" value="#C3CAC2"/>
+    <option name="CARET_COLOR" value="#FCDC08"/>
+    <option name="SELECTION_BACKGROUND" value="#19273B"/>
+    <option name="SELECTION_FOREGROUND" value="#DDE5DC"/>
+    <option name="LINE_NUMBERS_COLOR" value="#797D78"/>
+    <option name="GUTTER_BACKGROUND" value="#191919"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="B86CB4"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="4D7B3A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="CA372D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="9A9B99"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="C3CAC2"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="4387CF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="D4D697"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="72D5C6"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

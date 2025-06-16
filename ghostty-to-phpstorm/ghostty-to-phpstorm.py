@@ -17,6 +17,7 @@ import json
 import uuid
 import argparse
 import colorsys
+import zipfile
 from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 from xml.etree.ElementTree import Element, SubElement, tostring
@@ -297,28 +298,71 @@ class PhpStormThemeGenerator:
     
     def generate_plugin_xml(self) -> str:
         """Generate plugin.xml configuration"""
+        theme_name = self.ghostty.name.replace('_', ' ').title()
+        plugin_id = f"com.ghostty.theme.{self.ghostty.name.lower().replace(' ', '_').replace('-', '_')}"
+        
         return f'''<idea-plugin>
-  <id>com.ghostty.theme.{self.ghostty.name.lower().replace(' ', '_')}</id>
-  <name>{self.ghostty.name.replace('_', ' ').title()} Theme</name>
-  <version>1.0</version>
-  <vendor>Ghostty Converter</vendor>
+  <id>{plugin_id}</id>
+  <name>{theme_name} Theme</name>
+  <version>1.0.0</version>
+  <vendor email="noreply@anthropic.com" url="https://github.com/anthropics/claude-code">Ghostty Converter</vendor>
   
   <description><![CDATA[
-    Theme converted from Ghostty terminal theme: {self.ghostty.name}
+    <h2>{theme_name} Theme</h2>
+    <p>A beautiful theme converted from the Ghostty terminal theme collection.</p>
     
-    This theme provides editor-focused color scheme based on the original
-    Ghostty terminal theme with intelligent UI color derivation.
+    <p><strong>Features:</strong></p>
+    <ul>
+      <li>Complete UI theme with intelligent color derivation</li>
+      <li>Editor color scheme optimized for code readability</li>
+      <li>{"Dark" if self.ghostty.is_dark else "Light"} theme with harmonious color palette</li>
+      <li>Syntax highlighting based on terminal ANSI colors</li>
+    </ul>
+    
+    <p>Original Ghostty theme: <code>{self.ghostty.name}</code></p>
+    
+    <p><em>Generated with Claude Code's Ghostty to PhpStorm theme converter.</em></p>
   ]]></description>
   
-  <idea-version since-build="193"/>
+  <change-notes><![CDATA[
+    <h3>Version 1.0.0</h3>
+    <ul>
+      <li>Initial release</li>
+      <li>Complete UI theme implementation</li>
+      <li>Editor color scheme with syntax highlighting</li>
+      <li>Intelligent color derivation from terminal palette</li>
+    </ul>
+  ]]></change-notes>
+  
+  <idea-version since-build="193" until-build="999.*"/>
+  
+  <depends>com.intellij.modules.platform</depends>
   
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="{self.theme_id}" path="/{self.ghostty.name}.theme.json"/>
   </extensions>
+  
+  <applicationListeners>
+  </applicationListeners>
 </idea-plugin>'''
 
 
-def convert_theme(input_file: Path, output_dir: Path):
+def create_jar_file(theme_dir: Path, output_dir: Path) -> Path:
+    """Package theme directory into a JAR file"""
+    jar_name = f"{theme_dir.name}.jar"
+    jar_path = output_dir / jar_name
+    
+    with zipfile.ZipFile(jar_path, 'w', zipfile.ZIP_DEFLATED) as jar:
+        for file_path in theme_dir.rglob('*'):
+            if file_path.is_file():
+                # Calculate relative path from theme directory
+                relative_path = file_path.relative_to(theme_dir)
+                jar.write(file_path, relative_path)
+    
+    return jar_path
+
+
+def convert_theme(input_file: Path, output_dir: Path, create_jar: bool = False):
     """Convert a single Ghostty theme to PhpStorm format"""
     print(f"Converting {input_file.name}...")
     
@@ -355,8 +399,38 @@ def convert_theme(input_file: Path, output_dir: Path):
     with open(meta_inf_dir / "plugin.xml", 'w') as f:
         f.write(plugin_xml)
     
-    print(f"  ✓ Generated theme in {theme_dir}")
-    return theme_dir
+    if create_jar:
+        jar_path = create_jar_file(theme_dir, output_dir)
+        print(f"  ✓ Generated JAR: {jar_path.name}")
+        return jar_path
+    else:
+        print(f"  ✓ Generated theme in {theme_dir}")
+        return theme_dir
+
+
+def create_icls_file(ghostty_theme: GhosttyTheme, output_dir: Path) -> Path:
+    """Create .icls color scheme file for direct PhpStorm import"""
+    generator = PhpStormThemeGenerator(ghostty_theme)
+    icls_content = generator.generate_editor_scheme_xml()
+    
+    # Remove XML declaration and change root element
+    lines = icls_content.split('\n')
+    # Skip XML declaration and find scheme element
+    scheme_start = -1
+    for i, line in enumerate(lines):
+        if '<scheme' in line:
+            scheme_start = i
+            break
+    
+    if scheme_start >= 0:
+        # Remove the <?xml> declaration and get clean scheme content
+        clean_content = '\n'.join(lines[scheme_start:])
+        icls_path = output_dir / f"{ghostty_theme.name}.icls"
+        with open(icls_path, 'w') as f:
+            f.write(clean_content)
+        return icls_path
+    
+    return None
 
 
 def main():
@@ -364,6 +438,8 @@ def main():
     parser.add_argument('input', help='Input Ghostty theme file or directory')
     parser.add_argument('output', help='Output directory for PhpStorm themes')
     parser.add_argument('--batch', action='store_true', help='Convert all themes in directory')
+    parser.add_argument('--jar', action='store_true', help='Package themes as JAR files ready for PhpStorm installation')
+    parser.add_argument('--icls', action='store_true', help='Create .icls color scheme files for direct import')
     
     args = parser.parse_args()
     
@@ -389,18 +465,43 @@ def main():
         
         for theme_file in theme_files:
             try:
-                convert_theme(theme_file, output_path)
-                converted += 1
+                if args.icls:
+                    ghostty_theme = GhosttyParser.parse_theme_file(theme_file)
+                    icls_path = create_icls_file(ghostty_theme, output_path)
+                    if icls_path:
+                        print(f"  ✓ Generated ICLS: {icls_path.name}")
+                    converted += 1
+                else:
+                    convert_theme(theme_file, output_path, create_jar=args.jar)
+                    converted += 1
             except Exception as e:
                 print(f"  ✗ Failed to convert {theme_file.name}: {e}")
         
         print(f"\nConversion complete: {converted}/{len(theme_files)} themes converted")
+        if args.jar:
+            print(f"\nJAR files are ready for PhpStorm installation:")
+            print(f"Settings → Plugins → Install from disk → Select JAR file")
+        elif args.icls:
+            print(f"\nICLS files are ready for PhpStorm import:")
+            print(f"Settings → Editor → Color Scheme → ⚙️ → Import Scheme → Select ICLS file")
     else:
         if input_path.is_dir():
             print("Error: Use --batch flag to convert directory of themes")
             sys.exit(1)
         
-        convert_theme(input_path, output_path)
+        if args.icls:
+            ghostty_theme = GhosttyParser.parse_theme_file(input_path)
+            icls_path = create_icls_file(ghostty_theme, output_path)
+            if icls_path:
+                print(f"✓ Generated ICLS: {icls_path}")
+                print(f"\nInstall in PhpStorm:")
+                print(f"Settings → Editor → Color Scheme → ⚙️ → Import Scheme → {icls_path}")
+        else:
+            result = convert_theme(input_path, output_path, create_jar=args.jar)
+            if args.jar:
+                print(f"\nInstall in PhpStorm:")
+                print(f"Settings → Plugins → Install from disk → {result}")
+                print(f"Then: Settings → Appearance → Theme → Select your theme")
 
 
 if __name__ == '__main__':

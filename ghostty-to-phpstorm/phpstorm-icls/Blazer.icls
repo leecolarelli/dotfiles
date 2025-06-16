@@ -1,0 +1,53 @@
+<scheme name="Blazer" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#0D1926"/>
+    <option name="FOREGROUND" value="#D9E6F2"/>
+    <option name="CARET_COLOR" value="#D9E6F2"/>
+    <option name="SELECTION_BACKGROUND" value="#C1DDFF"/>
+    <option name="SELECTION_FOREGROUND" value="#000000"/>
+    <option name="LINE_NUMBERS_COLOR" value="#949DA5"/>
+    <option name="GUTTER_BACKGROUND" value="#0D1926"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="B87AB8"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="7AB87A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="B87A7A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="262626"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="D9E6F2"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="7A7AB8"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="B8B87A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="7AB8B8"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

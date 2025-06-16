@@ -1,0 +1,53 @@
+<scheme name="SynthwaveAlpha" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#241B30"/>
+    <option name="FOREGROUND" value="#F2F2E3"/>
+    <option name="CARET_COLOR" value="#F2F2E3"/>
+    <option name="SELECTION_BACKGROUND" value="#6E29AD"/>
+    <option name="SELECTION_FOREGROUND" value="#F2F2E3"/>
+    <option name="LINE_NUMBERS_COLOR" value="#A5A59B"/>
+    <option name="GUTTER_BACKGROUND" value="#241B30"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="B300AD"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="00986C"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="E60A70"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="7F7094"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="F2F2E3"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="6E29AD"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="ADAD3E"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="00B0B1"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

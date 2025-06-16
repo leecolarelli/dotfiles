@@ -1,0 +1,53 @@
+<scheme name="tokyonight_moon" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#222436"/>
+    <option name="FOREGROUND" value="#C8D3F5"/>
+    <option name="CARET_COLOR" value="#C8D3F5"/>
+    <option name="SELECTION_BACKGROUND" value="#2D3F76"/>
+    <option name="SELECTION_FOREGROUND" value="#C8D3F5"/>
+    <option name="LINE_NUMBERS_COLOR" value="#8991A8"/>
+    <option name="GUTTER_BACKGROUND" value="#222436"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="C099FF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="C3E88D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="FF757F"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="444A73"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="C8D3F5"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="82AAFF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="FFC777"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="86E1FC"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

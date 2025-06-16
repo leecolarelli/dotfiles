@@ -1,0 +1,53 @@
+<scheme name="Floraverse" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#0E0D15"/>
+    <option name="FOREGROUND" value="#DBD1B9"/>
+    <option name="CARET_COLOR" value="#BBBBBB"/>
+    <option name="SELECTION_BACKGROUND" value="#F3E0B8"/>
+    <option name="SELECTION_FOREGROUND" value="#08002E"/>
+    <option name="LINE_NUMBERS_COLOR" value="#8E8778"/>
+    <option name="GUTTER_BACKGROUND" value="#0E0D15"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="B7077E"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="5D731A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="64002C"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="331E4D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="DBD1B9"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="1D6DA1"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="CD751C"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="42A38C"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

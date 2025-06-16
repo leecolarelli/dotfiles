@@ -1,0 +1,53 @@
+<scheme name="Violet Light" version="142" parent_scheme="Default">
+  <colors>
+    <option name="BACKGROUND" value="#FCF4DC"/>
+    <option name="FOREGROUND" value="#536870"/>
+    <option name="CARET_COLOR" value="#536870"/>
+    <option name="SELECTION_BACKGROUND" value="#595AB7"/>
+    <option name="SELECTION_FOREGROUND" value="#FCF4DC"/>
+    <option name="LINE_NUMBERS_COLOR" value="#1A2023"/>
+    <option name="GUTTER_BACKGROUND" value="#FCF4DC"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="D13A82"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="85981C"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="C94C22"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="45484B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="536870"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="2E8BCE"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="B4881D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="32A198"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

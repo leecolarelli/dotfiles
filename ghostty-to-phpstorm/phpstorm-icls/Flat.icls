@@ -1,0 +1,53 @@
+<scheme name="Flat" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#002240"/>
+    <option name="FOREGROUND" value="#2CC55D"/>
+    <option name="CARET_COLOR" value="#E5BE0C"/>
+    <option name="SELECTION_BACKGROUND" value="#792B9C"/>
+    <option name="SELECTION_FOREGROUND" value="#FFFFFF"/>
+    <option name="LINE_NUMBERS_COLOR" value="#1A7838"/>
+    <option name="GUTTER_BACKGROUND" value="#002240"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="781AA0"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="32A548"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="A82320"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="212C3C"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="2CC55D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="3167AC"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="E58D11"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="2C9370"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

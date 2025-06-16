@@ -1,0 +1,53 @@
+<scheme name="IC_Orange_PPL" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#262626"/>
+    <option name="FOREGROUND" value="#FFCB83"/>
+    <option name="CARET_COLOR" value="#FC531D"/>
+    <option name="SELECTION_BACKGROUND" value="#C14020"/>
+    <option name="SELECTION_FOREGROUND" value="#FFC88A"/>
+    <option name="LINE_NUMBERS_COLOR" value="#B28E5B"/>
+    <option name="GUTTER_BACKGROUND" value="#262626"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="FC5E00"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="A4A900"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="C13900"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="6A4F2A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="FFCB83"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="BD6D00"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="CAAF00"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="F79500"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

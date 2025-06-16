@@ -1,0 +1,53 @@
+<scheme name="Red Alert" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#762423"/>
+    <option name="FOREGROUND" value="#FFFFFF"/>
+    <option name="CARET_COLOR" value="#FFFFFF"/>
+    <option name="SELECTION_BACKGROUND" value="#073642"/>
+    <option name="SELECTION_FOREGROUND" value="#FFFFFF"/>
+    <option name="LINE_NUMBERS_COLOR" value="#B2B2B2"/>
+    <option name="GUTTER_BACKGROUND" value="#762423"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="E979D7"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="71BE6B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="D62E4E"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="262626"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="FFFFFF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="489BEE"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="BEB86B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="6BBEB8"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

@@ -1,0 +1,53 @@
+<scheme name="Grape" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#171423"/>
+    <option name="FOREGROUND" value="#9F9FA1"/>
+    <option name="CARET_COLOR" value="#A288F7"/>
+    <option name="SELECTION_BACKGROUND" value="#493D70"/>
+    <option name="SELECTION_FOREGROUND" value="#171422"/>
+    <option name="LINE_NUMBERS_COLOR" value="#535354"/>
+    <option name="GUTTER_BACKGROUND" value="#171423"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="8D35C9"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="1FA91B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="ED2261"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="59516A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="9F9FA1"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="487DF4"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="8DDC20"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="3BDEED"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

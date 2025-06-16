@@ -1,0 +1,53 @@
+<scheme name="BlueDolphin" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#006984"/>
+    <option name="FOREGROUND" value="#C5F2FF"/>
+    <option name="CARET_COLOR" value="#FFCC00"/>
+    <option name="SELECTION_BACKGROUND" value="#2BAECA"/>
+    <option name="SELECTION_FOREGROUND" value="#ECEFF1"/>
+    <option name="LINE_NUMBERS_COLOR" value="#89A9B2"/>
+    <option name="GUTTER_BACKGROUND" value="#006984"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="E9C1FF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="B4E88D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="FF8288"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="434758"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="C5F2FF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="82AAFF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="F4D69F"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="89EBFF"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

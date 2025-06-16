@@ -1,0 +1,53 @@
+<scheme name="The Hulk" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#1B1D1E"/>
+    <option name="FOREGROUND" value="#B5B5B5"/>
+    <option name="CARET_COLOR" value="#16B61B"/>
+    <option name="SELECTION_BACKGROUND" value="#4D504C"/>
+    <option name="SELECTION_FOREGROUND" value="#0B6309"/>
+    <option name="LINE_NUMBERS_COLOR" value="#686868"/>
+    <option name="GUTTER_BACKGROUND" value="#1B1D1E"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="641F74"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="13CE30"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="269D1B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="505354"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="B5B5B5"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="2525F5"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="63E457"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="378CA9"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

@@ -1,0 +1,53 @@
+<scheme name="3024 Day" version="142" parent_scheme="Default">
+  <colors>
+    <option name="BACKGROUND" value="#F7F7F7"/>
+    <option name="FOREGROUND" value="#4A4543"/>
+    <option name="CARET_COLOR" value="#4A4543"/>
+    <option name="SELECTION_BACKGROUND" value="#A5A2A2"/>
+    <option name="SELECTION_FOREGROUND" value="#4A4543"/>
+    <option name="LINE_NUMBERS_COLOR" value="#000000"/>
+    <option name="GUTTER_BACKGROUND" value="#F7F7F7"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="A16A94"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="01A252"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="DB2D20"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="5C5855"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="4A4543"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="01A0E4"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="FDED02"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="B5E4F4"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

@@ -1,0 +1,53 @@
+<scheme name="MonaLisa" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#120B0D"/>
+    <option name="FOREGROUND" value="#F7D66A"/>
+    <option name="CARET_COLOR" value="#C46C32"/>
+    <option name="SELECTION_BACKGROUND" value="#F7D66A"/>
+    <option name="SELECTION_FOREGROUND" value="#120B0D"/>
+    <option name="LINE_NUMBERS_COLOR" value="#AA9349"/>
+    <option name="GUTTER_BACKGROUND" value="#120B0D"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="9B1D29"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="636232"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="9B291C"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="874228"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="F7D66A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="515C5D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="C36E28"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="588056"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

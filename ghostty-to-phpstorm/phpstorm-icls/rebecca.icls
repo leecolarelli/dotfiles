@@ -1,0 +1,53 @@
+<scheme name="rebecca" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#292A44"/>
+    <option name="FOREGROUND" value="#E8E6ED"/>
+    <option name="CARET_COLOR" value="#B89BF9"/>
+    <option name="SELECTION_BACKGROUND" value="#663399"/>
+    <option name="SELECTION_FOREGROUND" value="#F4F2F9"/>
+    <option name="LINE_NUMBERS_COLOR" value="#9D9BA0"/>
+    <option name="GUTTER_BACKGROUND" value="#292A44"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="BF9CF9"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="04DBB5"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="DD7755"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="666699"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="E8E6ED"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="7AA5FF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="F2E7B7"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="56D3C2"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

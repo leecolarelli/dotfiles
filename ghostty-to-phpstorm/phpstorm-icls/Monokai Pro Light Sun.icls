@@ -1,0 +1,53 @@
+<scheme name="Monokai Pro Light Sun" version="142" parent_scheme="Default">
+  <colors>
+    <option name="BACKGROUND" value="#F8EFE7"/>
+    <option name="FOREGROUND" value="#2C232E"/>
+    <option name="CARET_COLOR" value="#72696D"/>
+    <option name="SELECTION_BACKGROUND" value="#BEB5B3"/>
+    <option name="SELECTION_FOREGROUND" value="#2C232E"/>
+    <option name="LINE_NUMBERS_COLOR" value="#000000"/>
+    <option name="GUTTER_BACKGROUND" value="#F8EFE7"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="6851A2"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="218871"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="CE4770"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="A59C9C"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="2C232E"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="D4572B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="B16803"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="2473B6"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

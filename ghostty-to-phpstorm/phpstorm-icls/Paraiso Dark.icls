@@ -1,0 +1,53 @@
+<scheme name="Paraiso Dark" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#2F1E2E"/>
+    <option name="FOREGROUND" value="#A39E9B"/>
+    <option name="CARET_COLOR" value="#A39E9B"/>
+    <option name="SELECTION_BACKGROUND" value="#4F424C"/>
+    <option name="SELECTION_FOREGROUND" value="#A39E9B"/>
+    <option name="LINE_NUMBERS_COLOR" value="#565352"/>
+    <option name="GUTTER_BACKGROUND" value="#2F1E2E"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="815BA4"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="48B685"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="EF6155"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="776E71"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="A39E9B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="06B6EF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="FEC418"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="5BC4BF"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

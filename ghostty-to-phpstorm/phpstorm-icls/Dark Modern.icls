@@ -1,0 +1,53 @@
+<scheme name="Dark Modern" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#1F1F1F"/>
+    <option name="FOREGROUND" value="#CCCCCC"/>
+    <option name="CARET_COLOR" value="#FFFFFF"/>
+    <option name="SELECTION_BACKGROUND" value="#3A3D41"/>
+    <option name="SELECTION_FOREGROUND" value="#E0E0E0"/>
+    <option name="LINE_NUMBERS_COLOR" value="#7F7F7F"/>
+    <option name="GUTTER_BACKGROUND" value="#1F1F1F"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="D01273"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="2EA043"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="F74949"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="5D5D5D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="CCCCCC"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="0078D4"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="9E6A03"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="1DB4D6"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

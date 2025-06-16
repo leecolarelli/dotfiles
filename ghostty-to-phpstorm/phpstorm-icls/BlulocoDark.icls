@@ -1,0 +1,53 @@
+<scheme name="BlulocoDark" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#282C34"/>
+    <option name="FOREGROUND" value="#B9C0CB"/>
+    <option name="CARET_COLOR" value="#FFCC00"/>
+    <option name="SELECTION_BACKGROUND" value="#B9C0CA"/>
+    <option name="SELECTION_FOREGROUND" value="#272B33"/>
+    <option name="LINE_NUMBERS_COLOR" value="#73777E"/>
+    <option name="GUTTER_BACKGROUND" value="#282C34"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="7A82DA"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="25A45C"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="FC2F52"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="8F9AAE"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="B9C0CB"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="3476FF"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="FF936A"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="4483AA"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

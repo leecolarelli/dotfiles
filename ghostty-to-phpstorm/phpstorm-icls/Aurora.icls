@@ -1,0 +1,53 @@
+<scheme name="Aurora" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#23262E"/>
+    <option name="FOREGROUND" value="#FFCA28"/>
+    <option name="CARET_COLOR" value="#EE5D43"/>
+    <option name="SELECTION_BACKGROUND" value="#292E38"/>
+    <option name="SELECTION_FOREGROUND" value="#00E8C6"/>
+    <option name="LINE_NUMBERS_COLOR" value="#B28D1B"/>
+    <option name="GUTTER_BACKGROUND" value="#23262E"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="EE5D43"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="8FD46D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="F0266F"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="292E38"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="FFCA28"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="0321D7"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="FFE66D"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="03D6B8"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>

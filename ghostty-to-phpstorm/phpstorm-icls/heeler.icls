@@ -1,0 +1,53 @@
+<scheme name="heeler" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="BACKGROUND" value="#211F44"/>
+    <option name="FOREGROUND" value="#FDFDFD"/>
+    <option name="CARET_COLOR" value="#FFFFFF"/>
+    <option name="SELECTION_BACKGROUND" value="#2B2C3F"/>
+    <option name="SELECTION_FOREGROUND" value="#7CFB70"/>
+    <option name="LINE_NUMBERS_COLOR" value="#B0B0B0"/>
+    <option name="GUTTER_BACKGROUND" value="#211F44"/>
+  </colors>
+  <attributes>
+    <option name="DEFAULT_KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="FD9BC1"/>
+      </value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value>
+        <option name="FOREGROUND" value="C1D041"/>
+      </value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value>
+        <option name="FOREGROUND" value="D3573B"/>
+      </value>
+    </option>
+    <option name="DEFAULT_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="000000"/>
+      </value>
+    </option>
+    <option name="DEFAULT_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="FDFDFD"/>
+      </value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value>
+        <option name="FOREGROUND" value="6DA3EC"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="EECF75"/>
+      </value>
+    </option>
+    <option name="DEFAULT_CONSTANT">
+      <value>
+        <option name="FOREGROUND" value="FE9D6E"/>
+      </value>
+    </option>
+  </attributes>
+</scheme>
