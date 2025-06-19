@@ -18,6 +18,9 @@ else
   echo "Homebrew is already installed"
 fi
 
+# Load .zshrc
+source ~/.zshrc
+
 # Create a Projects directory
 mkdir $HOME/Projects
 

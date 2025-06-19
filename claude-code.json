@@ -1,0 +1,76 @@
+{
+  "theme": "dark-daltonized",
+  "tipsHistory": {
+    "new-user-warmup": 1,
+    "shift-enter": 7,
+    "memory-command": 8,
+    "theme-command": 9,
+    "prompt-queue": 10,
+    "enter-to-steer-in-relatime": 11,
+    "todo-list": 12,
+    "# for memory": 13,
+    "ide-hotkey": 14,
+    "install-github-app": 15,
+    "permissions": 16,
+    "drag-and-drop-images": 18,
+    "double-esc": 18,
+    "continue": 19,
+    "custom-commands": 20
+  },
+  "projects": {
+    "###PROJECT_PATH###": {
+      "allowedTools": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": true,
+      "projectOnboardingSeenCount": 1,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    }
+  },
+  "oauthAccount": {
+    "organizationRole": "admin",
+    "workspaceRole": null,
+    "emailAddress": "###EMAIL###",
+    "organizationName": "###ORGANIZATION###"
+  },
+  "shiftEnterKeyBindingInstalled": true,
+  "hasCompletedOnboarding": true,
+  "lastOnboardingVersion": "1.0.18",
+  "mcpServers": {
+    "mcp-atlassian": {
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "-e",
+        "CONFLUENCE_URL",
+        "-e",
+        "CONFLUENCE_USERNAME",
+        "-e",
+        "CONFLUENCE_API_TOKEN",
+        "-e",
+        "JIRA_URL",
+        "-e",
+        "JIRA_USERNAME",
+        "-e",
+        "JIRA_API_TOKEN",
+        "ghcr.io/sooperset/mcp-atlassian:latest"
+      ],
+      "env": {
+        "CONFLUENCE_URL": "https://avrillo.atlassian.net/wiki",
+        "CONFLUENCE_USERNAME": "lco@avrillo.co.uk",
+        "CONFLUENCE_API_TOKEN": "###CONFLUENCE_API_TOKEN###",
+        "JIRA_URL": "https://avrillo.atlassian.net",
+        "JIRA_USERNAME": "lco@avrillo.co.uk",
+        "JIRA_API_TOKEN": "###JIRA_API_TOKEN###"
+      }
+    }
+  },
+  "hasIdeOnboardingBeenShown": {
+    "phpstorm": true
+  }
+}

@@ -69,6 +69,9 @@ plugins=(git laravel composer macos)
 # Activate Oh-My-Zsh
 # source $ZSH/oh-my-zsh.sh
 
+# Activate paths
+source $DOTFILES/path.zsh
+
 # Activate aliases
 source $DOTFILES/aliases.sh
 
