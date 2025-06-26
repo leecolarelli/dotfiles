@@ -11,6 +11,7 @@ echo "Setting up your Mac ❤️..."
 #fi
 
 # Check for Homebrew and install if we don't have it
+# shellcheck disable=SC2046
 if test ! $(which brew); then
   echo "Installing Homebrew"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -22,7 +23,7 @@ fi
 source ~/.zshrc
 
 # Create a Projects directory
-mkdir $HOME/Projects
+mkdir "$HOME"/Projects
 
 # Create symlinks
 source $HOME/Projects/dotfiles/symlinks.sh
@@ -55,6 +56,9 @@ pecl install xdebug
 # composer global require laravel/installer laravel/valet beyondcode/expose roave/security-advisories:dev-latest
 # composer global require laravel/installer laravel/valet beyondcode/expose
 composer global require laravel/installer beyondcode/expose
+
+# Install global npm packages
+source $HOME/Projects/dotfiles/npm_global_installs.sh
 
 # Install Laravel Valet
 # $HOME/.composer/vendor/bin/valet install
