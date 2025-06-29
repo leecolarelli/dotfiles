@@ -16,4 +16,7 @@ rm -rf $HOME/.config/ghostty/config
 mkdir -p $HOME/.config/ghostty
 ln -s $HOME/Projects/dotfiles/.config/ghostty/config $HOME/.config/ghostty/config
 
+
+ln -s /Users/leecolarelli/Projects/dotfiles/claude/claude.md ~/claude.md
+
 echo "Symlinks created..."
